@@ -1,0 +1,34 @@
+#page-container{
+width:760px;
+margin:auto;
+background:red;
+}
+html,body{
+margin:0;
+padding:0;
+}
+#main-nav {
+background: red;
+height: 50px;}
+#header {
+background: blue;
+height: 150px;}
+#sidebar-a {
+background: darkgreen;}
+
+#footer {
+background: orange;
+height: 66px;} 
+#sidebar-a {
+float: right;
+width: 280px;
+background: darkgreen;}
+#content {
+margin-right: 280px;
+background: green;}
+#footer {
+clear: both;
+background: orange;
+height: 66px;} 
+
+
