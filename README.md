@@ -17,9 +17,33 @@
 
 ---
 ## 目录
-- [准备知识](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86)
-- [大二下](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B)
-- [大三上](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A)
+#### 准备知识
+- [学习指南](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97.md)
+- [生活指南](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%8C%87%E5%8D%97.md)
+
+#### 先修课
+- [高等数学(上)]()
+- [高等数学(下)]()
+- [线性代数](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/3.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0)
+- [概率论与梳理统计]()
+- [电路理论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/5.2018-2019%E7%94%B5%E8%B7%AF%E7%90%86%E8%AE%BAB)
+- [模拟电子技术基础](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/2.%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80)
+- [数字逻辑](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/4.%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91)
+- [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/2.%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA)
+
+#### 计算机专业课
+- [离散数学]()
+- [数据结构与算法(上)]()
+- [数据结构与算法(下)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+- [Java语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/4.java%E6%95%99%E6%9D%90%E9%85%8D%E5%A5%97%E8%AF%BE%E4%BB%B6)
+- [基于80x86汇编语言](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/1.80x86%E6%B1%87%E7%BC%96)
+- [微机原理与接口技术](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/1.%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF(%E7%AC%AC4%E7%89%88))
+- [编译原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/2.%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)
+- [计算机组成原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/3.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
+
+#### 校选课
+- [电子文件检索与利用](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E6%A0%A1%E9%80%89%E8%AF%BE1.%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%88%A9%E7%94%A8)
+- [相约图书馆](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E6%A0%A1%E9%80%89%E8%AF%BE2.%E7%9B%B8%E7%BA%A6%E5%9B%BE%E4%B9%A6%E9%A6%86)
 
 
 ---
