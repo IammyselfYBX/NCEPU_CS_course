@@ -72,7 +72,7 @@
 - [计算机图形学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE1.CG_progressing)
 
 ---
-## 使用
+## 下载方式
 #### 一、使用git
 ```
 git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
