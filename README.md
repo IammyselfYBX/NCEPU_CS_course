@@ -34,7 +34,9 @@
 - [数字逻辑](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/4.%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91)
 - [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/2.%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA)
 
-#### 计算机专业基础课
+#### 计算机专业课
+###### 专业基础课
+- [C语言]()
 - [离散数学]()
 - [数据结构与算法(上)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
 - [数据结构与算法(下)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
