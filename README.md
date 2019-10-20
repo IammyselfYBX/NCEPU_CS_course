@@ -6,7 +6,7 @@
 [![](https://img.shields.io/github/contributors/CoolPhilChen/SJTU-Courses.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/graphs/contributors)
 
 ## 介绍
-&emsp;&emsp;受[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)，[北京大学](https://lib-pku.github.io/)，[北京大学课程资料整理](https://github.com/lib-pku/libpku)，[北京大学信科学生会学术部资料库](https://github.com/EECS-PKU-XSB/Shared-learning-materials)，[北大计算机课程大作业](https://github.com/tongtzeho/PKUCourse)，[浙江大学](https://github.com/QSCTech/zju-icicles)，[东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare)，[北京邮电大学](https://github.com/ningzimu/See_you_in_BUPT)，[上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)的启发，创立了本项目。
+&emsp;&emsp;受[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)，[北京大学](https://lib-pku.github.io/)，[北京大学课程资料整理](https://github.com/lib-pku/libpku)，[北大计算机课程大作业](https://github.com/tongtzeho/PKUCourse)，[浙江大学](https://github.com/QSCTech/zju-icicles)，[东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare)，[北京邮电大学](https://github.com/ningzimu/See_you_in_BUPT)，[上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)的启发，创立了本项目。
 
 ---
 ## 前言
