@@ -25,7 +25,7 @@ git clone https://gitee.com/iammyself001/CS.git
 ![图片](git.png)
 
 #### 二、直接下载
-![图片](download.pnd)
+![图片](download.png)
 
 ---
 ## 平台
