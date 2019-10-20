@@ -25,19 +25,22 @@
 - [教学一览2013](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E6%95%99%E5%AD%A6%E4%B8%80%E8%A7%882013.doc)
 
 #### 先修课
-- [高等数学(上)]()
+- [高等数学(上)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/1.%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6)
 - [高等数学(下)]()
 - [线性代数](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/3.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0)
 - [概率论与梳理统计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/3.%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%A2%B3%E7%90%86%E7%BB%9F%E8%AE%A1)
 - [电路理论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/5.2018-2019%E7%94%B5%E8%B7%AF%E7%90%86%E8%AE%BAB)
 - [模拟电子技术基础](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/2.%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80)
 - [数字逻辑](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/4.%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91)
+- [马克思原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/4.%E9%A9%AC%E5%85%8B%E6%80%9D%E5%8E%9F%E7%90%86)
+- [思想道德修养与法律基础](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/3.%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%BF%AE%E5%85%BB%E4%B8%8E%E6%B3%95%E5%BE%8B%E5%9F%BA%E7%A1%80)
+- [近代史纲要](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/2.%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81)
 - [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/2.%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA)
 
 #### 计算机专业课
 ###### 专业基础课
 - [C语言]()
-- [离散数学]()
+- [离散数学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/3.%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6)
 - [数据结构与算法(上)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
 - [数据结构与算法(下)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
 
