@@ -1,7 +1,7 @@
 #  华北电力大学计算机系课程攻略
 
 ## 介绍
-&emsp;&emsp;受[浙江大学](https://github.com/QSCTech/zju-icicles)，[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)，[北京大学](https://lib-pku.github.io/)，[北京邮电大学](https://github.com/ningzimu/See_you_in_BUPT)的启发，创立了本项目。
+&emsp;&emsp;受[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)，[北京大学](https://lib-pku.github.io/)，[浙江大学](https://github.com/QSCTech/zju-icicles)，[北京邮电大学](https://github.com/ningzimu/See_you_in_BUPT)的启发，创立了本项目。
 
 
 ---
