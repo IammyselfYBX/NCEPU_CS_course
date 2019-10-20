@@ -39,7 +39,8 @@
 
 #### 计算机专业课
 ###### 专业基础课
-- [C语言]()
+- [计算机导论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/5.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA)
+- [C语言](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/2.C%E8%AF%AD%E8%A8%80)
 - [离散数学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/3.%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6)
 - [数据结构与算法(上)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
 - [数据结构与算法(下)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
