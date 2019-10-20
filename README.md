@@ -36,7 +36,7 @@
 - [马克思原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/4.%E9%A9%AC%E5%85%8B%E6%80%9D%E5%8E%9F%E7%90%86)
 - [思想道德修养与法律基础](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/3.%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%BF%AE%E5%85%BB%E4%B8%8E%E6%B3%95%E5%BE%8B%E5%9F%BA%E7%A1%80)
 - [近代史纲要](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/2.%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81)
-- [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/2.%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA)
+- [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/2.%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/README.md)
 
 #### 计算机专业课
 ###### 专业基础课
