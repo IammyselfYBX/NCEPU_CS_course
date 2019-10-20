@@ -67,6 +67,7 @@
 - [C++语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/6.C%2B%2B%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
 
 ###### 信息安全
+- [信息论与编码](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/4.%E4%BF%A1%E6%81%AF%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81)
 
 ###### 物联网
 
