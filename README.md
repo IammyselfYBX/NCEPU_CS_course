@@ -59,7 +59,7 @@
 - [编译原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/2.%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)
 - [计算机组成原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/3.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
 - [数据库](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/5.%E6%95%B0%E6%8D%AE%E5%BA%93)
- - [操作系统](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
+ - [操作系统](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E5%A4%A7%E4%B8%89%E4%B8%8B/1.%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
 
 
 ###### 软件工程
@@ -77,6 +77,7 @@
 - [创新经济学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/%E6%A0%A1%E9%80%89%E8%AF%BE1.%E5%88%9B%E6%96%B0%E7%BB%8F%E6%B5%8E%E5%AD%A6)
 
 #### 专业选修课
+- [软件人机界面设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE2.%E8%BD%AF%E4%BB%B6%E4%BA%BA%E6%9C%BA%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
 - [计算机图形学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE1.CG_progressing)
 
 ---
