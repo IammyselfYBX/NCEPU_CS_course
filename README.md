@@ -16,6 +16,13 @@
 &emsp;&emsp;我希望只要是前人走过的弯路，后人就不必再走。这是我的信念，也是我建立这个项目的原因。<br>
 
 ---
+## 目录
+- [准备知识](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86)
+- [大二下](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B)
+- [大三上](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A)
+
+
+---
 ## 使用
 #### 一、使用git
 ```
