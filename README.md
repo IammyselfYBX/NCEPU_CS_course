@@ -123,6 +123,8 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 可以选择联系我[QQ邮箱](mailto:2252176220@qq.com) (寝室：8B-507)，然后告诉我您的github账号，大家的关注、维护和贡献，才是让这个<b>华北电力大学</b>独有的攻略本继续存在的动力~
 ![图片](图片/邀请.png)
 
+##### 文件夹的排布规则
+![图片](图片/文件夹.png)
 
 ---
 ## 最后
