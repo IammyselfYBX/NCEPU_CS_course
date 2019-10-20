@@ -59,10 +59,12 @@
 - [编译原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/2.%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)
 - [计算机组成原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/3.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
 - [数据库](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/5.%E6%95%B0%E6%8D%AE%E5%BA%93)
+ - [操作系统](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
 
 
 ###### 软件工程
 - [Java语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/4.java%E6%95%99%E6%9D%90%E9%85%8D%E5%A5%97%E8%AF%BE%E4%BB%B6)
+- [C++语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/6.C%2B%2B%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
 
 ###### 信息安全
 
