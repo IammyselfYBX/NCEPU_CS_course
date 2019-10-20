@@ -8,7 +8,7 @@
 &emsp;&emsp;还记得刚来大学的时候，上过很多课，考过很多试，也查找过很多资料，花费了不少精力，我想之前肯定也会有很多人有像我一样的想法，真为这一年一年，这么多人孤军奋战的重复劳动感到不平。<br>
 &emsp;&emsp;我也曾很努力地收集各种课程资料，但到最后，某些重要信息的得到却往往依然是纯属偶然。这种状态时常令我感到后怕与不安。我也曾在课程结束后终于有了些许方法与总结，但这些想法无处诉说，也不知道给怎么述说，最终只能把花费时间与精力才换来的经验耗散在了漫漫的遗忘之中。<br>
 &emsp;&emsp;大一刚来的时候经常思考的一个问题————怎么可以学的好，但是问学长，老师的答案仅仅就是好好上课，多读书，认真记笔记学习就好了，但是这样的回答很范，不具体。所以，借此机会成立一个平台。  
-
+##### 截止到目前为止2019年10月，学校网站依旧没有提供2017版教学大纲，需要查看的到教二查看纸质版材料
 
 ---
 ## 期望
@@ -23,6 +23,7 @@
 - [华北电力大学普通本科学生学籍管理预警制度暂行办法（2017年修订）](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E6%99%AE%E9%80%9A%E6%9C%AC%E7%A7%91%E5%AD%A6%E7%94%9F%E5%AD%A6%E7%B1%8D%E7%AE%A1%E7%90%86%E9%A2%84%E8%AD%A6%E5%88%B6%E5%BA%A6%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95%EF%BC%882017%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89%20.doc)
 - [华北电力大学本科学生辅修专业、学位](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E5%AD%A6%E7%94%9F%E8%BE%85%E4%BF%AE%E4%B8%93%E4%B8%9A%E3%80%81%E5%AD%A6%E4%BD%8D%20.doc)
 - [教学一览2013](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E6%95%99%E5%AD%A6%E4%B8%80%E8%A7%882013.doc)
+- [计算机专业必修课](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%BF%85%E4%BF%AE%E8%AF%BE.docx)
 
 #### 先修课
 - [高等数学(上)](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/1.%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6)
@@ -39,6 +40,7 @@
 
 #### 计算机专业课
 ###### 专业基础课
+- [计算机常识](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86.md)
 - [计算机导论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/5.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA)
 - [C语言](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/2.C%E8%AF%AD%E8%A8%80)
 - [离散数学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/3.%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6)
