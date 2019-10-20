@@ -20,7 +20,7 @@
 ## 使用
 #### 一、使用git
 ```
-git clone https://gitee.com/iammyself001/CS.git
+git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 ```
 ![图片](git.png)
 
