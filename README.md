@@ -26,6 +26,8 @@
 - [学习指南](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97.md)
 - [生活指南](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%8C%87%E5%8D%97.md)
 - [资料搜索与获取](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%B5%84%E6%96%99%E6%90%9C%E7%B4%A2%E4%B8%8E%E8%8E%B7%E5%8F%96.md)
+- [技能学习](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E6%8A%80%E8%83%BD%E5%AD%A6%E4%B9%A0.md)
+- [在线工具](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7.md)
 - [华北电力大学普通本科学生学籍管理预警制度暂行办法（2017年修订）](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E6%99%AE%E9%80%9A%E6%9C%AC%E7%A7%91%E5%AD%A6%E7%94%9F%E5%AD%A6%E7%B1%8D%E7%AE%A1%E7%90%86%E9%A2%84%E8%AD%A6%E5%88%B6%E5%BA%A6%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95%EF%BC%882017%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89%20.doc)
 - [华北电力大学本科学生辅修专业、学位](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E5%AD%A6%E7%94%9F%E8%BE%85%E4%BF%AE%E4%B8%93%E4%B8%9A%E3%80%81%E5%AD%A6%E4%BD%8D%20.doc)
 - [教学一览2013](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E6%95%99%E5%AD%A6%E4%B8%80%E8%A7%882013.doc)
