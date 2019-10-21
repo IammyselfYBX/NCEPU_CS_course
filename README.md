@@ -83,6 +83,7 @@
 #### 专业选修课
 - [软件人机界面设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE2.%E8%BD%AF%E4%BB%B6%E4%BA%BA%E6%9C%BA%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
 - [计算机图形学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE1.CG_progressing)
+- [Web开发](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE3.Web%E5%BC%80%E5%8F%91)
 
 ---
 ## 下载方式
