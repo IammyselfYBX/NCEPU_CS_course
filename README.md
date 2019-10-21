@@ -23,6 +23,7 @@
 ---
 ## 目录
 #### 准备知识
+- [进入大学前准备](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%BF%9B%E5%85%A5%E5%A4%A7%E5%AD%A6%E5%89%8D%E5%87%86%E5%A4%87.md)
 - [学习指南](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97.md)
 - [生活指南](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%8C%87%E5%8D%97.md)
 - [资料搜索与获取](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%B5%84%E6%96%99%E6%90%9C%E7%B4%A2%E4%B8%8E%E8%8E%B7%E5%8F%96.md)
