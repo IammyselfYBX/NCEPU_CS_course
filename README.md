@@ -60,18 +60,23 @@
 
 
 ###### 计算机科学与技术
+- [计算机硬件基础](https://www.bilibili.com/video/av45849557)
 - [基于80x86汇编语言](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/1.80x86%E6%B1%87%E7%BC%96)
+- [DOS常用命令](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/1.80x86%E6%B1%87%E7%BC%96/DOS.md)
 - [微机原理与接口技术](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/1.%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF(%E7%AC%AC4%E7%89%88))
 - [编译原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/2.%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)
 - [计算机组成原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/3.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
 - [数据库](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/5.%E6%95%B0%E6%8D%AE%E5%BA%93)
- - [操作系统](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E5%A4%A7%E4%B8%89%E4%B8%8B/1.%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
- - [Linux体系及编程](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B)
-
+- [操作系统](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E5%A4%A7%E4%B8%89%E4%B8%8B/1.%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
+- [Linux体系及编程](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B)
+- [Scala](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/%E4%B8%93%E9%80%89%E8%AF%BE1.Scala%E8%AF%AD%E8%A8%80)
+- [python](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/6.python)
+- [LaTeX教程](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/%E9%80%89%E4%BF%AE%E8%AF%BE1.LaTeX/README.md)
 
 ###### 软件工程
 - [Java语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/4.java%E6%95%99%E6%9D%90%E9%85%8D%E5%A5%97%E8%AF%BE%E4%BB%B6)
 - [C++语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/6.C%2B%2B%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
+
 
 ###### 信息安全
 - [信息论与编码](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/4.%E4%BF%A1%E6%81%AF%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81)
