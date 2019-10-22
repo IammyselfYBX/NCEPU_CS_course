@@ -132,7 +132,7 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 **欢迎贡献！** <br>
 **欢迎贡献！** <br>
 **欢迎贡献！** <br>
-&emsp;&emsp;*——因为很重要所以说了三遍*(所以西游记里面白骨精最重要 (•‾̑⌣‾̑•)✧ )<br>
+&emsp;&emsp;*——因为很重要所以说了三遍*(所以一提起西游记大家就会想起《三打白骨精》 😉😉😉(•‾̑⌣‾̑•)✧ )<br>
 [Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/PR%E6%94%BB%E7%95%A5.md)<br>
 &emsp;&emsp;如果您对于某些课程有评价可写在对应课程文件夹的 `README.md` 中。如果想上传课件（请确保无版权问题），推荐使用 PDF 格式，避免不必要的麻烦。<br>
 ##### 如果你也想成为参与者
