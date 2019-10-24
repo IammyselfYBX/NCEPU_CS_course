@@ -1,0 +1,128 @@
+C-1 标准输出输入函数
+FILE* fopen(const char* filename, const char* mode):使用mode模式开启参数filename的档案,传回档案串流,失败传回NULL.
+FILE* freopen(const char* filename, const char* mode, FILE* stream):关闭档案后重新开启档案.
+int fflush(FILE* stream):清除缓冲区的内容,成功传回0,失败传回EOF.
+int fclose(FILE* stream):关闭档案.
+int remove(const char* filename):删除参数的档案,失败传回非零值.
+int rename(const char* oldname, const char* newname):将档案名称oldname改为newname,失败传回非零值.
+FILE* tmpfile():建立"wb+"模式的暂存档案,当结束程式后就会关闭且删除此档案.
+char* tmpname(char s[L_tmpnam]):指定暂存档案的名称为s.
+int setvbuf(FILE* stream, char* buf, int mode, size_t size):指定串流暂存区尺寸size,使用mode参数值_IOFBF为完整暂存区,_IOLBF是线性暂存区或_IONBF没有暂存区.
+void setbuf(FILE* stream, char* buf):指定串流的暂存区为参数buf.
+int fprintf(FILE* stream, const char* format, ...):将格式化字串写入档案串流.
+int printf(const char* format, ...):在标准输出显示格式化字串.
+int sprintf(char* s, const char* format, ...):将格式化字串输出到字串s.
+int fscanf(FILE* stream, const char* format, ...):从档案串流读取指定格式的资料.
+int scanf(const char* format, ...):从标准输入读取指定格式的资料.
+int sscanf(char* s, const char* format, ...):从字串s读取指定格式的资料.
+int fgetc(FILE* stream):从档案串流读取一个字元.
+char* fgets(char* s, int n, FILE* stream):从档案串流读取一个字串.
+int fputc(int c, FILE* stream):写入一个字元到档案.
+char* fputs(const char* s, FILE* stream):写入一个字串到档案.
+int getc(FILE* stream):从档案串流读取一个字元.
+int getchar(void):从标准输入读取一个字元.
+char* gets(char* s):从标准输入读取一个字串.
+int putc(int c, FILE* stream):写入一个字元到档案.
+int putchar(int c):在标准输出显示一个字元.
+int puts(const char* s):在标准输出显示一个字串.
+int ungetc(int c, FILE* stream):将一个字元放回档案串流.
+size_t fread(void* ptr, size_t size, size_t nobj, FILE* stream):从档案读取指定大小的资料.
+size_t fwrite(const void* ptr, size_t size, size_t nobj, FILE* stream):将指定大小的资料写入档案.
+int fseek(FILE* stream, long offset, int origin):移动档案指标到offset位移量,其方向是origin参数值SEEK_SET的档案开头,SEEK_CUR是目前位置或SEEK_END档尾.
+long ftell(FILE* stream):目前档案指标的位置.
+void rewind(FILE* stream):重设档案指标到档头.
+int feof(FILE* stream):是否到达档尾.
+int ferror(FILE* stream):是否档案串流产生错误.
+
+C-2 字元检查函数
+int isalnum(int c):isalpha(c)或isdigit(c)的字元.
+int isalpha(int c):isupper(c)或islower(c)的字元.
+int iscntrl(int c):是否是ASCII控制字元.
+int isdigit(int c):是否是数字.
+int isgraph(int c):是否是显示字元,不含空白字元.
+int islower(int c):是否是小写字元.
+int isprint(int c):是否是显示字元0x20 (' ')到0x7E ('~').
+int ispunct(int c):是否是显示字元,不包含空白,字母,数字字元.
+int isspace(int c):是否是空白字元.
+int isupper(int c):是否是大写字元.
+int isxdigit(int c):是否是十六进位字元.
+int tolower(int c):转换成小写字元.
+int toupper(int c):转换成大写字元.
+
+C-3 字串函数
+char* strcpy(char* s, const char* ct):将字串ct复制到字串s.(String Copy)
+char* strncpy(char* s, const char* ct, size_t n):将字串ct前n个字元复制到字串s.
+char* strcat(char* s, const char* ct):连结字串ct到字串s之后.(String Catanation)
+char* strncat(char* s, const char* ct, size_t n):连结字串ct前n个字元到字串s.
+int strcmp(const char* cs, const char* ct):比较字串cs和ct.
+int strncmp(const char* cs, const char* ct, size_t n):比较字串cs和ct的前n个字元.
+char* strchr(const char* cs, int c):传回字元c第一次出现在字串cs位置的指标.
+char* strrchr(const char* cs, int c):传回字元c第后一次出现在字串cs位置的指标.
+char* strpbrk(const char* cs, const char* ct):传回字串ct任何字元在字串cs第一次出现的位置指标.
+char* strstr(const char* cs, const char* ct):传回字串ct在字串cs第一次出现的位置指标.
+size_t strlen(const char* cs):传回字串cs的长度.
+char* strerror(int n):传回指定错误代码的说明文字内容.
+char* strtok(char* s, const char* t):以字串t的任何字元为分隔字元,找寻字串s中下一个token记号.
+void* memcpy(void* s, const void* ct, size_t n):从位置ct复制n个字元到位置s,传回s.
+void* memmove(void* s, const void* ct, size_t n):从位置ct搬移n个字元到位置s,传回s.
+int memcmp(const void* cs, const void* ct, size_t n):比较位置ct和位置cs的前n个字元.
+void* memchr(const void* cs, int c, size_t n):传回cs位置开始前n个字元第一次出现字元c的位置指标.
+void* memset(void* s, int c, size_t n):取代cs位置开始前n个字元成为字元c,传回位置指标s.
+
+C-4 数学函数
+double exp(double x):自然数的指数e^x.
+double log(double x):自然对数logx
+double log10(double x):十为底的对数log10x.
+double pow(double x, double y):传回参数x为底,参数y的次方值x^y.
+double sqrt(double x):参数x的平方根.
+double ceil(double x):传回大於或等於参数x的最小double整数.
+double floor(double x):传回小於或等於参数x的最大double整数.
+double fabs(double x):传回参数x的绝对值.
+hypot(double x, double y):传回√(x^2+y^2)公式的值
+double ldexp(double x, int n):x乘以2的n次方是x*2^n.
+double frexp(double x, int* exp):将参数x的浮点数分解成尾数和指标,x = m*2^exp,传回m值的尾数,将指数存入参数exp.
+double modf(double x, double* ip):将浮点数x分解成整数和小数部分,传回小数部分,将整数部分存入参数ip.
+double fmod(double x, double y):如果y为非零值,传回浮点数x/y的余数.
+double sin(double x):正弦函数.
+double cos(double x):余弦函数.
+double tan(double x):正切函数.
+double asin(double x):反正弦函数.
+double acos(double x):反余弦函数.
+double atan(double x):反正切函数.
+double atan2(double y, double x):参数y/x的反正切函数值.
+double sinh(double x):hyperbolic正弦函数,sinh(x)=(e^x-e^(-x))/2.
+double cosh(double x):hyperbolic余弦函数,cosh(x)=(e^x+e^(-x))/2.
+double tanh(double x):hyperbolic正切函数,tanh(x)=(e^x-e^(-x))/(e^2+e^(-x)).
+
+C-5 日期/时间函数
+clock_t clock(void):传回程式开始执行后所使用的CPU时间,以ticks为单位,除以常数CLK_TCK就是秒数.
+time_t time(time_t* tp):传回目前的历法时间(Calendar Time),也会指定给参数的tp指标,如为无效时间,传回-1.
+double difftime(time_t time2, time_t time1):传回参数time2和time1的时间差,即time2-time1.
+time_t mktime(struct tm* tp):将参数*tp的当地时间改为历法时间, 如果不能转换传回-1.
+char* asctime(const struct tm* tp):传回参数tm结构指标转换成日期/时间格式的字串,字串最后有新行字元\n.
+char* ctime(const time_t* tp):传回参数time_t指标转换成当地日期/时间的字串,字串最后有新行字元\n.
+struct tm* gmtime(const time_t* tp):传回将参数的time_t指标转换成UTC(Coordinated Universal Time)日期/时间的tm结构指标.
+struct tm* localtime(const time_t* tp):传回将参数的time_t指标转换成当地日期/时间的tm结构指标.
+size_t strftime(char* s, size_t smax, const char* fmt, const struct tm* tp):将参数tp的日期/时间以格式化字串fmt输出到字串s,s最多储存smax个字元.
+
+C-6 工具函数
+int abs(int n),long labs(long n):传回整数n的绝对值.
+double atof(const char* s):将参数字串s转换成浮点数,如果字串不能转换传回0.0.
+int atoi(const char* s):将参数字串s转换成整数,如果字串不能转换传回0.(Char to integer)
+int itoa():将整数转换成参数字串s.(Integer to Char)
+long atol(const char* s):将参数字串s转换成长整数,如果字串不能转换传回0.
+double strtod(const char* s, char** endp):函数忽略字串s前的空白字元,将数字部分转换成浮点数,如果尚有未转换的部分字串,则设成参数endp指标.
+long strtol(const char* s, char** endp, int base):函数忽略字串s前的空白字元,将数字部分转换成长整数,如果尚有未转换的部分字串,则设成参数endp指标.
+unsigned long strtoul(const char* s, char** endp, int base):如同strtol函数,其传回值是无符号长整数.
+void* calloc(size_t nobj, size_t size):传回一块参数nobj阵列大小的记忆体指标,nobj元素大小为size初值为0,错误传回NULL.
+void* malloc(size_t size):传回大小size记忆体指标,没有指定初值,错误传回NULL.
+void* realloc(void* p, size_t size):将指标p的记忆体改为size大小,不会更改原记忆体的值,多配置部分初值为0,错误传回NULL.
+void free(void* p):释放参数p指标的记忆体空间.
+void abort():强迫程式以不正常方式结束,如同呼叫raise(SIGABRT)函数.
+void exit(int status):程式以正常方式结束,传回系统环境状态值,0表示正常结束.
+int system(const char* s):将字串s的指令传给环境来执行,也就是执行MS-DOS的指令.
+char* getenv(const char* name):传回参数name的环境字串,如果没有传回NULL.
+void* bsearch(const void* key, const void* base, size_t n, size_t size, int (*cmp)(const void* keyval, const void* datum)):阵列基础的二元搜寻函数,阵列是参数base,键值是参数key,n是阵列大小,size是每个元素的大小,最后的参数是指向函数的指标,这是比较元素大小的函数,找到传回该元素指标,没有找到传回NULL.
+void qsort(void* base, size_t n, size_t size, int (*cmp)(const void*, const void*)):阵列基础的快速排序法函数,阵列是参数base,n是阵列大小,size是每个元素的大小,最后的参数是指向函数的指标,这是比较元素大小的函数.
+int rand(void):传回乱数的整数值,其值的范围是0到RAND_MAX常数,其值为0x7FFF.
+void srand(unsigned int seed):指定乱数的种子数,参数是无符号整数,如果没有指定,预设的种子数为1.
