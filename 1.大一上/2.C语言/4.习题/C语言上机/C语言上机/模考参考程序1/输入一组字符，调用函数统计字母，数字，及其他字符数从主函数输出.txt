@@ -1,0 +1,25 @@
+#include<stdio.h>
+#define N 80
+void count(char str[],int cou[])
+{
+	
+	int i;
+	for(i=0;str[i];i++)
+	{
+		if(str[i]>='A'&&str[i]<='Z'||str[i]>='a'&&str[i]<='z')
+			cou[0]++;
+		else if(str[i]>='0'&&str[i]<='9')
+			cou[1]++;
+		else
+			cou[2]++;
+	}
+	
+}
+void main()
+{
+	int cou[3]={0};	char str1[N];
+	gets(str1);
+	count(str1,cou);
+	
+	printf("×ÖÄ¸%d,Êı×Ö%d,ÆäËû%d",cou[0],cou[1],cou[2]);
+}
