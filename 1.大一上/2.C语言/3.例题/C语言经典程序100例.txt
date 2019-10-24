@@ -1,0 +1,411 @@
+【程序91】
+题目：时间函数举例1
+1.程序分析：
+2.程序源代码：
+#include "stdio.h"
+#include "time.h"
+void main()
+{ time_t lt; /*define a longint time varible*/
+lt=time(NULL);/*system time and date*/
+printf(ctime(<)); /*english format output*/
+printf(asctime(localtime(<)));/*tranfer to tm*/
+printf(asctime(gmtime(<))); /*tranfer to Greenwich time*/
+}
+==============================================================
+【程序92】
+题目：时间函数举例2
+1.程序分析：　　　　　　　　　　　
+2.程序源代码：
+/*calculate time*/
+#include "time.h"
+#include "stdio.h"
+main()
+{ time_t start,end;
+int i;
+start=time(NULL);
+for(i=0;i<3000;i++)
+{ printf("\1\1\1\1\1\1\1\1\1\1\n");}
+end=time(NULL);
+printf("\1: The different is %6.3f\n",difftime(end,start));
+}
+==============================================================
+【程序93】
+题目：时间函数举例3
+1.程序分析：
+2.程序源代码：
+/*calculate time*/
+#include "time.h"
+#include "stdio.h"
+main()
+{ clock_t start,end;
+int i;
+double var;
+start=clock();
+for(i=0;i<10000;i++)
+{ printf("\1\1\1\1\1\1\1\1\1\1\n");}
+end=clock();
+printf("\1: The different is %6.3f\n",(double)(end-start));
+}
+==============================================================
+【程序94】
+题目：时间函数举例4,一个猜数游戏，判断一个人反应快慢。（版主初学时编的）
+1.程序分析：
+2.程序源代码：
+#include "time.h"
+#include "stdlib.h"
+#include "stdio.h"
+main()
+{char c;
+clock_t start,end;
+time_t a,b;
+double var;
+int i,guess;
+srand(time(NULL));
+printf("do you want to play it.('y' or 'n') \n");
+loop:
+while((c=getchar())=='y')
+{
+i=rand()%100;
+printf("\nplease input number you guess:\n");
+start=clock();
+a=time(NULL);
+scanf("%d",&guess);
+while(guess!=i)
+{if(guess>i)
+{printf("please input a little smaller.\n");
+scanf("%d",&guess);}
+else
+{printf("please input a little bigger.\n");
+scanf("%d",&guess);}
+}
+end=clock();
+b=time(NULL);
+printf("\1: It took you %6.3f seconds\n",var=(double)(end-start)/18.2);
+printf("\1: it took you %6.3f seconds\n\n",difftime(b,a));
+if(var<15)
+printf("\1\1 You are very clever! \1\1\n\n");
+else if(var<25)
+printf
+
+("\1\1 you are normal! \1\1\n\n");
+else
+printf("\1\1 you are stupid! \1\1\n\n");
+printf("\1\1 Congradulations \1\1\n\n");
+printf("The number you guess is %d",i);
+}
+printf("\ndo you want to try it again?(\"yy\".or.\"n\")\n");
+if((c=getch())=='y')
+goto loop;
+}
+==============================================================
+【程序95】
+题目：家庭财务管理小程序
+1.程序分析：
+2.程序源代码：
+/*money management system*/
+#include "stdio.h"
+#include "dos.h"
+main()
+{
+FILE *fp;
+struct date d;
+float sum,chm=0.0;
+int len,i,j=0;
+int c;
+char ch[4]="",ch1[16]="",chtime[12]="",chshop[16],chmoney[8];
+pp: clrscr();
+sum=0.0;
+gotoxy(1,1);printf("|---------------------------------------------------------------------------|");
+gotoxy(1,2);printf("| money management system(C1.0) 2000.03 |");
+gotoxy(1,3);printf("|---------------------------------------------------------------------------|");
+gotoxy(1,4);printf("| -- money records -- | -- today cost list -- |");
+gotoxy(1,5);printf("| ------------------------ |-------------------------------------|");
+gotoxy(1,6);printf("| date: -------------- | |");
+gotoxy(1,7);printf("| | | | |");
+gotoxy(1,8);printf("| -------------- | |");
+gotoxy(1,9);printf("| thgs: ------------------ | |");
+gotoxy(1,10);printf("| | | | |");
+gotoxy(1,11);printf("| ------------------ | |");
+gotoxy(1,12);printf("| cost: ---------- | |");
+gotoxy(1,13);printf("| | | | |");
+gotoxy(1,14);printf("| ---------- | |");
+gotoxy(1,15);printf("| | |");
+gotoxy(1,16);printf("| | |");
+gotoxy(1,17);printf("| | |");
+gotoxy(1,18);printf("| | |");
+gotoxy(1,19);printf("| | |");
+gotoxy(1,20);printf("| | |");
+gotoxy(1,21);printf("| | |");
+gotoxy(1,22);printf("| | |");
+gotoxy(1,23);printf("|---------------------------------------------------------------------------|");
+i=0;
+getdate(&d);
+sprintf(chtime,"%4d.%02d.%02d",d.da_year,d.da_mon,d.da_day);
+for(;;)
+{
+gotoxy(3,24);printf(" Tab __browse cost list Esc __quit");
+gotoxy(13,10);printf(" ");
+gotoxy(13,13);printf(" ");
+gotoxy(13,7);printf("%s",chtime);
+j=18;
+ch[0]=getch();
+if(ch[0]==27)
+break;
+strcpy(chshop,"");
+strcpy(chmoney,"");
+if(ch[0]==9)
+{
+mm:i=0;
+fp=fopen("home.dat","r+");
+gotoxy(3,24);printf(" ");
+gotoxy(6,4);printf(" list records ");
+gotoxy(1,5);printf("|-------------------------------------|");
+gotoxy(41,4);printf(" ");
+gotoxy(41,5);printf(" |");
+while(fscanf(fp,"%10s%14s%f\n",chtime,chshop,&chm)!=EOF)
+{ if(i==36)
+{ getch();
+i=0;}
+if ((i%36)<17)
+{ gotoxy(4,6+i);
+printf(" ");
+gotoxy(4,6+i);}
+else
+if((i%36)>16)
+{ gotoxy(41,4+i-17);
+printf(" ");
+gotoxy(42,4+i-17);}
+i++;
+sum=sum+chm;
+printf("%10s %-14s %6.1f\n",chtime,chshop,chm);}
+gotoxy(1,23);printf("|---------------------------------------------------------------------------|");
+gotoxy(1,24);printf("| |");
+gotoxy(1,25);printf("|---------------------------------------------------------------------------|");
+gotoxy(10,24);printf("total is %8.1f$",sum);
+fclose(fp);
+gotoxy(49,24);printf("press any key to.....");getch();goto pp;
+}
+else
+{
+while(ch[0]!='\r')
+{ if(j<10)
+{ strncat(chtime,ch,1);
+j++;}
+if(ch[0]==8)
+{
+len=strlen(chtime)-1;
+if(j>15)
+{ len=len+1; j=11;}
+strcpy(ch1,"");
+j=j-2;
+strncat(ch1,chtime,len);
+strcpy(chtime,"");
+strncat(chtime,ch1,len-1);
+gotoxy(13,7);printf(" ");}
+gotoxy(13,7);printf("%s",chtime);ch[0]=getch();
+if(ch[0]==9)
+goto mm;
+if(ch[0]==27)
+exit(1);
+}
+gotoxy(3,24);printf(" ");
+gotoxy(13,10);
+j=0;
+ch[0]=getch();
+while(ch[0]!='\r')
+{ if (j<14)
+{ strncat(chshop,ch,1);
+j++;}
+if(ch[0]==8)
+{ len=strlen(chshop)-1;
+strcpy(ch1,"");
+j=j-2;
+strncat(ch1,chshop,len);
+strcpy(chshop,"");
+strncat(chshop,ch1,len-1);
+gotoxy(13,10);printf(" ");}
+gotoxy(13,10);printf("%s",chshop);ch[0]=getch();}
+gotoxy(13,13);
+j=0;
+ch[0]=getch();
+while(ch[0]!='\r')
+{ if (j<6)
+{ strncat(chmoney,ch,1);
+j++;}
+if(ch[0]==8)
+{ len=strlen(chmoney)-1;
+strcpy(ch1,"");
+j=j-2;
+strncat(ch1,chmoney,len);
+strcpy(chmoney,"");
+strncat(chmoney,ch1,len-1);
+gotoxy(13,13);printf(" ");}
+gotoxy(13,13);printf("%s",chmoney);ch[0]=getch();}
+if((strlen(chshop)==0)||(strlen(chmoney)==0))
+continue;
+if((fp=fopen("home.dat","a+"))!=NULL);
+fprintf(fp,"%10s%14s%6s",chtime,chshop,chmoney);
+fputc('\n',fp);
+fclose(fp);
+i++;
+gotoxy(41,5+i);
+printf("%10s %-14s %-6s",chtime,chshop,chmoney);
+}}} 
+==============================================================
+【程序96】
+题目：计算字符串中子串出现的次数
+1.程序分析：
+2.程序源代码：
+#include "string.h"
+#include "stdio.h"
+main()
+{ char str1[20],str2[20],*p1,*p2;
+int sum=0;
+printf("please input two strings\n");
+scanf("%s%s",str1,str2);
+p1=str1;p2=str2;
+while(*p1!='\0')
+{
+if(*p1==*p2)
+{while(*p1==*p2&&*p2!='\0')
+{p1++;
+p2++;}
+}
+else
+p1++;
+if(*p2=='\0')
+sum++;
+p2=str2;
+}
+printf("%d",sum);
+getch();} 
+==============================================================
+【程序97】
+题目：从键盘输入一些字符，逐个把它们送到磁盘上去，直到输入一个#为止。
+1.程序分析：　　　　　
+2.程序源代码：
+#include "stdio.h"
+main()
+{ FILE *fp;
+char ch,filename[10];
+scanf("%s",filename);
+if((fp=fopen(filename,"w"))==NULL)
+{printf("cannot open file\n");
+exit(0);}
+ch=getchar();
+ch=getchar();
+while(ch!='#')
+{fputc(ch,fp);putchar(ch);
+ch=getchar();
+}
+fclose(fp);
+}
+==============================================================
+【程序98】
+题目：从键盘输入一个字符串，将小写字母全部转换成大写字母，然后输出到一个磁盘文件“test”中保存。
+　　　输入的字符串以！结束。 
+1.程序分析：
+2.程序源代码：
+#include "stdio.h"
+main()
+{FILE *fp;
+char str[100],filename[10];
+int i=0;
+if((fp=fopen("test","w"))==NULL)
+{ printf("cannot open the file\n");
+exit(0);}
+printf("please input a string:\n");
+gets(str);
+while(str[i]!='!')
+{ if(str[i]>='a'&&str[i]<='z')
+str[i]=str[i]-32;
+fputc(str[i],fp);
+i++;}
+fclose(fp);
+fp=fopen("test","r");
+fgets(str,strlen(str)+1,fp);
+printf("%s\n",str);
+fclose(fp);
+}
+==============================================================
+【程序99】
+题目：有两个磁盘文件A和B,各存放一行字母，要求把这两个文件中的信息合并（按字母顺序排列）， 
+　　　输出到一个新文件C中。
+1.程序分析：
+2.程序源代码：
+#include "stdio.h"
+main()
+{ FILE *fp;
+int i,j,n,ni;
+char c[160],t,ch;
+if((fp=fopen("A","r"))==NULL)
+{printf("file A cannot be opened\n");
+exit(0);}
+printf("\n A contents are :\n");
+for(i=0;(ch=fgetc(fp))!=EOF;i++)
+{c[i]=ch;
+putchar(c[i]);
+}
+
+fclose(fp);
+ni=i;
+if((fp=fopen("B","r"))==NULL)
+{printf("file B cannot be opened\n");
+exit(0);}
+printf("\n B contents are :\n");
+for(i=0;(ch=fgetc(fp))!=EOF;i++)
+{c[i]=ch;
+putchar(c[i]);
+}
+fclose(fp);
+n=i;
+for(i=0;i<n;i++)
+for(j=i+1;j<n;j++)
+if(c[i]>c[j])
+{t=c[i];c[i]=c[j];c[j]=t;}
+printf("\n C file is:\n");
+fp=fopen("C","w");
+for(i=0;i<n;i++)
+{ putc(c[i],fp);
+putchar(c[i]);
+}
+fclose(fp);
+}
+==============================================================
+【程序100】
+题目：有五个学生，每个学生有3门课的成绩，从键盘输入以上数据（包括学生号，姓名，三门课成绩），计算出
+　　　平均成绩，况原有的数据和计算出的平均分数存放在磁盘文件"stud"中。
+1.程序分析：
+2.程序源代码：
+#include "stdio.h"
+struct student
+{ char num[6];
+char name[8];
+int score[3];
+float avr;
+} stu[5];
+main()
+{int i,j,sum;
+FILE *fp;
+/*input*/
+for(i=0;i<5;i++)
+{ printf("\n please input No. %d score:\n",i);
+printf("stuNo:");
+scanf("%s",stu[i].num);
+printf("name:");
+scanf("%s",stu[i].name);
+sum=0;
+for(j=0;j<3;j++)
+{ printf("score %d.",j+1);
+scanf("%d",&stu[i].score[j]);
+sum+=stu[i].score[j];
+}
+stu[i].avr=sum/3.0;
+}
+fp=fopen("stud","w");
+for(i=0;i<5;i++)
+if(fwrite(&stu[i],sizeof(struct student),1,fp)!=1)
+printf("file write error\n");
+fclose(fp);
+}
+
