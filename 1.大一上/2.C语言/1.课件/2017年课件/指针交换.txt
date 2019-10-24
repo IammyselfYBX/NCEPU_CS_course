@@ -1,0 +1,19 @@
+#include "stdio.h"
+#include <string.h>
+void main(void)
+{
+	int a[10]={1,2,3,4,5,6,7,8,9,10},*p,*q,t,i;
+	p=a;
+	q=a+9;
+	while(p<q)
+	{
+		t=*p;
+		*p=*q;
+		*q=t;
+		p++;
+		q--;
+	}
+	for(i=0;i<10;i++)
+		printf("%d",a[i]);
+	    printf("\n");
+}

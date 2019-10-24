@@ -1,0 +1,20 @@
+#include "stdio.h"
+#include <string.h>
+void main(void)
+{
+	char str[80],*p=str,*q;
+	int l;
+	gets(str);
+	l=strlen(str);
+	q=str+l-1;
+	while(p<=q)
+	{
+		if(*p!=*q) break;
+		p++;
+		q--;
+	}
+	if(p>q)
+		printf("%s是回文单词！\n",str);
+	else
+			printf("%s不是回文单词！\n",str);
+}  
