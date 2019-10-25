@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Javascript的事件模型</title>
+<script language="javascript">
+function fnClick(){
+	alert("我被点击了");
+}
+
+window.onload = function(){
+	var oP;
+	oP = document.getElementById("myP");	//找到对象
+	oP.attachEvent("onclick",fnClick);		//添加监听函数
+}
+
+</script>
+</head>
+
+<body>
+	<div>
+		<input id="myP" type="button" value="OK">
+	</div>
+</body>
+</html>
