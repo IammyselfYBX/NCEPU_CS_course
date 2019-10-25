@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bjsxt.hibernate.Teacher">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		
+		<property name="name"></property>
+		<set name="students" table="t_s">
+			<key column="teacher_id"></key>
+			<many-to-many class="com.bjsxt.hibernate.Student" column="student_id"/>
+		</set>
+    </class>
+	
+</hibernate-mapping>
