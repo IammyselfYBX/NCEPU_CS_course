@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bjsxt.hibernate.Student" table="_student">
+		<id name="id" />
+		<property name="name" />
+		<property name="age" />
+		<property name="sex" />
+		<property name="good" type="yes_no"></property>
+    </class>
+	
+</hibernate-mapping>
