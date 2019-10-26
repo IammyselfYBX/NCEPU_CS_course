@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: chapter5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xuhongbo\LOCALS~1\Temp\RSP6B0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/chapter5.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\chapter5\x5-6.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xuhongbo\LOCALS~1\Temp\RSP6B0.tmp" 
+Creating temporary file "C:\DOCUME~1\xuhongbo\LOCALS~1\Temp\RSP6B1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/chapter5.pdb" /debug /machine:I386 /out:"Debug/chapter5.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\x5-6.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\xuhongbo\LOCALS~1\Temp\RSP6B1.tmp"
+<h3>Output Window</h3>
+Compiling...
+x5-6.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+chapter5.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
