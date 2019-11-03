@@ -94,6 +94,11 @@
 - [计算机图形学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE1.CG_progressing)
 - [Web开发](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE3.Web%E5%BC%80%E5%8F%91)
 
+#### 课程设计
+- [小型数据库](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/%E5%B0%8F%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93)
+- [Minotaur](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/Minotaur)
+- [人脸识别](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/11.%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB)
+
 ---
 ## 下载方式
 #### 一、使用git
