@@ -4,6 +4,7 @@
 [![](https://img.shields.io/github/forks/IammyselfYBX/NCEPU_CS_course.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/network/members)
 ![](https://img.shields.io/github/repo-size/IammyselfYBX/NCEPU_CS_course.svg)
 [![](https://img.shields.io/github/contributors/CoolPhilChen/SJTU-Courses.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/graphs/contributors)
+![图片](图片/give_a_star.png)
 
 ## 介绍
 &emsp;&emsp;受[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)，[北京大学](https://lib-pku.github.io/)，[北京大学课程资料整理](https://github.com/lib-pku/libpku)，[北大计算机课程大作业](https://github.com/tongtzeho/PKUCourse)，[浙江大学](https://github.com/QSCTech/zju-icicles)，[东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare)，[北京邮电大学](https://github.com/ningzimu/See_you_in_BUPT)，[上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)的启发，创立了本项目。
@@ -110,6 +111,25 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 
 #### 二、直接下载
 ![图片](图片/download.png)
+
+### 如何获取项目中的部分文件？
+
+可能随着文件的不断增多，项目的体积越来越庞大，可能对于网络环境相对较差的同学来讲，完整的 clone 此项目会变得非常的吃力。为了考虑到这一部分的同学，在这里，我提供几种开源的工具供大家使用：
+
+1、[DownGit](http://minhaskamal.github.io/DownGit)
+
+使用方法如下图所示：
+
+![DownGit](图片/DownGit.gif)
+
+2、[GitZip](http://kinolien.github.io/gitzip/)
+
+用法和 [DownGit](http://minhaskamal.github.io/DownGit) 一样，下面为使用方法的演示图：
+
+![GitZip](图片/GitZip.jpg)
+
+上面的方法均无效？这里也许有你想要的答案：[Download a single folder or directory from a GitHub repo](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo)。
+
 
 ---
 ## 平台
