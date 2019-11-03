@@ -51,6 +51,7 @@
 
 #### 计算机专业课
 ###### 专业基础课
+- [杨秉学的计算机科普课](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/5.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/%E6%9D%A8%E7%A7%89%E5%AD%A6%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E8%AF%BE.md)
 - [计算机相关视频](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91.md)
 - [计算机常识](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86.md)
 - [计算机导论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/5.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA)
