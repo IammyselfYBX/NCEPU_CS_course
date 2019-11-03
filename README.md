@@ -1,5 +1,5 @@
 #  华北电力大学计算机系课程攻略
-![图片](图片/give_a_star.png)
+![图片](图片/givea_star.png)
 
 [![](https://img.shields.io/github/watchers/IammyselfYBX/NCEPU_CS_course.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/watchers)
 [![](https://img.shields.io/github/stars/IammyselfYBX/NCEPU_CS_course.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/stargazers)
