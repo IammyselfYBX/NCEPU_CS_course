@@ -1,3 +1,7 @@
+/**
+* @Author:杨秉学
+* @Time:2018 7
+*/
 #include <stdio.h>
 #include <errno.h>
 #include <stdlib.h>
