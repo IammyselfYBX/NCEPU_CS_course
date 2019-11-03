@@ -1,0 +1,31 @@
+;串指令字符串的复制
+
+DATAS SEGMENT
+    BUF DB 'THIS IS A STRING$'
+    COUNT EQU $-BUF
+    COPY DB COUNT DUP(?)         ;定义一个长度为COUNT的字符串COPY，内容不确定
+DATAS ENDS
+
+STACKS SEGMENT
+
+STACKS ENDS
+
+CODES SEGMENT
+    ASSUME CS:CODES,DS:DATAS,SS:STACKS,ES:DATAS
+START:
+    MOV AX,DATAS
+    MOV DS,AX
+    MOV ES,AX
+
+    LEA SI,BUF
+    LEA DI,COPY
+    MOV CX,COUNT
+    CLD
+    REP MOVSB                     ;串指令复制
+    LEA DX,COPY                   ;将副本输出在屏幕上
+    MOV AH,9H
+    INT 21H
+    MOV AH,4CH
+    INT 21H
+CODES ENDS
+    END START

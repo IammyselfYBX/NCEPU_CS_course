@@ -1,0 +1,78 @@
+Microsoft (R) Macro Assembler Version 6.11		    05/18/19 10:40:51
+tempfile.asm						     Page 1 - 1
+
+
+				;用子程序计算字符串长�?
+				
+ 0000				DATAS SEGMENT
+ 0000 41 42 43 44 45 46		    BUF DB 'ABCDEFGH0'
+       47 48 30
+ 0009				DATAS ENDS
+				
+ 0000				STACKS SEGMENT
+				
+ 0000				STACKS ENDS
+				
+ 0000				CODES SEGMENT
+				    ASSUME CS:CODES,DS:DATAS,SS:STACKS
+				
+ 0000				START:
+ 0000  B8 ---- R		    MOV AX,DATAS
+ 0003  8E D8			    MOV DS,AX
+				
+ 0005  8D 36 0000 R		    LEA SI,BUF
+ 0009  E8 0004			    CALL GETLENGTH
+				    
+ 000C  B4 4C			    MOV AH,4CH
+ 000E  CD 21			    INT 21H
+				
+				    
+ 0010				GETLENGTH PROC NEAR
+ 0010  B8 0000				MOV AX,0             ;将AX清零
+ 0013				LOOP1:
+ 0013  B3 30			    MOV BL,30H
+ 0015  38 1C				CMP [SI],BL       ;如果�?,说明遍历完了，退�?
+ 0017  74 05				JE EXIT
+ 0019  FE C0				INC AL               ;否则，计数器AL+1，然后往后挪一�?
+ 001B  46				INC SI
+ 001C  E2 F5				LOOP LOOP1
+ 001E				EXIT:
+ 001E  C3				RET
+ 001F				GETLENGTH ENDP
+				    
+ 001F				CODES ENDS
+				    END START
+
+Microsoft (R) Macro Assembler Version 6.11		    05/18/19 10:40:51
+tempfile.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CODES  . . . . . . . . . . . . .	16 Bit	 001F	  Para	  Private 
+DATAS  . . . . . . . . . . . . .	16 Bit	 0009	  Para	  Private 
+STACKS . . . . . . . . . . . . .	16 Bit	 0000	  Para	  Private 
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+GETLENGTH  . . . . . . . . . . .	P Near	 0010	  CODES	Length= 000F Public
+  LOOP1  . . . . . . . . . . . .	L Near	 0013	  CODES	
+  EXIT . . . . . . . . . . . . .	L Near	 001E	  CODES	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+BUF  . . . . . . . . . . . . . .	Byte	 0000	  DATAS	
+START  . . . . . . . . . . . . .	L Near	 0000	  CODES	
+
+	   0 Warnings
+	   0 Errors

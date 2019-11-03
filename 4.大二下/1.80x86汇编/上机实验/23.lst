@@ -1,0 +1,92 @@
+Microsoft (R) Macro Assembler Version 6.11		    05/18/19 10:42:09
+tempfile.asm						     Page 1 - 1
+
+
+				;找到最小偶数（可以有负数）
+
+ 0000				DATAS SEGMENT
+ 0000 0001 0002 FFFC 0003	    BUF DW 1,2,-4,3,5,6
+       0005 0006
+ 000C = 000C			    COUNT EQU $-BUF
+ 000C				DATAS ENDS
+
+ 0000				STACKS SEGMENT
+
+ 0000				STACKS ENDS
+
+ 0000				CODES SEGMENT
+				    ASSUME CS:CODES,DS:DATAS,SS:STACKS,ES:DATAS
+ 0000				START:
+ 0000  B8 ---- R		    MOV AX,DATAS
+ 0003  8E D8			    MOV DS,AX
+ 0005  8E C0			    MOV ES,AX
+
+ 0007  8D 3E 0000 R		    LEA DI,BUF        ;取BUF字符串的偏移地址给DI
+ 000B  B9 000C			    MOV CX,COUNT
+
+ 000E				LOOP1:
+ 000E  8B 05			    MOV AX,[DI]       
+ 0010  A8 01			    TEST AL,01H
+ 0012  75 04			    JNZ CONTINUE         ;如果不是偶数，就继续循环
+ 0014  8B 1D			    MOV BX,[DI]       ;把第一个偶数放入BL
+ 0016  EB 03			    JMP NEXT1
+ 0018				CONTINUE:
+ 0018  47			    INC DI
+ 0019  E2 F3			    LOOP LOOP1
+ 001B				NEXT1:
+ 001B  8D 3E 0000 R		    LEA DI,BUF        ;把DI清零，重新开�?
+ 001F  B9 000C			    MOV CX,COUNT      
+
+
+ 0022				LOOP2:
+ 0022  8B 05			    MOV AX,[DI]
+ 0024  A8 01			    TEST AL,01H
+ 0026  74 02			    JZ OUSHU2
+ 0028  EB 08			    JMP NEXT2
+ 002A				OUSHU2:
+ 002A  3B D8			    CMP BX,AX
+ 002C  7D 02			    JGE CHAN
+ 002E  EB 02			    JMP NEXT2
+ 0030				CHAN: 
+ 0030  8B D8			    MOV BX,AX
+ 0032				NEXT2:
+ 0032  47			    INC DI
+ 0033  E2 ED			    LOOP LOOP2
+				    
+ 0035  B4 4C			    MOV AH,4CH
+ 0037  CD 21			    INT 21H
+ 0039				CODES ENDS
+				    END START
+
+Microsoft (R) Macro Assembler Version 6.11		    05/18/19 10:42:09
+tempfile.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CODES  . . . . . . . . . . . . .	16 Bit	 0039	  Para	  Private 
+DATAS  . . . . . . . . . . . . .	16 Bit	 000C	  Para	  Private 
+STACKS . . . . . . . . . . . . .	16 Bit	 0000	  Para	  Private 
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+BUF  . . . . . . . . . . . . . .	Word	 0000	  DATAS	
+CHAN . . . . . . . . . . . . . .	L Near	 0030	  CODES	
+CONTINUE . . . . . . . . . . . .	L Near	 0018	  CODES	
+COUNT  . . . . . . . . . . . . .	Number	 000Ch	 
+LOOP1  . . . . . . . . . . . . .	L Near	 000E	  CODES	
+LOOP2  . . . . . . . . . . . . .	L Near	 0022	  CODES	
+NEXT1  . . . . . . . . . . . . .	L Near	 001B	  CODES	
+NEXT2  . . . . . . . . . . . . .	L Near	 0032	  CODES	
+OUSHU2 . . . . . . . . . . . . .	L Near	 002A	  CODES	
+START  . . . . . . . . . . . . .	L Near	 0000	  CODES	
+
+	   0 Warnings
+	   0 Errors

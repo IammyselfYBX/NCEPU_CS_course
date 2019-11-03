@@ -1,0 +1,39 @@
+;用子程序计算字符串长度
+
+DATAS SEGMENT
+    BUF DB 'ABCDEFGH0'
+DATAS ENDS
+
+STACKS SEGMENT
+
+STACKS ENDS
+
+CODES SEGMENT
+    ASSUME CS:CODES,DS:DATAS,SS:STACKS
+
+START:
+    MOV AX,DATAS
+    MOV DS,AX
+
+    LEA SI,BUF
+    CALL GETLENGTH
+    
+    MOV AH,4CH
+    INT 21H
+
+    
+GETLENGTH PROC NEAR
+	MOV AX,0             ;将AX清零
+LOOP1:
+    MOV BL,30H
+	CMP [SI],BL       ;如果是0,说明遍历完了，退出
+	JE EXIT
+	INC AL               ;否则，计数器AL+1，然后往后挪一位
+	INC SI
+	LOOP LOOP1
+EXIT:
+	RET
+GETLENGTH ENDP
+    
+CODES ENDS
+    END START

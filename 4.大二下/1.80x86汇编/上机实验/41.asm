@@ -1,0 +1,48 @@
+;用子程序给两个数组分别求和
+
+DATAS SEGMENT
+    BUF1 DB 1,2,3,4,4
+    COUNT1 EQU $-BUF1
+    SUM1 DB ?
+    BUF2 DB 6,1,2,2,2
+    COUNT2 EQU $-BUF2
+    SUM2 DB ?
+DATAS ENDS
+
+STACKS SEGMENT
+
+STACKS ENDS
+
+CODES SEGMENT
+    ASSUME CS:CODES,DS:DATAS,SS:STACKS
+
+MAIN PROC FAR
+START:
+    MOV AX,DATAS
+    MOV DS,AX
+
+    LEA SI,BUF1
+    MOV CX,COUNT1
+    CALL SUM 
+    MOV SUM1,AL       ;把AL中的值赋给变量SUM1
+
+    LEA SI,BUF2
+    MOV CX,COUNT2
+    CALL SUM
+    MOV SUM2,AL
+    
+    MOV AH,4CH
+    INT 21H
+MAIN ENDP
+
+SUM PROC NEAR
+	MOV AX,0           ;先将AX清零         
+LOOP1:
+	ADD AL,[SI]        
+	INC SI
+	LOOP LOOP1         ;然后将数组中每个数依次加到AL中
+	RET
+SUM ENDP
+
+CODES ENDS
+    END START

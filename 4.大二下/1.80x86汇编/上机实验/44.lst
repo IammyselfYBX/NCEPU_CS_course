@@ -1,0 +1,84 @@
+Microsoft (R) Macro Assembler Version 6.11		    05/18/19 10:41:38
+tempfile.asm						     Page 1 - 1
+
+
+
+				;用子程序复制字符�?
+ 0000				DATAS SEGMENT
+ 0000 54 48 49 53 20 49		    BUF DB 'THIS IS A STRING$'
+       53 20 41 20 53 54
+       52 49 4E 47 24
+ 0011 = 0011			    COUNT EQU $-BUF
+ 0011  0011 [			    COPY DB COUNT DUP(?) 
+        00
+       ]
+ 0022				DATAS ENDS
+
+ 0000				STACKS SEGMENT
+
+ 0000				STACKS ENDS
+
+ 0000				CODES SEGMENT
+				    ASSUME CS:CODES,DS:DATAS,SS:STACKS,ES:DATAS
+
+ 0000				START:
+ 0000  B8 ---- R		    MOV AX,DATAS
+ 0003  8E D8			    MOV DS,AX
+ 0005  8E C0			    MOV ES,AX
+
+ 0007  8D 36 0000 R		    LEA SI,BUF
+ 000B  8D 3E 0011 R		    LEA DI,COPY
+ 000F  B9 0011			    MOV CX,COUNT
+
+ 0012  E8 000C			    CALL COPYY
+
+ 0015  8D 16 0011 R		    LEA DX,COPY
+ 0019  B4 09			    MOV AH,9H             ;显示字符�?
+ 001B  CD 21			    INT 21H
+
+ 001D  B4 4C			    MOV AH,4CH
+ 001F  CD 21			    INT 21H
+				  
+
+ 0021				COPYY PROC NEAR
+ 0021  FC				CLD
+ 0022  F3/ A4				REP MOVSB             ;只是把复制的串指令放入子程序�?
+ 0024  C3				RET
+ 0025				COPYY ENDP
+
+ 0025				CODES ENDS
+				    END START
+
+Microsoft (R) Macro Assembler Version 6.11		    05/18/19 10:41:38
+tempfile.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CODES  . . . . . . . . . . . . .	16 Bit	 0025	  Para	  Private 
+DATAS  . . . . . . . . . . . . .	16 Bit	 0022	  Para	  Private 
+STACKS . . . . . . . . . . . . .	16 Bit	 0000	  Para	  Private 
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+COPYY  . . . . . . . . . . . . .	P Near	 0021	  CODES	Length= 0004 Public
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+BUF  . . . . . . . . . . . . . .	Byte	 0000	  DATAS	
+COPY . . . . . . . . . . . . . .	Byte	 0011	  DATAS	
+COUNT  . . . . . . . . . . . . .	Number	 0011h	 
+START  . . . . . . . . . . . . .	L Near	 0000	  CODES	
+
+	   0 Warnings
+	   0 Errors
