@@ -1,7 +1,7 @@
 # 顺序存储
 本片文章是计算1702班杨秉学整理
 本文件夹你将看到如下文件
-- [定义静态顺序表](static_sequence.h) [定义动态顺序表](dynamic_sequence.h)
+- [定义静态顺序表](static_sequence.h) <br>[定义动态顺序表](dynamic_sequence.h)
 - [初始化](init_sqlist.c)
 - [插入](insert.c)
 - [更新](update.c)
