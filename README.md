@@ -97,6 +97,7 @@
 - [软件人机界面设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE2.%E8%BD%AF%E4%BB%B6%E4%BA%BA%E6%9C%BA%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
 - [计算机图形学](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE1.CG_progressing)
 - [Web开发](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/%E4%B8%93%E9%80%89%E8%AF%BE3.Web%E5%BC%80%E5%8F%91)
+- [单片机开发](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/%E4%B8%93%E9%80%89%E8%AF%BE2%EF%BC%9A%E5%8D%95%E7%89%87%E6%9C%BA%E5%BC%80%E5%8F%91)
 
 #### 课程设计
 - [小型数据库](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/2.%E5%A4%A7%E4%B8%80%E4%B8%8B/1.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/%E5%B0%8F%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93)
