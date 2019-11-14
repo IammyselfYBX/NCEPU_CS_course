@@ -1,13 +1,13 @@
 ;*******************
-;*    8253·ÖÆµ     *
+;*    8253åˆ†é¢‘    *
 ;*******************
 io8253a        equ 280h
 io8253b        equ 281h
 io8253c        equ 283h
 code segment
     assume   cs:code
-start:mov dx,io8253c     ;Ïò8253Ğ´¿ØÖÆ×Ö
-    mov al,36h     ;54---36h 
+start:mov dx,io8253c     ;å‘8254å†™æ§åˆ¶å­—
+    mov al,36h           ;54---36h 
     out dx,al
     mov ax,10000
     mov dx,io8253a
@@ -15,7 +15,7 @@ start:mov dx,io8253c     ;Ïò8253Ğ´¿ØÖÆ×Ö
     mov al,ah
     out dx,al     
     mov dx,io8253c
-    mov al,76h     ;66---76h 
+    mov al,76h           ;66---76h 
     out dx,al
     mov ax,100    
     mov dx,io8253b
