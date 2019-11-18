@@ -24,3 +24,7 @@
   - [兄弟连细说Linux](https://www.bilibili.com/video/av49466573)
   - [韩顺平.linux视频教程](https://www.bilibili.com/video/av49468836)
   - [RHCE](https://www.bilibili.com/video/av49490380)
+
+### 参考书籍
+- 编程
+  - [一站式学习C编程](https://pan.baidu.com/share/init?surl=nvS8R0H) 提取码：uday
