@@ -1,8 +1,9 @@
 ### 终端词法语法分析器 ---- ybx compiler
 ---
-<p align="right"> [计算1702 杨秉学](https://github.com/IammyselfYBX) <br>
+<p align="right">[计算1702 杨秉学](https://github.com/IammyselfYBX) <br>
 <b>学号</b>:120171080212 <br>
-点击链接访问 [ybx](https://github.com/IammyselfYBX/ybx_compiler) </p>
+点击链接访问 [ybx](https://github.com/IammyselfYBX/ybx_compiler) 
+</p>
 
 #### 支持运算法
 |    运算符    |               符号               |
