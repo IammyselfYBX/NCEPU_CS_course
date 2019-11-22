@@ -77,6 +77,10 @@
 - [Scala](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/%E4%B8%93%E9%80%89%E8%AF%BE1.Scala%E8%AF%AD%E8%A8%80)
 - [python](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/4.%E5%A4%A7%E4%BA%8C%E4%B8%8B/6.python)
 - [LaTeX教程](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/%E9%80%89%E4%BF%AE%E8%AF%BE1.LaTeX/README.md)
+- [Shell程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B/%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/Shell/README.md)
+- [GCC_G++与系统编程](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B/%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/GCC_G%2B%2B%E4%B8%8E%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/README.md)
+
+
 
 ###### 软件工程
 - [Java语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/4.java%E6%95%99%E6%9D%90%E9%85%8D%E5%A5%97%E8%AF%BE%E4%BB%B6)
