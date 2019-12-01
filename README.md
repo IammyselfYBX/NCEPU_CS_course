@@ -184,7 +184,7 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 &emsp;&emsp;如果你认为本仓库的一些文件侵犯了您的权益，请联系我[QQ邮箱](mailto:2252176220@qq.com) 。我将会从仓库中彻底清除这些文件。<br>
 > 资料仅供参考，请自己判断其适用性。其他部分的版权归属于其各自的作者。<br>
  感谢对本项目贡献的同学 <br>
-&emsp;&emsp;计算1702 [杨秉学](https://github.com/IammyselfYBX) <br>
+&emsp;&emsp;计算1702 [杨秉学](https://github.com/IammyselfYBX) <br>![follow](图片/follow.png)<br>
 &emsp;&emsp;...以及电脑前的您！
 
 (more to be added....)
