@@ -84,6 +84,7 @@
 
 
 ###### 软件工程
+- [软件工程](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E5%A4%A7%E4%B8%89%E4%B8%8B/4.%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B)
 - [Java语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/4.java%E6%95%99%E6%9D%90%E9%85%8D%E5%A5%97%E8%AF%BE%E4%BB%B6)
 - [C++语言程序设计](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/3.%E5%A4%A7%E4%BA%8C%E4%B8%8A/6.C%2B%2B%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
 
@@ -132,6 +133,7 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 使用方法如下图所示：
 
 ![DownGit](图片/DownGit.gif)
+> downgit 已经不可用了，因为里面引用了 googel上的一个js，国内有人翻版了downgit，目前是可用[网页链接](http://zhoudaxiaa.gitee.io/downgit/#/home) 
 
 2、[GitZip](http://kinolien.github.io/gitzip/)
 
