@@ -129,20 +129,47 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 
 可能随着文件的不断增多，项目的体积越来越庞大，可能对于网络环境相对较差的同学来讲，完整的 clone 此项目会变得非常的吃力。为了考虑到这一部分的同学，在这里，我提供几种开源的工具供大家使用：
 
-1、[DownGit](http://minhaskamal.github.io/DownGit)
+###### 1、[DownGit](http://minhaskamal.github.io/DownGit)
 
 使用方法如下图所示：
 
 ![DownGit](图片/DownGit.gif)
 > downgit 已经不可用了，因为里面引用了 googel上的一个js，国内有人翻版了downgit，目前是可用[网页链接](http://zhoudaxiaa.gitee.io/downgit/#/home) 
 
-2、[GitZip](http://kinolien.github.io/gitzip/)
+###### 2、[GitZip](http://kinolien.github.io/gitzip/)
 
 用法和 [DownGit](http://minhaskamal.github.io/DownGit) 一样，下面为使用方法的演示图：
 
 ![GitZip](图片/GitZip.jpg)
 
-上面的方法均无效？这里也许有你想要的答案：[Download a single folder or directory from a GitHub repo](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo)。
+###### 3、Sparse Checkout模式
+在Git1.7.0以后加入了Sparse Checkout模式，这使得Check Out指定文件或者文件夹成为可能。
+```bash
+[tony@tony-pc ~]$ mkdir git_test
+[tony@tony-pc ~]$ cd git_test/
+[tony@tony-pc git_test]$ git init
+Initialized empty Git repository in /home/tony/git_test/.git/
+[tony@tony-pc git_test]$ git remote add -f origin https://github.com/NiuTrans/MTBook.git
+Updating origin
+remote: Enumerating objects: 300, done.
+remote: Counting objects: 100% (300/300), done.
+remote: Compressing objects: 100% (293/293), done.
+remote: Total 1040 (delta 154), reused 27 (delta 6), pack-reused 740
+Receiving objects: 100% (1040/1040), 38.93 MiB | 1.09 MiB/s, done.
+Resolving deltas: 100% (389/389), done.
+From https://github.com/NiuTrans/MTBook
+ * [new branch]      master     -> origin/master
+ * [new branch]      xiaotong   -> origin/xiaotong
+ * [new tag]         v0.1-beta  -> v0.1-beta
+[tony@tony-pc git_test]$  git config core.sparsecheckout true
+[tony@tony-pc git_test]$ echo "mt-book.pdf" >> .git/info/sparse-checkout
+[tony@tony-pc git_test]$ git pull origin master 
+From https://github.com/NiuTrans/MTBook
+ * branch            master     -> FETCH_HEAD
+```
+![sparsecheckout](图片/sparsecheckout.png)
+
+###### 上面的方法均无效？这里也许有你想要的答案：[Download a single folder or directory from a GitHub repo](https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo)。
 
 
 ---
