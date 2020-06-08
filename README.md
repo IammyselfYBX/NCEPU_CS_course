@@ -128,6 +128,16 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 
 ### 如何获取项目中的部分文件？
 
+#### 三、码云（gitee）
+![使用码云1](图片/manyun1.jpg)
+![使用码云2](图片/manyun2.jpg)
+![使用码云3](图片/manyun3.jpg)
+
+#### 四、代理下载
+1.[GitHub文件加速](https://shrill-pond-3e81.hunsh.workers.dev/)
+
+2.[GitHub 文件加速](https://g.widora.cn/)
+
 可能随着文件的不断增多，项目的体积越来越庞大，可能对于网络环境相对较差的同学来讲，完整的 clone 此项目会变得非常的吃力。为了考虑到这一部分的同学，在这里，我提供几种开源的工具供大家使用：
 
 ###### 1、[DownGit](http://minhaskamal.github.io/DownGit)
