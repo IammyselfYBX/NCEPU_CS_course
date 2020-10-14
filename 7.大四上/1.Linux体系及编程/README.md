@@ -1,3 +1,20 @@
+### 网课视频
+[\[2020\]Linux体系及编程](https://www.bilibili.com/video/BV1Wt4y1q7Ja)
+
+### 教材讲解视频
+[《linux编程从入门到放弃》 宫虎波](https://www.bilibili.com/video/BV19T4y1L77T)
+
+### 课堂演示
+[GDB课堂演示](https://www.bilibili.com/video/BV1nZ4y157rX)
+
+[静态库/动态库演示](https://www.bilibili.com/video/BV1dK411P7Qq)
+
+[\[2020\]Linux课程设计预备知识](https://www.bilibili.com/video/BV1pK411N7Kj)
+
+### 课程演示
+[制作Windows命令解释器](https://www.bilibili.com/video/BV1Ma4y177VW)
+
+---
 ### 基础
 - [Linux kernel coding style](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B/Linux%20kernel%20coding%20style.md)
 - [vim](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B/vim.md)
