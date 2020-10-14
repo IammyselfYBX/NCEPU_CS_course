@@ -73,6 +73,7 @@
 - [编译原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/2.%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)
 - [计算机组成原理](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/3.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
 - [数据库](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/5.%E6%95%B0%E6%8D%AE%E5%BA%93)
+- [计算机网络](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E5%A4%A7%E4%B8%89%E4%B8%8B/2.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)
 - [操作系统](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/6.%E5%A4%A7%E4%B8%89%E4%B8%8B/1.%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
 - [Linux体系及编程](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/7.%E5%A4%A7%E5%9B%9B%E4%B8%8A/1.Linux%E4%BD%93%E7%B3%BB%E5%8F%8A%E7%BC%96%E7%A8%8B)
 - [Scala](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/5.%E5%A4%A7%E4%B8%89%E4%B8%8A/%E4%B8%93%E9%80%89%E8%AF%BE1.Scala%E8%AF%AD%E8%A8%80)
