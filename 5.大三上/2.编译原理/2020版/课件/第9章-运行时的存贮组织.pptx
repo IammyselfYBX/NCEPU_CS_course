@@ -1,0 +1,4 @@
+<script language="javascript">parent.$.Msgbox.show({content : "操作超时，请重新登录！"});</script>
+		
+		
+	
