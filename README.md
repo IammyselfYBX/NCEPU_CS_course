@@ -155,7 +155,10 @@ git clone https://github.com/IammyselfYBX/NCEPU_CS_course.git
 
 ![GitZip](图片/GitZip.jpg)
 
-###### 3、Sparse Checkout模式
+###### 3、[油猴脚本](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
+![油猴脚本.png](图片/油猴脚本.png)
+
+###### 4、Sparse Checkout模式
 在Git1.7.0以后加入了Sparse Checkout模式，这使得Check Out指定文件或者文件夹成为可能。
 ```bash
 [tony@tony-pc ~]$ mkdir git_test
