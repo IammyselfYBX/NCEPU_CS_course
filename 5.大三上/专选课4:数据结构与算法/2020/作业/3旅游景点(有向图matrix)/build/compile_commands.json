@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/main.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/main.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/main.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/Queue.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Queue.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Queue.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/create.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/create.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/create.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/Traverse.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Traverse.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Traverse.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/Prim.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Prim.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Prim.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/Floyd.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Floyd.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Floyd.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/Stack.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Stack.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Stack.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/Dijkstra.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Dijkstra.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/Dijkstra.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/DisNetGraph.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/DisNetGraph.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/DisNetGraph.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/AddArc.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/AddArc.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/AddArc.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/build",
+  "command": "/usr/bin/cc  -I\"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/include\"  -o CMakeFiles/main.bin.dir/src/AddVex.c.o -c \"/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/AddVex.c\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/3旅游景点(有向图matrix)/src/AddVex.c"
+}
+]

@@ -1,0 +1,97 @@
+#include "Graph.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/*
+ * Kruskal算法
+ *    1.初始化
+ *        n个顶点组成 n个连通分量
+ *    2.循环：
+ *    在两个连通分量中选择一条边 (u', v')
+ *        选边条件：权值最小，不构成回路
+ *    直到最后只剩下一个连通分量
+ * */
+
+//判断顶点属于那个连通分量
+int find(ZFC *s, int n, char c)
+{
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < strlen(s[i]); j++) {
+            if (c == s[i][j]) {
+                return i;
+            }
+        }
+    }
+    return -1;
+}
+
+void Kruskal(NetGraph G)
+{
+    int x[MAX_VEXTEX_NUM][4];
+    /*定义一个结构来保存 边的信息
+     * x[MAX_VEXTEX_NUM][4]
+     *   x[][0]————存放一条边依附的一个顶点编号
+     *   x[][1]————存放一条边依附的另一个顶点编号
+     *   x[][2]————存放边上权值                  
+     *   x[][3]————存放访问标志                    
+     * */
+    ZFC c[MAX_VEXTEX_NUM]; //存放连通分量
+
+    //初始化每个连通分量
+    for (int i = 0; i < G.vex_num; i++) {
+        c[i][0]=i+48; //将顶点下标从数字转换成字符类型的 0，1，2...，存放在字符串 c[i]
+        c[i][1]=0;    //存入结束
+    }
+
+    for (int i = 0, k=0; i < G.vex_num; i++) {
+        for (int j = i; j < G.vex_num; j++) {
+            if (G.arcs[i][j].adj != 0 && G.arcs[i][j].adj != INFINITY) {
+                x[k][0]=i;                //存放一条边依附的一个顶点编号
+                x[k][1]=j;                //存放一条边依附的另一个顶点编号
+                x[k][2]=G.arcs[i][j].adj; //存放边上权值                  
+                x[k][3]=0;                //存放访问标志                    
+                k++;
+            }
+            //对边从小到大排序
+            for (int i = 0; i < G.vex_num; i++) {
+                for (int j = 0; j < G.arc_num-1-i; j++) {
+                    if (x[j][2] > x[j+1][2]) {
+                        for (int p = 0; p < 4; p++) {
+                            int tmp = x[j][p];
+                            x[j][p] = x[j+1][p];
+                            x[j+1][p] = tmp;
+                        }
+                    }
+                }
+            }
+
+            // 依次找最短的边，如果依附边的两个顶点不在同一个连通分量，将两个连通分量合并
+            for (int i = 0, k=0; i < G.arc_num; i++) {
+                int p = find(c, G.vex_num, x[i][0]+48);
+                int q = find(c, G.vex_num, x[i][1]+48);
+
+                if(p!=q)
+                {
+                    strcat(c[p],c[q]);
+                    c[q][0] = 0; //置c[q] 为空串
+                    k++;
+                    x[i][3] = 1; //置 访问位为1
+                }
+                if(k == G.vex_num-1)
+                {
+                    break;
+                }
+            }
+            printf("Kruskal算法:\n");
+            printf("%7s%7s%7s\n", "起点", "终点", "权值");
+            for (int i = 0; i < G.arc_num; i++) {
+                if(1 == x[i][3])
+                {
+                    printf("%7c%7c%6d\n", G.vexs[x[i][0]], G.vexs[x[i][1]], x[i][2]);
+                }
+            }
+        }
+    }
+}
+

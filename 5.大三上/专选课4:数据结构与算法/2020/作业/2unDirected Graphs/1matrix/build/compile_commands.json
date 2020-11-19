@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/build",
+  "command": "/usr/bin/c++  -I\"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/include\"  -o CMakeFiles/main.bin.dir/src/main.cpp.o -c \"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/main.cpp\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/main.cpp"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/build",
+  "command": "/usr/bin/c++  -I\"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/include\"  -o CMakeFiles/main.bin.dir/src/Queue.cpp.o -c \"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/Queue.cpp\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/Queue.cpp"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/build",
+  "command": "/usr/bin/c++  -I\"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/include\"  -o CMakeFiles/main.bin.dir/src/create.cpp.o -c \"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/create.cpp\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/create.cpp"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/build",
+  "command": "/usr/bin/c++  -I\"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/include\"  -o CMakeFiles/main.bin.dir/src/Traverse.cpp.o -c \"/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/Traverse.cpp\"",
+  "file": "/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/1matrix/src/Traverse.cpp"
+}
+]

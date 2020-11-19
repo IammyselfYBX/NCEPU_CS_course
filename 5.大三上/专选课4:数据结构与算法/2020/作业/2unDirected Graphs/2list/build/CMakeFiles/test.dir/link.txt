@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/test.dir/src/main.cpp.o CMakeFiles/test.dir/src/Queue.cpp.o CMakeFiles/test.dir/src/create.cpp.o CMakeFiles/test.dir/src/Traverse.cpp.o -o test 

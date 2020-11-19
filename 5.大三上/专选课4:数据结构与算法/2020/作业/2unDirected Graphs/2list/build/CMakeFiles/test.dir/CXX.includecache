@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Graph.h
+
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/Queue.cpp
+Graph.h
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/Graph.h
+iostream
+-
+
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/Traverse.cpp
+Graph.h
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/Graph.h
+stdlib.h
+-
+stdio.h
+-
+
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/create.cpp
+Graph.h
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/Graph.h
+iostream
+-
+stdlib.h
+-
+
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/main.cpp
+iostream
+-
+Graph.h
+/home/tony/practure/9note/datastructure/homework/2unDirected Graphs/2list/src/Graph.h
+
