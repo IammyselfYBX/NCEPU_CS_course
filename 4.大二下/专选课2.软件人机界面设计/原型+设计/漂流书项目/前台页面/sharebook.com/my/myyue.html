@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>myyue</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+		<style type="text/css">
+		#header{
+			position: relative;
+			}
+		.content{
+				position: relative;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 300px;
+		}
+		.content img{
+			width:150px;
+			height:150px;
+			position: absolute;
+			top: 100px;
+			border-radius: 100px;
+			border:1px #9E9E9E solid;
+			display: block;
+		}
+		p{
+			color: black;
+			text-align: center;
+		}
+		</style>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav">	
+			<h1 class="mui-title">账户余额</h1>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="myqianbao.html"></a>
+	</header>
+	<div class="content">
+		<img src="../images/touxiang.jpg" >
+	</div>
+	<p>我的余额</p>
+	<p>￥20.5</p>
+	<div class="button">
+		<button type="button" class="mui-btn mui-btn-success mui-btn-block" style="width: 85%;margin:0 auto;">充值</button>
+		<br>
+		<button type="button" class="mui-btn mui-btn-block mui-btn-outlined" style="width: 85%; margin:0 auto;">提现</button>
+	</div>
+</body>
+</html>

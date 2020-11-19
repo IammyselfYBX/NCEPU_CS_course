@@ -1,0 +1,60 @@
+#container
+{	
+	margin:0 auto;
+	position:absolute;
+	padding:0px;
+	width:100%;
+	height:100%;
+}
+#logo
+{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+	height:30%;
+	text-align:center;
+	position:relative;
+}
+#information
+{
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	margin:0 auto;
+	padding:0;
+	height:20%;}
+#user
+{
+	width:90%;
+	height:30px;
+	border:5px;
+	}
+#password
+{
+	width:90%;
+	height:30px;
+	border:5px;}
+#button
+{
+	margin:0 auto;
+	width:80%;
+}
+#login
+{
+	cursor:pointer;
+	border-radius: 35px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:50px; 
+	background:blue;
+	}
+p#help
+{
+   text-align:center;}
+ label
+ {
+	 width:10%;
+	 left:0;}
+#picture{
+	 top:20px;}

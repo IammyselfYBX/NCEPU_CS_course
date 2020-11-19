@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>收到好友验证</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+
+		<style>
+			html,
+			body {
+				background-color: #efeff4;
+			}
+			
+			.mui-bar-nav {
+				background-color: #0062CC;
+			}
+			
+			.mui-bar .mui-pull-left .mui-icon {
+				padding-right: 5px;
+				font-size: 28px;
+			}
+			
+			.mui-bar .mui-btn {
+				font-weight: normal;
+				font-size: 17px;
+			}
+			
+			.mui-bar .mui-btn-link {
+				top: 1px;
+			}
+			
+			.mui-icon-back:before,
+			.mui-icon-left-nav:before {
+				color: white;
+			}
+			
+			.mui-bar .mui-title {
+				color: white;
+			}
+			
+			#hello {
+				margin: 10px;
+				font-size: x-large;
+			}
+			
+			.mui-input-row {}
+			
+			.mui-input-row #textarea {
+				width: 100%;
+			}
+			
+			.tushu-xinxi li {
+				list-style-type: none;
+			}
+			
+			.tushu-xinxi {
+				clear: both;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				float: right;
+			}
+			
+			.to {
+				width: 20%;
+			}
+			
+			.to img {
+				padding: 0;
+				float: left;
+				width: 75px;
+				height: 75px;
+				border-radius: 50%;
+				margin-top: 10px;
+				margin-left: 10px;
+			}
+			
+			.tags {
+				max-width: 100px;
+				border-radius: 7px;
+				text-align: center;
+				vertical-align: middle;
+				padding: 6px;
+			}
+			
+			.send-b {
+				
+				width: 96%;
+				height: 45px;
+				font-weight: bold;
+				padding: 0 10px 0 10px;
+			}
+			#yes{
+				color: #4cd964;
+				border: solid 1px #4cd964;
+				margin-bottom: 3px;
+			}
+			#no{
+				color: #dd524d; 
+				border: solid 1px #dd524d;
+			}
+			
+			.send-button {
+				position: fixed;
+				z-index: 10;
+				right: 0;
+				left: 0;
+				height: 97px;
+				border-bottom: 0;
+				-webkit-backface-visibility: hidden;
+				backface-visibility: hidden;
+				bottom: 0;
+			}
+	
+			.m-text-rc{ 				
+				width: 95%;
+				min-height: 60px;
+				border-radius:7px; 
+				background-color: #F7F7F8;
+				text-align: left;						
+				padding: 6px;
+				} 
+		</style>
+	</head>
+
+	<body>
+		<header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">收到好友验证</h1>
+		</header>
+		<div class="mui-content">
+			<!--验证消息 -->
+			<div class="request-text">
+				<div id="hello"><label>您好：</label> </div>
+
+				<center>
+					<div class="m-text-rc">
+					<span>&emsp;&emsp;
+						hello,小红！我是小明。测试测试测试测试测试测试测试测试测试测试
+					</span>
+			    	</div>
+				</center>
+			</div>
+			<!--个人名片 -->
+			<div class="mui-card">
+				<div class="mui-card-content">
+					<div class="mui-card-content-inner">
+
+						<div class="tushu-xinxi">
+							<ul>
+								<li>姓名：&emsp;&emsp;小红</li>
+								<li>性别：&emsp;&emsp;女</li>
+								<li>个人签名：&emsp;加油！！</li>
+								<li>个性标签：
+									<button class="tags" id="tag-1">运动</button>
+									<button class="tags" id="tag-2">阅读</button>
+								</li>
+							</ul>
+						</div>
+						<div class="to"><img src="../images/logo.png" /></div>
+					</div>
+				</div>
+			</div>
+
+			<!--发送申请 -->
+			<div class="send-button">
+				<center><button type="button" class="send-b" id="yes">通过验证</button></center>
+				<center><button type="button" class="send-b" id="no">拒绝申请</button></center>
+			</div>
+		</div>
+	</body>

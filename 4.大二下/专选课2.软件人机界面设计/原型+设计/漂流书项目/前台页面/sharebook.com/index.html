@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>index</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
+	</head>
+	<body>
+		<style>
+			.mui-control-content {
+				background-color: white;
+				min-height: 215px;
+			}
+			.mui-control-content .mui-loading {
+				margin-top: 50px;
+			}
+			.header{
+				background: #1E90FF;
+				height:8vh;
+				margin:0px;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+			.location{	
+				height:100%; 
+				width:33%;
+				float: left;
+			}
+			.icon-right{
+				width: 12%;
+				height: 100%;
+				float: left;
+				position: relative;
+			}
+			.book{	
+				clear: both;
+				border-top:solid 1px #9E9E9E;
+				top: 10px;
+				position: relative;
+				width: 100%;
+				float: left;
+			}
+			.book-inf{
+				left: 10px;
+				float: left;
+				position: relative;
+				top: 10px;
+				width: 50%;
+			}
+			.book-inf p{
+				font-size:10px;
+				color:black;
+				font-family: 微软雅黑;
+				font-weight:normal;
+			}
+			li{	
+				background-color: white;
+				height:190px;
+				margin-top: 10px;
+			}	
+			.zan{
+				position: absolute;
+				right:0px;
+				bottom: 0px;
+			}
+			.price{						/*价格*/
+				float: right;
+				color:#1E90FF;
+				font-size: 13px;
+				font-weight: 900;
+				position: relative;
+				top: 10px;
+			}
+			.mui-icon-extra{		
+				font-size: 14px;
+			}
+			.mui-bar-popover {
+				width: 30%;
+			}
+			/*._2nav{	
+				position:fixed;	
+				top:5vh;
+				right:0px;
+				opacity:0;
+				z-index: 99999;
+			}
+			._2nav li{
+				height: 15px;
+				background-color: red;
+				margin:0px;
+				padding:0px;
+			}*/
+			#icon-location{					/*位置图标*/
+				float: left;
+				line-height: 8vh;
+				color: white;
+			}
+			.location p{       				/*华北电力大学*/
+				font-size:50%;
+				line-height: 8vh;
+				color: white;
+				margin:0 auto;
+			}
+			.search-font{					/*搜索内文字*/
+				font-size: 13px;
+				float: left;
+				position: relative;
+				bottom: 4px;
+			}
+			#search{						/*搜索框*/
+				width: 55%;
+				clear: none;
+				height:60%;top:20%;
+				background: white;
+				border-radius:9px;
+			 	float: left;
+			}
+			#icon-search{          			/*搜索图标*/
+				font-size: 17px;
+				float: left;
+				position:relative;
+				top: 5px;
+			}
+			#icon-right{
+				color: white;
+				left:10%;
+				height: 85%;
+				display: block;
+				font-size: 30px;
+				bottom:15%;
+				position: absolute;
+				line-height: 8vh;
+			}
+			#sliderProgressBar{				/*滑块*/
+				width: 50%;
+			}
+			.tab{
+				width: 50%;
+				float: left;
+				font-weight: 900;
+				color: #9E9E9E;
+				background: white;
+			}
+			.mui-scroll ul{
+				background-color: #9E9E9E;
+				padding-bottom:10px;	
+			}
+			#touxiang{
+				float:left;
+				border-radius:30px;
+			}
+			.user-name{
+				float: left; 
+				font-weight:900;
+			}
+			#img-book{
+				width: 80px;
+				height: 100px;
+				top:10px;
+				position: relative;
+				float: left;
+			}
+			#icon-zan{
+				color: #9E9E9E;
+			}
+			.zan p{
+				display: inline-block;
+			}
+			.user-name p{
+				font-weight: 800;
+			}
+			.nav-a{
+				float: left;
+				width: 20%;
+			}
+
+		</style>
+
+		<div class="header">
+			<div class="location">
+					<a id="icon-location"><span class="mui-icon mui-icon-location"></span></a>
+					<p >华北电力大学</p>
+			</div>	
+			<div class="mui-input-row mui-search" id="search">	
+					<input type="search" class="mui-input-clear" >
+					<span class="mui-placeholder">
+					<span class="mui-icon mui-icon-search" id="icon-search"></span>
+					<span class="search-font">请输入图书名查询	</span>
+					</span>
+			</div>		
+			<div class="icon-right">
+				<a class="mui-icon mui-icon-bars mui-pull-right mui-tab-item"  id="icon-right"></a>
+			</div>	
+		</div>
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+				<div class="tab" style="border-right: 1px;">
+					<a class="mui-control-item" href="#item1mobile">最新的</a>
+				</div>
+				<div class="tab">
+					<a class="mui-control-item" href="#item2mobile">附近的</a>
+				</div>
+			</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+		
+				    <div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active" style="min-height: 500px;">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+									<ul class="mui-table-view">
+									<a href="book/final.html">
+										<li class="mui-table-view-cell mui-media" style="margin-top: 0px">
+												<img class="mui-media-object mui-pull-left" src="images/shuijiao.jpg" id="touxiang">
+												<div class="mui-media-body user-name" style="color: black;">
+													李晓明 	
+													<p>男</p>
+												</div>	 	
+												<div  class="price">
+													5元	
+												</div>
+												<div class="book">
+													<img src="images/shuijiao.jpg" id="img-book">
+													<div class="book-inf">
+														<p>书名：  软件测试</p>
+														<p>作者：  王玉</p>
+														<p>出版社：机械工业出版社</p>
+														<p>版本：  第二版</p>
+													</div>
+													<div class="zan">
+														<span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span>
+														<p>5</p>
+														<span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span>
+														<p>8</p>
+													</div>
+												</div>
+										</li>
+									</a>
+										<li class="mui-table-view-cell mui-media">
+												<img class="mui-media-object mui-pull-left" src="images/shuijiao.jpg" id="touxiang">
+												<div class="mui-media-body user-name">
+													李晓明 	
+													<p>男</p>
+												</div>	 	
+												<div  class="price">
+													5元	
+												</div>
+												<div class="book">
+													<img src="images/shuijiao.jpg" id="img-book">
+													<div class="book-inf">
+														<p>书名：  软件测试</p>
+														<p>作者：  王玉</p>
+														<p>出版社：机械工业出版社</p>
+														<p>版本：  第二版</p>
+													</div>
+													<div class="zan">
+														<span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span>
+														<p>5</p>
+														<span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span>
+														<p>8</p>
+													</div>
+												</div>
+										</li>									
+									</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content" style="min-height: 200px;">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-loading">
+									<div class="mui-spinner">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+		</div>
+			</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a href="index.html" class="nav-a">
+			<span class="mui-tab-item">
+				<span class="mui-icon-extra mui-icon-extra-xiaoshuo" style="display: block;top: 3px;position: relative;font-size:24px;"></span>
+				<span class="mui-tab-label" style="font-size:11px;position: relative;top: -2px;">漂流书</span>
+			</span>
+			</a>
+			<a class="nav-a" href="others/collection.html">
+			<span class="mui-tab-item">
+				<span class="mui-icon mui-icon-star"></span>
+				<span class="mui-tab-label">收藏</span>
+			</span>
+			</a>
+			<a class="nav-a" style="border-radius: 25px;border: 1px solid #ddd;">
+			<span class="mui-tab-item">
+				<span class="mui-icon mui-icon-plusempty" style="font-size:40px;width: auto;top: 0px;"></span>
+			</span>
+			</a>	
+			<a class="nav-a" href="message/message-list.html">
+			<span class="mui-tab-item">
+				<span class="mui-icon mui-icon-chatbubble"></span>
+				<span class="mui-tab-label">消息</span>
+			</span>
+			</a>
+			<a class="nav-a" href="my/myindex.html">
+			<span class="mui-tab-item" >
+				<span class="mui-icon mui-icon-person"></span>
+				<span class="mui-tab-label">我</span>
+			</span>
+			</a>
+		</nav>
+		<script src="js/mui.min.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+				var html2 = '<ul class="mui-table-view"><li class="mui-table-view-cell mui-media" style="margin-top: 0px"><img class="mui-media-object mui-pull-left" src="images/shuijiao.jpg" id="touxiang">	<div class="mui-media-body user-name">李晓明<p>男</p></div><div  class="price">5元	</div><div class="book"><img src="images/shuijiao.jpg" id="img-book"><div class="book-inf"><p>书名：  软件测试</p><p>作者：  王玉</p><p>出版社：机械工业出版社</p><p>版本：  第二版</p></div><div class="zan"><span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span><p>5</p><span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span><p>8</p></div></div></li><li class="mui-table-view-cell mui-media"><img class="mui-media-object mui-pull-left" src="images/shuijiao.jpg" id="touxiang">	<div class="mui-media-body user-name">李晓明<p>男</p></div>	 	<div  class="price">5元	</div><div class="book"><img src="images/shuijiao.jpg" id="img-book"><div class="book-inf"><p>书名：  软件测试</p><p>作者：  王玉</p><p>出版社：机械工业出版社</p><p>版本：  第二版</p></div><div class="zan"><span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span><p>5</p><span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span><p>8</p></div></div></li></ul>';
+				//var html3 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第三个选项卡子项-1</li><li class="mui-table-view-cell">第三个选项卡子项-2</li><li class="mui-table-view-cell">第三个选项卡子项-3</li><li class="mui-table-view-cell">第三个选项卡子项-4</li><li class="mui-table-view-cell">第三个选项卡子项-5</li></ul>';
+				var item2 = document.getElementById('item2mobile');
+				document.getElementById('slider').addEventListener('slide', function(e) {
+					if (e.detail.slideNumber === 1) {
+						if (item2.querySelector('.mui-loading')) {
+							setTimeout(function() {
+								item2.querySelector('.mui-scroll').innerHTML = html2;
+							}, 500);
+						}
+					}
+				});
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if (this.checked) {
+						sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+		</script>
+	</body>
+
+</html>

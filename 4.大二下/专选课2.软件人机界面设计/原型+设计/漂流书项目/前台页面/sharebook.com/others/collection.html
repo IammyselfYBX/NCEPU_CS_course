@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+	</head>
+	<style>
+		.coll-search {
+			position:relative;
+			top:44px;
+			margin: 0px;
+			border-top:#8F8F94 solid 2px;
+			border-bottom:#8F8F94 solid 2px;
+			height:34px;
+			
+		}
+		.coll-icon-search {
+			position: absolute;
+			top:4px;
+			left:3px;
+		}
+		.coll-icon-bars {
+			position:absolute;
+			top:3px;
+			right:10px;
+			/*float:right;*/
+		}
+		.coll-form {
+			margin:0px;
+			padding:0px;
+			height:30px;
+			
+		}
+		.coll-bookinfo {
+			position:relative;
+			top:45px;
+			height:140px;
+			background-color:white;
+			
+		}
+		.coll-bookimg {
+			position:absolute;
+			top:10px;
+			left:10px;
+			height:120px;
+			width:90px;
+		}
+		.coll-bookstatus {
+			position: absolute;
+			top:20px;
+			left:110px;
+			height:100px;
+			width:250px;
+		}
+		.coll-reading {
+			position: absolute;
+			right: 20px;
+			float:right;
+			padding: 0px
+			margin:0px;
+			font-family: "微软雅黑";
+			font-size:12px;
+		}
+		.coll-booktitle {
+			color:#242424;
+			font-family: "微软雅黑";
+			font-size: 17px;
+			float:left;
+		}
+		.coll-author {
+			clear:both;
+			color:#242424;
+			font-family: "微软雅黑";
+			font-size:16px;
+			margin: 2px;
+		}
+		.coll-time {
+			color:#242424;
+			font-family: "微软雅黑";
+			font-size:16px;
+			margin: 2px;
+		}
+		.coll-release {
+			color:#242424;
+			font-family: "微软雅黑";
+			font-size:16px;
+			margin: 2px;
+		}
+		.coll-icon-heart {
+			position:absolute;
+			right:30px;
+			color:#8F8F94;
+			float:right;
+		}
+		.coll-icon-comment {
+			color:#8F8F94;
+			float:right;
+			font-size: 20px;
+		}
+		#coll-icon-plus {
+			position:absolute;
+			bottom: 10px;
+			right:186px;
+			font-size:48px;
+		}
+		.coll-floatbook {
+			margin-bottom:0px;
+			color:#242424;
+			font-family: "微软雅黑";
+			font-size:12px;
+		}
+		#coll-input {
+			position: absolute;
+			top:4px;
+			left:32px;
+			padding:0px;
+			border:1px black solid;
+			margin-bottom: 0px;
+			height:23px;
+			width:300px;
+		}
+	</style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="../index.html"></a>
+			<h1 class="mui-title">收藏</h1>
+		</header>
+		<div class="coll-search">
+			<span class="mui-icon mui-icon-search coll-icon-search"></span>
+			<form class="coll-form">
+				<input type="text" id="coll-input">
+				<span class="mui-icon mui-icon-bars coll-icon-bars"></span>
+			</form>			
+		</div>
+		<div class="coll-bookinfo">
+			<img class="coll-bookimg" src="../images/apptest.jpg">
+			<div class="coll-bookstatus">
+				<a>
+				<p class="coll-booktitle">《软件测试》</p>
+				<p class="coll-reading">阅读中</p>
+				<p class="coll-author">&nbsp;&nbsp;作者：&nbsp;&nbsp;&nbsp;张小松、王钰等译</p>
+				<p class="coll-time">&nbsp;&nbsp;收藏时间：2017年9月11日</p>
+				<p class="coll-release">&nbsp;&nbsp;发布人：小红</p>
+				<span class="mui-icon-extra mui-icon-extra-comment coll-icon-comment"></span>
+				<span class="mui-icon-extra mui-icon-extra-heart-filled coll-icon-heart"></span>
+				</a>
+			</div>
+		</div>
+		<div class="coll-bookinfo">
+			<img class="coll-bookimg" src="../images/apptest.jpg">
+			<div class="coll-bookstatus">
+				<a>
+				<p class="coll-booktitle">《软件测试》</p>
+				<p class="coll-reading">阅读中</p>
+				<p class="coll-author">&nbsp;&nbsp;作者：&nbsp;&nbsp;&nbsp;张小松、王钰等译</p>
+				<p class="coll-time">&nbsp;&nbsp;收藏时间：2017年9月11日</p>
+				<p class="coll-release">&nbsp;&nbsp;发布人：小红</p>
+				<span class="mui-icon-extra mui-icon-extra-comment coll-icon-comment"></span>
+				<span class="mui-icon-extra mui-icon-extra-heart-filled coll-icon-heart"></span>
+				</a>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar">
+				<span class="mui-icon-extra mui-icon-extra-xiaoshuo"></span>
+				<p class="coll-floatbook">漂流书</p>
+				<!--<span class="mui-tab-label">首页</span>-->
+			</a>
+			<a class="mui-tab-item" href="#tabbar-with-chat">
+				<span class="mui-icon mui-icon-star"></span>
+				<p class="coll-floatbook">收藏</p>
+			</a>
+			<a class="mui-tab-item" href="#tabbar-with-contact">
+				<span class="mui-icon mui-icon-plus" id="coll-icon-plus"></span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar-with-map">
+				<span class="mui-icon mui-icon-chatbubble"></span>
+				<p class="coll-floatbook">消息</p>
+			</a>
+			<a class="mui-tab-item" href="#tabbar-with-map">
+				<span class="mui-icon mui-icon-person"></span>
+				<p class="coll-floatbook">我</p>
+			</a>
+		</nav>
+
+	</body>
+</html>

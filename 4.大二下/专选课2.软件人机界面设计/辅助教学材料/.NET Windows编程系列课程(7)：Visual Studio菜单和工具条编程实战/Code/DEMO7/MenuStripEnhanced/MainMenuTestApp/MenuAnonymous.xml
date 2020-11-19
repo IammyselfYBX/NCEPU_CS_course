@@ -1,0 +1,16 @@
+﻿<root>
+	<TopLevelMenu Name="mnuFile" Text="&amp;File">
+		<MenuItem Name="mnuFileLoad" Text="Load" OnClick="_LoadXML">
+			<MenuItem Name="mnuFileLoadFile" Text="XML Configuration" OnClick="_LoadFileXML">
+				<MenuItem Name="mnuFileLoadXMLUser1" Text="Anonymous User" OnClick="_LoadFileXMLAnonymous" />
+				<MenuItem Name="mnuFileLoadXMLAdministrator" Text="Administrative User" OnClick="_LoadFileXMLAdministrator" />
+			</MenuItem>
+			<MenuItem Name="mnuFileFileLoadFile" Text="XML from Embedded Resource" OnClick="_LoadResourceXML" />
+		</MenuItem>
+		<MenuItem Text="-" />
+		<MenuItem Name="mnuFileOpen" Text="Open" OnClick="_Open" />
+		<MenuItem Name="mnuFileClose" Text="Close" OnClick="_Close" />
+		<MenuItem Text="-" />
+		<MenuItem Name="mnuFileExit" Text="E&amp;xit" OnClick="_Exit" />
+	</TopLevelMenu>
+</root>

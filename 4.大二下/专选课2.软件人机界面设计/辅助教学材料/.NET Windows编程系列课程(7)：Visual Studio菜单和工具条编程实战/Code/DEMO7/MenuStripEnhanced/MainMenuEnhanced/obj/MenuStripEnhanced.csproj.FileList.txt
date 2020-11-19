@@ -1,0 +1,14 @@
+bin\Debug\MainMenuEnhanced.dll
+bin\Debug\MainMenuEnhanced.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MainMenuEnhanced.MenuStripEnhanced.resources
+obj\Debug\MenuStripEnhanced.csproj.GenerateResource.Cache
+obj\Debug\MainMenuEnhanced.dll
+obj\Debug\MainMenuEnhanced.pdb
+bin\Release\MainMenuEnhanced.dll
+bin\Release\MainMenuEnhanced.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\MainMenuEnhanced.MenuStripEnhanced.resources
+obj\Release\MenuStripEnhanced.csproj.GenerateResource.Cache
+obj\Release\MainMenuEnhanced.dll
+obj\Release\MainMenuEnhanced.pdb

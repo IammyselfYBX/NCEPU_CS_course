@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		
+	</head>
+	<style>
+		.log-userinfo {
+			position:absolute;
+			top: 44px;
+			height:300px;
+			width:100%;
+			background-color:white;
+		}
+		.log-img {
+			max-width: 50px;
+			height:50px;
+		}
+		#log-input {
+			width: 200px;
+			height: 35px;
+			margin: 0px;
+			border-top:none;
+			border-left:none;
+			border-right:none;
+			position: absolute;
+			bottom:	12px;
+			left:50px;		
+		}
+		.log-div-one {
+			position:absolute;
+			left: 60px;
+			top:60px;
+		}
+		.log-div-two {
+			position: absolute;
+			left:60px;
+			top:120px;
+		}
+		.log-loginButton {
+			position: absolute;
+			left:125px;
+			bottom:50px;
+		}
+		#log-button {
+			width: 120px;
+			height:30px;
+			background-color:#C0C0C0;
+			font-family: "微软雅黑";
+			font-size: 16px;
+			
+		}
+		.log-findpassword {
+			color:#B5B5B5;
+			font-family: "微软雅黑";
+			font-size: 13px;
+			position: relative;
+			top:10px;
+			left:20px;
+		}
+		.log-thirdlogin {
+			position: absolute;
+			top:344px;
+			background-color:white;
+			height:200px;
+			width:100%;
+		}
+		.log-thirdtext {
+			color:black;
+			font-family: "微软雅黑";
+			font-size:25px;
+			position: absolute;
+			left:110px;
+		}
+		.log-WeChat {
+			max-width: 50px;
+			height:50px;
+			margin-right: 60px;
+			
+		}
+		.log-QQ {
+			max-width: 60px;
+			height:60px;
+			margin-right: 60px;	
+		}
+		.log-WeiBo {
+			max-width: 60px;
+			height:60px;	
+		}
+		.log-thirdicon {
+			position: relative;
+			left:45px;
+			top:80px;
+		}
+	</style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">收藏</h1>
+		</header>
+		<div class="log-userinfo">
+			<div class="log-div-one">
+			<img src="../images/username.jpg" class="log-img">
+			<input type="text" value="账户名/手机号" size=50 id="log-input">
+			</div>
+			<div class="log-div-two">
+				<img src="../images/password.jpg" class="log-img">
+				<input type="text" value="密码" size="50" id="log-input">
+			</div>
+			<div class="log-loginButton">
+				<a href="../index.html"><input type="button" value="登录" id="log-button"></a>
+				<span class="log-findpassword">找回密码?</span>
+			</div>
+		</div>
+		<div class="log-thirdlogin">
+			<div class="log-thirdtext">*第三方登录*</div>
+			<div class="log-thirdicon">
+				<img src="../images/WeChat.jpg" class="log-WeChat">
+				<img src="../images/QQ.png" class="log-QQ">
+				<img src="../images/weibo.png" class="log-WeiBo">
+			</div>
+		</div>
+	</body>
+</html>

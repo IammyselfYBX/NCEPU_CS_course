@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myyajin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--标准mui.css-->
+	<link rel="stylesheet" href="../css/mui.min.css">
+	<!--App自定义的css-->
+	<link rel="stylesheet" type="text/css" href="../css/app.css" />
+	<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+	<style type="text/css">
+		#header{
+			position: relative;
+		}
+		.return{
+			position: fixed;
+			bottom: 0px;
+		}
+		.p{
+
+		}
+		.image{
+			float:left;
+			height: 30px;
+			width: 30px;	
+
+		}	
+		.jiaona{
+			border:1px black solid; 
+			text-align: center;
+			width: 500px;
+			margin:0 auto;
+		}
+		.btjn{
+			width: 50%;
+			margin:0 auto;
+
+		}	
+	</style>
+</head>
+<body>
+		<header id="header" class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">我的押金</h1>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="myindex.html"></a>
+		</header>
+		<p style="color: black;font-size: 18px;position: relative;top: 14px;left:22px;">交纳押金：</p>
+	    <div class="jiaona">
+			50（可秒退）
+            <button type="button" class="mui-btn mui-btn-primary mui-btn-block btjn">一键交纳</button>
+	    </div>
+		<div class="mui-input-row mui-radio" style="align-items:center;display: flex;">
+			<label ><img class="mui-media-object mui-pull-left image" src="../images/shuijiao.jpg"   >微信支付</label>
+			<input name="radio1" type="radio">
+		</div>
+		<div class="mui-input-row mui-radio">
+			<label><img class="mui-media-object mui-pull-left image" src="../images/shuijiao.jpg" >支付宝支付</label>
+			<input name="radio1" type="radio" checked="">
+		</div>
+		<button type="button" class="mui-btn mui-btn-danger mui-btn-block return">快速退还押金</button>
+</body>
+</html>

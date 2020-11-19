@@ -1,0 +1,30 @@
+﻿<root>
+	<TopLevelMenu Name="mnuFile" Text="&amp;File">
+		<MenuItem Name="mnuFileLoad" Text="Load" OnClick="_LoadXML">
+			<MenuItem Name="mnuFileLoadFile" Text="XML Configuration">
+				<MenuItem Name="mnuFileLoadXMLUser1" Text="Anonymous User" OnClick="_LoadFileXMLAnonymous" />
+				<MenuItem Name="mnuFileLoadXMLAdministrator" Text="Administrative User" OnClick="_LoadFileXMLAdministrator" />
+			</MenuItem>
+			<MenuItem Name="mnuFileFileLoadFile" Text="XML from Embedded Resource" OnClick="_LoadResourceXML" />
+		</MenuItem>
+		<MenuItem Text="-" />
+		<MenuItem Name="mnuFileOpen" Text="Open" OnClick="_Open" />
+		<MenuItem Name="mnuFileClose" Text="Close" OnClick="_Close" />
+		<MenuItem Text="-" />
+		<MenuItem Name="mnuFileExit" Text="E&amp;xit" OnClick="_Exit" />
+	</TopLevelMenu>
+
+	<TopLevelMenu Name="Administrator" Text="&amp;Administrator">
+		<MenuItem Name="Undo" Text="Undo" OnClick="_Undo" />
+		<MenuItem Text="-" />
+		<MenuItem Name="Cut" Text="Cut" OnClick="_Cut" />
+		<MenuItem Name="Copy" Text="Copy" OnClick="_Copy" />
+		<MenuItem Name="Paste" Text="Paste" OnClick="_Paste" />
+		<MenuItem Text="-" />
+		<MenuItem Name="Options" Text="Options">
+			<MenuItem Name="mnuEditOptionsDisplay" Text="Display">
+				<MenuItem Name="mnuEditOptionsDisplayBackColor" Text="Back Color" />
+			</MenuItem>
+		</MenuItem>
+	</TopLevelMenu>
+</root>

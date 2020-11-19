@@ -1,0 +1,175 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34477A03-A247-4D7C-A440-32E416189FC2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>myWorkPad</RootNamespace>
+    <AssemblyName>myWorkPad</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForm.resx">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ZYBTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm.Designer.cs">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2811,25%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2808,19%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2804,13%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2814,10%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2815,10%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2849,00%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2814,19%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%2807,16%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagesetup.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printview.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\undo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\refresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\redo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graphics\binoc.ico" />
+    <Content Include="Graphics\bold.ico" />
+    <Content Include="Graphics\centre.ico" />
+    <Content Include="Graphics\copy.ico" />
+    <Content Include="Graphics\cut.ico" />
+    <Content Include="Graphics\delete.ico" />
+    <Content Include="Graphics\find_dc2.ico" />
+    <Content Include="Graphics\find_doc.ico" />
+    <Content Include="Graphics\font.ico" />
+    <Content Include="Graphics\font_big.ico" />
+    <Content Include="Graphics\font_sml.ico" />
+    <Content Include="Graphics\font_wid.ico" />
+    <Content Include="Graphics\help.ico" />
+    <Content Include="Graphics\help_ptr.ico" />
+    <Content Include="Graphics\italic.ico" />
+    <Content Include="Graphics\justify.ico" />
+    <Content Include="Graphics\left.ico" />
+    <Content Include="Graphics\lst2icon.ico" />
+    <Content Include="Graphics\mail.ico" />
+    <Content Include="Graphics\mail2.ico" />
+    <Content Include="Graphics\new.ico" />
+    <Content Include="Graphics\open.ico" />
+    <Content Include="Graphics\paste.ico" />
+    <Content Include="Graphics\print.ico" />
+    <Content Include="Graphics\print2.ico" />
+    <Content Include="Graphics\right.ico" />
+    <Content Include="Graphics\save.ico" />
+    <Content Include="Graphics\toupper.ico" />
+    <Content Include="Graphics\underlne.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

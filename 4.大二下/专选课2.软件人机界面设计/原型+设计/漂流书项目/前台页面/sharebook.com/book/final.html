@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>final</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+		<style type="text/css">
+			.mui-icon-extra{
+				font-size: 14px;
+			}
+			/*.head{
+				background: #1E90FF;
+				width: 100%;
+				height: 8vh;
+			}
+			.back{
+				display: flex;
+					
+				justify-content: center;
+				float: left;
+				width: 10%;
+				height: 100%;
+			}*/
+			.title{
+				display: flex;
+				align-items: center;  		/*垂直居中*/
+				justify-content: center;	/*水平居中*/
+				float: left;
+				width: 90%;
+				height: 100%;
+				font-size:20px;	
+				color:white;
+				position: relative;
+				right:4%;
+				}
+			/*.header{
+				background: #1E90FF;
+				height:8vh;
+				margin:0px;
+				padding-right: 10px;
+				padding-left: 10px;
+			}*/
+
+			.book{	
+				clear: both;
+				border-top:solid 1px #9E9E9E;
+				top: 10px;
+				position: relative;
+				width: 100%;
+				float: left;
+				padding-bottom:15px; 
+			}
+			.book-inf{
+				left: 10px;
+				float: left;
+				position: relative;
+				top: 10px;
+				width: 50%;
+			}
+			.book-inf p{
+				font-size:10px;
+				color:black;
+				font-family: 微软雅黑;
+				font-weight:normal;
+			}
+			li{	
+				background-color: white;
+				height:auto;
+				/*border-bottom: solid 1px #F5DEB3;*/
+				/*border-top:solid 1px black;*/
+			}		
+			.zan{
+				position: absolute;
+				right:0px;
+				bottom: 0px;
+			}
+			.xiangqing{
+				width: 100%;
+				height: 16vh;
+			}
+			.view{
+				width: 100%;
+			}
+			.back a{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.mui-icon-back{
+				color: white;font-size: 35px;
+			}
+			#pl{
+				float: left;
+				font-weight:900;
+			}
+			#pl p{
+				font-weight: normal;
+				width: 100%;
+				height: 50px;
+			}
+			.time{
+				float: right;
+			}
+			.time p{
+				font-size: 1px
+			}
+			#touxiang{
+				float:left;
+				border-radius: 30px
+			}
+			#icon-zan{
+				color: #9E9E9E;
+			}
+			.zan p{
+				display: inline-block;
+			}
+			.lianxi{
+				color: #1E90FF;
+				font-size:13px;
+				font-weight:900;
+			}
+			.lianxita{
+				float: right;
+				position:relative;
+				top:10px;
+			}
+			.book img{
+				width:80px;
+				height:100px;
+				top:10px;
+				position: relative;
+				float: left;
+			}
+			.user-name{
+				float: left;
+				font-weight: 900;
+			}
+			#header{
+			position: relative;
+			background: #1E90FF; 
+			}
+		</style>
+	</head>
+	<body>
+		<!--header>
+			<div class="head">
+				<div class="back"><a href="#"><span class="mui-icon mui-icon-back"></span></a></div>
+				<div class="title">图书详情</div>
+			</div>
+		</header-->
+		<header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="../index.html" style="color: white;" ></a>
+			<h1 class="mui-title" style="color: white;" >图书详情</h1>
+		</header>
+
+			<div id="item1mobile" class="mui-slider-item mui-control-content mui-active" style="min-height: 5000px;">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media">
+												<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" id="touxiang">
+												<div class="mui-media-body user-name">
+													李晓明 	
+													<p style="font-weight: 800">男</p>
+												</div>	 	
+												<div  class="lianxita">
+													<a href="#"><p class="lianxi">联系他</p></a>	
+												</div>
+												<div class="book">
+														<img src="../images/shuijiao.jpg" >
+													<div class="book-inf">
+														<p>书名：  软件测试</p>
+														<p>作者：  王玉</p>
+														<p>出版社：机械工业出版社</p>
+														<p>版本：  第二版</p>
+													</div>
+													<div class="zan">
+														<span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span>
+														<p>5</p>
+														<span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span>
+														<p>8</p>
+													</div>
+												</div>
+										</li>
+										<li class="mui-table-view-cell mui-media">
+											<div class="xiangqing">
+												<p style="font-weight:600;color: black;display: inline;">图书详情：</p>
+												<p style="font-size: 5px;overflow:hidden;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《软件测试》这本书主要通过系统的基础知识讲解和必要技能学习的统一指导，让学生明白软件测试对于软件开发的重要性，提高软件测试程序员能力。</p>
+											</div>
+										</li>
+										<li class="mui-table-view-cell mui-media">
+											<div class="view">
+											<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" id="touxiang">
+												<div class="mui-media-body" id="pl">
+													小明 
+													<p>我读过，一本程序员必备读物。</p>
+												</div>	
+											</div>
+											<div class="time">
+												<p>五分钟前</p>
+											</div>
+										</li>
+										<li class="mui-table-view-cell mui-media">
+											<div class="view">
+											<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" id="touxiang">
+												<div class="mui-media-body" id="pl">
+													王甜甜
+													<p>还不错，值得一读。</p>
+												</div>	
+											</div>
+											<div class="time">
+												<p>一个小时前</p>
+											</div>
+										</li>
+									</ul>
+									</div>
+							</div>
+					</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#">
+				<span class="mui-icon mui-icon-star" style="top: 0px;"></span>
+				<span class="mui-tab-label" style="font-size: 17px;display: inline;">收藏</span>
+			</a>
+			<a class="mui-tab-item" href="#" >
+				<span class="mui-icon-extra mui-icon-extra-cart"></span>
+				<span class="mui-tab-label">想要</span>
+			</a>
+		</nav>
+	</body>
+</html>

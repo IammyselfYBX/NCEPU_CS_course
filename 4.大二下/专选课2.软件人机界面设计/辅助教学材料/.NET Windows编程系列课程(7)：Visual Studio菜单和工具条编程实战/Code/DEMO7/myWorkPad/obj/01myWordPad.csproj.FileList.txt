@@ -1,0 +1,9 @@
+obj\Debug\myWorkPad.exe
+obj\Debug\myWorkPad.pdb
+bin\Debug\myWorkPad.exe
+bin\Debug\myWorkPad.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\myWorkPad.AboutDialog.resources
+obj\Debug\myWorkPad.MainForm.resources
+obj\Debug\myWorkPad.Properties.Resources.resources
+obj\Debug\01myWordPad.csproj.GenerateResource.Cache

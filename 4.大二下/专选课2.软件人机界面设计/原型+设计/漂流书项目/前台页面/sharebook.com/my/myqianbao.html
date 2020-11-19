@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myqianbao</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--标准mui.css-->
+	<link rel="stylesheet" href="../css/mui.min.css">
+	<!--App自定义的css-->
+	<link rel="stylesheet" type="text/css" href="../css/app.css" />
+	<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+	<style type="text/css">
+		body{
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+		#header{
+			position: relative;
+		}
+		.content{
+			width:100%;
+			height:300px; 
+		}
+		.dismoney{
+			float: left;
+			width: 33.3%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.jiaoyi{
+			width:50%;
+			display: block;
+		}
+		.yue{
+			width: 100%;
+			height:100px;
+			display: block;
+		}
+		.dismoney p{
+			position: absolute;
+			font-family: 微软雅黑;
+			top: 58%;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">我的钱包</h1>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="myindex.html"></a>
+	</header>
+	<div class="content">	
+		<div class="dismoney"><img src="../images/wodeyue.jpg" class="jiaoyi"><p>收益金<br>￥5.2</p></div>
+		<div class="dismoney"><a href="myyue.html"><img src="../images/wodeyue.jpg" class="yue"></a><p style="position: absolute;top: 64%;">我的余额<br> ￥20.2</p></div>
+		<div class="dismoney"><img src="../images/wodeyue.jpg" class="jiaoyi"><p>支出金<br> ￥2.2</p></div>
+	</div>
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="#">
+				我的押金
+			</a>
+		</li>
+	</ul>
+</body>
+</html>

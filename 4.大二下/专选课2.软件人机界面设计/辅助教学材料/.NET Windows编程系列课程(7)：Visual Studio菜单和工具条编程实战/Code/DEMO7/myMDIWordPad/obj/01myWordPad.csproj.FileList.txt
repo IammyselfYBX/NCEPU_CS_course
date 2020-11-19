@@ -1,0 +1,2 @@
+obj\Debug\myWorkPad.exe
+obj\Debug\myWorkPad.pdb

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		<style>
+			.title {
+				margin: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+			}
+			.rel-bookimg {
+			position:absolute;
+			top:10px;
+			left:10px;
+			height:120px;
+			width:90px;
+			}
+			.rel-bookinfo {
+			position:relative;
+			top:1px;
+			height:140px;
+			background-color:white;
+			
+			}
+			.rel-bookstatus {
+				position: absolute;
+				top:20px;
+				left:110px;
+				height:100px;
+				width:250px;
+			}
+			.rel-booktitle {
+				color:#242424;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				float:left;
+				margin: 2px;
+			}
+			.rel-author {
+				clear:both;
+				color:#242424;
+				font-family: "微软雅黑";
+				font-size:16px;
+				margin: 2px;
+			}
+			.rel-time {
+				color:#242424;
+				font-family: "微软雅黑";
+				font-size:16px;
+				margin: 2px;
+			}
+			.rel-release {
+				color:#242424;
+				font-family: "微软雅黑";
+				font-size:16px;
+				margin: 2px;
+			}
+			.rel-lable {
+				height: 50px;
+				background-color:white;
+			}
+			.rel-lable-word {
+				position: relative;
+				top:10px;
+				left:10px;
+				color:#242424;
+				font-family: "微软雅黑";
+				font-size:18px;
+			}
+			.rel-share {
+				height:300px;
+				background-color:white;
+			}
+			.rel-share-way {
+				position: relative;
+				left:10px;
+				color:black;
+				font-family: "微软雅黑";
+				font-size: 20px;
+			}
+			.rel-share-next {
+				width:90%;
+				border:dotted 2px #DDDDDD;
+				position:absolute;
+				left:20px;
+				top:320px;
+			}
+			.rel-share-form {
+				position:relative;
+				left:10px;
+				font-family: "微软雅黑";
+				font-size: 18px;
+			}
+			.rel-share-nextform {
+				position:relative;
+				left:10px;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				color:#CCCCCC;
+			}
+			.rel-hr {
+				height:1px;
+				width:300px;
+				margin:2px;
+				border:none;
+				border-top:1px #555555 dotted;
+			}
+			.rel-button {
+				position: relative;
+				top:140px;
+				left: 80px;
+				width: 220px;
+				height:50px;
+				color:#D8D8D8;
+				font-family: "微软雅黑";
+				font-size:18px;
+			}
+			.rel-s {
+				position: absolute;
+				right:100px;
+				top:0px;
+			}
+			.rel-b {
+				position: absolute;
+				right:100px;
+				top:49px;
+			}
+			.rel-img-icon1 {
+				width:50px;
+				height:40px;
+				position: absolute;
+				top:-8px;
+				
+			}
+			.rel-text-icon1 {
+				font-family: "微软雅黑";
+				font-size: 12px;
+				position: absolute;
+				left:62px;
+			}
+			.rel-img-icon2 {
+				width:50px;
+				height:40px;
+				position: absolute;
+				top:-8px;
+				left:110px;
+			}
+			.rel-text-icon2 {
+				font-family: "微软雅黑";
+				font-size: 12px;
+				position: absolute;
+				left:120px;
+			}
+			.rel-img-icon3 {
+				width:50px;
+				height:40px;
+				position: absolute;
+				top:-8px;
+				left:165px;
+			}
+			.rel-text-icon3 {
+				font-family: "微软雅黑";
+				font-size: 12px;
+				position: absolute;
+				left:175px;
+			}
+			.rel-img-icon4 {
+				width:50px;
+				height:40px;
+				position: absolute;
+				top:-8px;
+				left:220px;
+			}
+			.rel-text-icon4 {
+				font-family: "微软雅黑";
+				font-size: 12px;
+				position: absolute;
+				left:230px;
+			}
+			.rel-img-add {
+				width:28px;
+				height:28px;
+				position: absolute;
+				top:0px;
+				left:280px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">发布分享</h1>
+		</header>
+		<div class="mui-content">
+			<div class="rel-bookinfo">
+				<img class="rel-bookimg" src="../images/apptest.jpg">
+				<div class="rel-bookstatus">
+					<p class="rel-booktitle">《软件测试》</p>
+					
+					<p class="rel-author">&nbsp;&nbsp;作者：&nbsp;&nbsp;&nbsp;张小松、王钰等译</p>
+					<p class="rel-time">&nbsp;&nbsp;收藏时间：2017年9月11日</p>
+					<p class="rel-release">&nbsp;&nbsp;发布人：小红</p>
+					
+				</div>
+			</div>
+			<div class="rel-lable">
+				<p class="rel-lable-word">标签：
+				<img src="../images/icon.png" class="rel-img-icon1">
+				<lable class="rel-text-icon1">测试类</lable>
+				<img src="../images/icon.png" class="rel-img-icon2">
+				<lable class="rel-text-icon2">软件类</lable>
+				<img src="../images/icon.png" class="rel-img-icon3">
+				<lable class="rel-text-icon3">理工类</lable>
+				<img src="../images/icon.png" class="rel-img-icon4">
+				<lable class="rel-text-icon4">教材类</lable>
+				<img src="../images/add.png" class="rel-img-add">
+				</p>
+			</div>
+			<div class="rel-share">
+				<p class="rel-share-way">分享方式:</p>
+				<form class="rel-share-form">
+					<input type="checkbox" name="free" >无偿分享(附赠书券)<br>
+					<input type="checkbox" name="nofree">有偿分享
+				</form>
+				<div class="rel-share-next">
+					<form class="rel-share-nextform">
+					<div style="height:41px;">
+					<input type="checkbox" name="limit" ><label>限时借阅</label><br>
+					</div>
+					<div class="rel-s">
+						<lable>定时：</lable><br>
+						<lable>定价：</lable>
+					</div>
+					<hr class="rel-hr">
+					<input type="checkbox" name="sale"><label>出售</label>
+					<div class="rel-b">定价：</div>
+				</form>
+				</div>
+				<div>
+				<form>
+					<input type="button" value="让书漂流，让爱游走" class="rel-button">
+				</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

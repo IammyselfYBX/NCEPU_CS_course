@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>myindex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+		<style type="text/css">
+			.bj{
+				width: 100%;
+				height: 180px;
+			}
+			.touxiang{
+				display: block;
+				margin: 0 auto;
+				border-radius: 35px;
+				width:60px;
+				height:60px;
+				border:1px #9E9E9E solid;
+			}
+			.touxiangdiv{
+				position: absolute;
+				top:60px;
+				width: 100%;
+			}
+			.touxiangdiv p{
+				text-align: center;
+				color: black;
+			}
+			.nav-a{
+				float: left;
+				width: 20%;
+			}
+		</style>
+	</head>
+<body>
+	<img src="../images/shuijiao.jpg" class="bj">
+	<div class="touxiangdiv">
+		<img src="../images/touxiang.jpg" class="touxiang">
+		<p>昵称</p>
+	</div>
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="myshare.html">
+				分享中
+			</a>
+		</li>
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="myhave.html">
+				阅读中
+			</a>
+		</li>
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="myquan.html">
+				书券
+			</a>
+		</li>
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="myqianbao.html">
+				我的钱包
+			</a>
+		</li>
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="myfriend.html">
+				我的好友
+			</a>
+		</li>
+		<li class="mui-table-view-cell">
+			<a class="mui-navigate-right" href="myset.html">
+				设置
+			</a>
+		</li>
+	</ul>
+		<nav class="mui-bar mui-bar-tab">
+			<a href="../index.html" class="nav-a">
+			<span class="mui-tab-item">
+				<span class="mui-icon-extra mui-icon-extra-xiaoshuo" style="display: block;top: 3px;position: relative;font-size:24px;"></span>
+				<span class="mui-tab-label" style="font-size:11px;position: relative;top: -2px;">漂流书</span>
+			</span>
+			</a>
+			<a class="nav-a" href="../others/collection.html">
+			<span class="mui-tab-item">
+				<span class="mui-icon mui-icon-star"></span>
+				<span class="mui-tab-label">收藏</span>
+			</span>
+			</a>
+			<a class="nav-a" style="border-radius: 25px;border: 1px solid #ddd;">
+			<span class="mui-tab-item">
+				<span class="mui-icon mui-icon-plusempty" style="font-size:40px;width: auto;top: 0px;"></span>
+			</span>
+			</a>	
+			<a class="nav-a" href="../message/message-list.html">
+			<span class="mui-tab-item">
+				<span class="mui-icon mui-icon-chatbubble"></span>
+				<span class="mui-tab-label">消息</span>
+			</span>
+			</a>
+			<a class="nav-a" href="myindex.html">
+			<span class="mui-tab-item" >
+				<span class="mui-icon mui-icon-person"></span>
+				<span class="mui-tab-label">我</span>
+			</span>
+			</a>
+		</nav>
+</body>
+</html>

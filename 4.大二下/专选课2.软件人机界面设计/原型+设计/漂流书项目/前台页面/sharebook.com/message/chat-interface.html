@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>聊天界面</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+	
+		<style>
+			html,
+			body {
+				background-color: #efeff4;
+			}
+			
+			.mui-bar-nav {
+				background-color: #0062CC;
+			}
+			
+			.mui-bar .mui-pull-left .mui-icon {
+				padding-right: 5px;
+				font-size: 28px;
+			}
+			
+			.mui-bar .mui-btn {
+				font-weight: normal;
+				font-size: 17px;
+			}
+			
+			.mui-bar .mui-btn-link {
+				top: 1px;
+			}
+			
+			.mui-icon-back:before, .mui-icon-left-nav:before {
+                color: white;
+            }
+			
+			.mui-bar .mui-title {
+				color: white;
+			}
+			
+			#icon-more{
+				position: absolute;
+				right: 15px;
+				color: white;	
+			}
+			
+			.message-rc{
+				clear: both;
+				min-height: 42px;
+				margin: 15px;
+			}
+			.left_triangle { 
+				height: 0px; 
+				width: 0px; 
+				border-width: 8px; 
+				border-style: solid; 
+				border-color: transparent white transparent transparent; 
+				position: relative; 
+				left: 35px; 
+				top: 10px; 
+				}
+			.m-text-rc{ 				
+				float: left;
+				min-height: 42px;
+				border-radius:7px; 
+				background-color: white;
+				position: relative; 
+				left: 8px; 
+				text-align: center;
+				vertical-align: middle;				
+				padding: 6px;
+				} 
+			.m-img-rc{ float: left; }
+		
+			.message-sd{
+				clear: both;
+				min-height: 42px;
+				margin: 15px;
+			}
+			.right_triangle { 
+				float: right;
+				height: 0px; 
+				width: 0px; 
+				border-width: 8px; 
+				border-style: solid; 
+				border-color: transparent transparent transparent chartreuse; 
+				position: relative; 
+				right: -6px; 
+				top: 10px; 
+			}
+			.m-text-sd{
+				float: right;
+				min-height: 42px;
+				border-radius:7px; 
+				background-color: chartreuse;
+				position: relative; 
+				right: -6px; 
+				text-align: center;
+				vertical-align: middle;				
+				padding: 6px;
+			}
+			.m-img-sd{
+				float: right;
+			}
+			.mui-content img{
+				width: 42px;
+				height: 42px;
+			}
+			
+			.mui-content div{
+				display: block;	
+			}
+			
+			.mui-content span{
+				padding: 3px;
+				text-align: center;
+				vertical-align: middle;
+				display: table-cell;
+			}
+			
+		    .bottom-menu{ 
+				position: fixed; 
+				z-index: 10; 
+				right: 0; 
+				left: 0; 
+				height: 55px;
+				padding-right: 10px; 
+				padding-left: 10px; 
+				border-bottom: 0; 
+				background-color: #f7f7f7; 
+				-webkit-box-shadow: 0 0 3px rgba(0,0,0,.25); 
+				box-shadow: 0 0 3px rgba(0,0,0,.25); 
+				-webkit-backface-visibility: hidden; 
+				backface-visibility: hidden;
+				bottom: 0; 
+			
+				display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-flow: row nowrap;
+                justify-content: space-between;
+			}
+			
+			#textarea{
+				margin-bottom: 3px; 
+				margin-top: 5px;
+			}
+			
+			.bottom-menu span{
+				font-size: 40px;
+				color: #6D6D72;
+				width: 100%;
+			
+			}
+			.bottom-menu #icon-mic { 
+				width: 35px; 
+				height: 35px; 
+				display: inline-block; 
+				text-align: center; 
+				background-color: #fff; 
+				border: 1px solid #ddd; 
+				border-radius: 25px; 
+				background-clip: padding-box; 
+				position: relative;
+				bottom: -2px;
+			}
+			#icon-mic span{
+				font-size: 30px;
+			}
+			
+			.box{
+				margin: 0;
+				width: 40px;	
+				position: relative;
+				bottom: -5px;
+			}
+			.BOX{
+				width: 80px;				
+				display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-flow: row nowrap;
+                justify-content: space-between;
+			}	
+
+
+		</style>
+	</head>
+
+	<body>
+		<header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="message-list.html"></a>
+			<h1 class="mui-title">小红</h1>
+			<a id="icon-more"><span class="mui-icon mui-icon-more"></span></a>
+		</header>
+		<!--聊天消息框-->
+		<div class="mui-content">
+			<!--收到的消息-->
+			<div class="message-rc">
+				<div class="m-img-rc"><img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg"></div>
+				<div class="m-text-rc"><span>hello,小红!</span></div>
+				<div class="left_triangle"></div>
+			</div>
+			<!--发送的消息-->
+			<div class="message-sd">
+				<div class="m-img-sd"><img class="mui-media-object mui-pull-left" src="../images/muwu.jpg"></div>
+				<div class="right_triangle"></div>
+				<div class="m-text-sd"><span>你好！</span></div>				
+			</div>
+			<!--收到的消息-->
+			<div class="message-rc">
+				<div class="m-img-rc"><img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg"></div>
+				<div class="m-text-rc"><span>我是小明。</span></div>
+				<div class="left_triangle"></div>
+			</div>
+			<!--发送的消息-->
+			<div class="message-sd">
+				<div class="m-img-sd"><img class="mui-media-object mui-pull-left" src="../images/muwu.jpg"></div>
+				<div class="right_triangle"></div>
+				<div class="m-text-sd"><span>哦哦~</span></div>
+			</div>
+		</div>
+		<!--底部消息发送框-->
+		<div class="bottom-menu">
+			<!--发送语音消息-->
+			<div class="box">
+				<a id="icon-mic"><span class="mui-icon mui-icon-mic"></span></a>
+			</div>
+			<!--多行文本框-->
+			<div class="mui-input-row">
+				<textarea id="textarea" rows="1"></textarea>
+			</div>
+			<!--图片&表情-->
+			<div class="BOX">
+				<div class="box">
+					<a id="icon-plus"><span class="mui-icon mui-icon-plus"></span></a>
+				</div>
+				<div class="box">
+					<a id="icon-info"><span class="mui-icon mui-icon-info"></span></a>
+				</div>
+			</div>
+		</div>
+	</body>

@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MainMenuTestApp.Properties.Resources.resources
+obj\Debug\MainMenuTestApp.csproj.GenerateResource.Cache
+bin\Debug\MainMenuTestApp.exe
+bin\Debug\MainMenuTestApp.pdb
+obj\Debug\MainMenuTestApp.exe
+obj\Debug\MainMenuTestApp.pdb
+obj\Debug\MainMenuTestApp.Form1.resources
+bin\Debug\MainMenu.xml
+bin\Debug\MainMenuEnhanced.dll
+bin\Debug\MainMenuEnhanced.pdb
+obj\Debug\MainMenuTestApp.MainMenu.xml
+obj\Debug\MainMenuTestApp.MenuStripEnhancedForm.resources
+obj\Debug\MainMenuTestApp.TestForm.resources

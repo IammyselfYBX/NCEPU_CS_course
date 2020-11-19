@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myhave</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--标准mui.css-->
+	<link rel="stylesheet" href="../css/mui.min.css">
+	<!--App自定义的css-->
+	<link rel="stylesheet" type="text/css" href="../css/app.css" />
+	<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+	<style type="text/css">
+		.mui-icon-extra{
+				font-size: 14px;
+			}
+		.book{	
+				clear: both;
+				border-top:solid 1px #9E9E9E;
+				top: 10px;
+				position: relative;
+				width: 100%;
+				float: left;
+				padding-bottom:15px; 
+			}
+			.book-inf{
+				left: 10px;
+				float: left;
+				position: relative;
+				top: 10px;
+				width: 50%;
+			}
+			.book-inf p{
+				font-size:10px;
+				color:black;
+				font-family: 微软雅黑;
+				font-weight:normal;
+			}
+			li{	
+				background-color: white;
+				height:auto;
+				/*border-bottom: solid 1px #F5DEB3;*/
+				/*border-top:solid 1px black;*/
+			}		
+			.zan{
+				position: absolute;
+				right:0px;
+				bottom: 0px;
+			}
+			.zan p{
+				display: inline-block;
+			}
+			#icon-zan{
+				color: #9E9E9E;
+			}
+			#header{
+			position: relative;
+			}
+			#touxiang{
+				float:left;
+				border-radius: 30px
+			}
+			.user-name{
+				float: left;
+				font-weight: 900;
+			}
+			.lianxi{
+				color: #1E90FF;
+				font-size:13px;
+				font-weight:900;
+			}
+			.lianxita{
+				float: right;
+				position:relative;
+				top:10px;
+			}
+			.book img{
+				width:80px;
+				height:100px;
+				top:10px;
+				position: relative;
+				float: left;
+			}
+			.button{
+				position: absolute;
+				top: 10%;
+				right: 6%;
+			}
+	</style>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav">	
+			<h1 class="mui-title">我拥有的</h1>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="myindex.html"></a>
+	</header>
+	<div id="item1mobile" class="mui-slider-item mui-control-content mui-active" style="min-height: 5000px;">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell mui-media">
+											<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg" id="touxiang">
+											<div class="mui-media-body user-name">
+												李晓明 	
+												<p style="font-weight: 800">男</p>
+											</div>	 	
+											<div  class="lianxita">
+												<a href="#"><p class="lianxi">联系他</p></a>	
+											</div>
+											<div class="book">
+													<img src="../images/shuijiao.jpg" >
+												<div class="book-inf">
+													<p>《软件测试》</p>
+													<p>张小松 王钰等译</p>
+													<p>出版社：  机械工业出版社</p>
+													<p>时间期限：还有21天到期</p>
+													<p>图书状态：  阅读中</p>
+												</div>
+												<div class="zan">
+													<span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span>
+													<p>5</p>
+													<span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span>
+													<p>8</p>
+												</div>
+												<div class="button">
+												<button type="button" class="mui-btn mui-btn-danger">
+													归还
+												</button>
+												<span class="mui-btn mui-btn-success" style="position: absolute;top: 40px;">
+													快速分享
+												</span>
+												</div>
+											</div>
+											<div class="book">
+													<img src="../images/shuijiao.jpg" >
+												<div class="book-inf">
+													<p>《软件测试》</p>
+													<p>张小松 王钰等译</p>
+													<p>出版社：  机械工业出版社</p>
+													<p>时间期限：还有21天到期</p>
+													<p>图书状态：  阅读中</p>
+												</div>
+												<div class="zan">
+													<span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span>
+													<p>5</p>
+													<span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span>
+													<p>8</p>
+												</div>
+												<div class="button">
+												<button type="button" class="mui-btn mui-btn-danger">
+													归还
+												</button>
+												<span class="mui-btn mui-btn-success" style="position: absolute;top: 40px;">
+													快速分享
+												</span>
+												</div>
+											</div>
+											<div class="book">
+													<img src="../images/shuijiao.jpg" >
+												<div class="book-inf">
+													<p>《软件测试》</p>
+													<p>张小松 王钰等译</p>
+													<p>出版社：  机械工业出版社</p>
+													<p>时间期限：还有21天到期</p>
+													<p>图书状态：  阅读中</p>
+												</div>
+												<div class="zan">
+													<span class="mui-icon-extra mui-icon-extra-heart-filled" id="icon-zan" ></span>
+													<p>5</p>
+													<span class="mui-icon-extra mui-icon-extra-comment" id="icon-zan"></span>
+													<p>8</p>
+												</div>
+												<div class="button">
+												<button type="button" class="mui-btn mui-btn-danger">
+													归还
+												</button>
+												<span class="mui-btn mui-btn-success" style="position: absolute;top: 40px;">
+													快速分享
+												</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+</body>
+</html>

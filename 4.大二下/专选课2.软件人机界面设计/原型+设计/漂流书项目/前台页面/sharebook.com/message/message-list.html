@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>消息列表</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+			<!--标准mui.css-->
+			<link rel="stylesheet" href="../css/mui.min.css">
+			<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+			<!--App自定义的css-->
+			<link rel="stylesheet" type="text/css" href="../css/app.css" />
+			
+		<style>
+			html,
+			body {
+				background-color: #efeff4;
+			}
+			
+			.mui-bar-nav {
+				background-color: #0062CC;
+			}
+			
+			.mui-bar .mui-btn {
+				font-weight: normal;
+				font-size: 17px;
+			}
+			
+			.mui-bar .mui-btn-link {
+				top: 1px;
+			}
+			
+			.mui-bar .mui-title {
+				color: white;
+			}
+			
+			.message-time{
+				font-size: small;
+				position: absolute;
+				right: 10px;
+				color: #bbb;
+			}
+			
+		    .bottom-menu{ 
+				position: fixed; 
+				z-index: 10; 
+				right: 0; 
+				left: 0; 
+				height: 70px;
+				padding-right: 10px; 
+				padding-left: 10px; 
+				border-bottom: 0; 
+				background-color: #f7f7f7; 
+				-webkit-box-shadow: 0 0 3px rgba(0,0,0,.25); 
+				box-shadow: 0 0 3px rgba(0,0,0,.25); 
+				-webkit-backface-visibility: hidden; 
+				backface-visibility: hidden;
+				bottom: 0; 
+			}
+			
+			.bottom-menu{
+				display: -webkit-box; 
+				display: -webkit-flex; 
+				display: flex; 
+				-webkit-flex-flow: row wrap; 
+				justify-content: space-between; 
+				text-align: center;
+			}
+			.bottom-menu span{
+				font-size: 40px;
+				color: #6D6D72;
+				width: 100%;
+			
+			}
+			
+			.bottom-menu #add { 
+				font-size: 45px;
+				margin: 0px; 
+				width: 50px; 
+				height: 50px; 
+				display: inline-block; 
+				text-align: center; 
+				background-color: #fff; 
+				border: 1px solid #ddd; 
+				border-radius: 25px; 
+				background-clip: padding-box; 
+				position: relative;
+				bottom: 20px;
+			}
+			
+			.bottom-menu #add-text{
+				position: relative;
+				bottom: 10px;
+			}
+			.box{
+				width: 50px;		
+			}	
+
+		</style>
+	</head>
+
+	<body>
+		<header id="header" class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">消息列表</h1>
+		</header>
+		<div class="mui-content">
+			<!--消息列表-->
+			<div class="messages">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="chat-interface.html">
+							<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+							<div class="mui-media-body">
+								小红
+								<time class="message-time">9:02</time>
+								<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="../images/muwu.jpg">
+							<div class="mui-media-body">
+								李大非
+								<time class="message-time">昨天</time>
+								<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="../images/cbd.jpg">
+							<div class="mui-media-body">
+								王红
+								<time class="message-time">11月2日</time>
+								<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>				
+				</ul>
+			</div>			
+			</div>
+		</div>
+		<!--底部功能栏-->
+		<div class="bottom-menu">
+			<div class="box">
+				<a href="../index.html">
+				<span class="mui-icon-extra mui-icon-extra-xiaoshuo"></span>
+				<font size="2">漂流书</font>
+				</a>
+			</div>
+			<div class="box">
+				<a><span class="mui-icon mui-icon-compose"></span></a>
+				<font size="2">收藏</font>
+			</div>
+			<div class="box">
+				<a id="add"><span class="mui-icon mui-icon-plusempty"></span></a>
+				<font size="3" id="add-text">分享</font>
+			</div>
+			<div class="box">
+				<a><span class="mui-icon mui-icon-email"></span></a>
+				<font size="2">消息</font>
+			</div>
+
+			<div class="box">
+				<a href="../my/myindex.html">
+				<span class="mui-icon mui-icon-person"></span>
+				<font size="2">我的</font>
+				</a>	
+			</div>
+	
+	</body>

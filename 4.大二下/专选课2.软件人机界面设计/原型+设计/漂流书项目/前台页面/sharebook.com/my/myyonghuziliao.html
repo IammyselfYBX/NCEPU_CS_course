@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>用户最终界面</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!--标准mui.css-->
+	<link rel="stylesheet" href="../css/mui.min.css">
+	<!--App自定义的css-->
+	<link rel="stylesheet" type="text/css" href="../css/app.css" />
+	<link rel="stylesheet" type="text/css" href="../css/icons-extra.css" />
+	<style type="text/css">
+			.bj{
+				width: 100%;
+				height: 180px;
+			}
+			.touxiang{
+				border-radius: 35px;
+				width:60px;
+				height:60px;
+				border:1px #9E9E9E solid;
+			}
+			.touxiangdiv{
+				position: absolute;
+				top:60px;
+				left:42%;
+			}
+			.touxiangdiv p{
+				text-align: center;
+				color: black;
+			}
+			.nav-a{
+				float: left;
+				width: 20%;
+			}
+			.button{
+				float:right;
+			}
+			.picture{
+				max-width:100px;
+				height:70px;
+				width:70px;
+			}
+			.button2{
+				padding:2px 12px;
+			}
+			.font{
+				font-size: 14px;
+			}
+			</style>
+</head>
+
+<body>
+		<header id="header" class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">小红</h1>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="myindex.html"></a>
+		</header>
+		<img src="../images/shuijiao.jpg" class="bj">
+		<div class="touxiangdiv">
+		<img src="../images/touxiang.jpg" class="touxiang">
+		<p>昵称</p>
+	</div>
+	<div class="mui-card">
+				<div class="mui-card-header font">姓名：熊红</div>
+				<div class="mui-card-content">
+					<div class="mui-card-content-inner">
+						性别：女
+					</div>
+				</div>
+			</div>
+	<div>
+		<div class="mui-card">
+				<div class="mui-card-header font">个性签名：分享本身就是一份快乐！</div>
+				<div class="mui-card-content">
+					<div class="mui-card-content-inner">
+						个人标签
+						<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined button button2" >
+						运动
+						</button>
+						<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined button button2" >
+						阅读
+						</button>
+					</div>
+				</div>
+				<div class="mui-card-header">
+					他的分享
+					<hr style="width:1px;height:10px; ">
+					他的收藏
+				</div>
+				<div class="mui-card-header">
+					图片<br/>
+					照片
+		    	<ul class="mui-table-view mui-grid-view">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6 picture">
+		            <a href="#">
+		                <img class="mui-media-object picture" src="../images/shuijiao.jpg">
+		                </a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6 picture">
+		            <a href="#">
+		                <img class="mui-media-object" src="../images/muwu.jpg" >
+		                </a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6 picture">
+		            <a href="#"><img class="mui-media-object picture" src="../images/cbd.jpg">
+		              </a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6 picture">
+		            <a href="#">
+		                <img class="mui-media-object picture" src="../images/yuantiao.jpg">
+		               </a></li>
+		    </ul>
+			<nav class="mui-bar mui-bar-tab">
+			<div>
+			<a class="mui-tab-item" href="#">
+				<span class="mui-tab-label" style="font-size: 17px;display: inline;">加为好友</span>
+			</a>
+			<a class="mui-tab-item" href="#">
+				<span class="mui-tab-label">发消息</span>
+			</a>
+			</div>
+		</nav>	
+			
+				
+				</div>
+		</div>
+
+	</div>		
+</body>
+</html>
