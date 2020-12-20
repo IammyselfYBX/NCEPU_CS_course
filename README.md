@@ -233,6 +233,71 @@ From https://github.com/NiuTrans/MTBook
 > 当年的屠龙少年与恶龙缠斗过久，如今身上长出鳞甲，发出恶臭，他变成了龙……<br>
 > 虽然当年被预警有过很无助的时候，当时没有人站出来帮过我一把，得到的是沉默，忙或者是连这都不会自己好好回去看看书的回复，但是后来既然迎头赶上，希望能给其他人一些帮助，也不希望自己会成为当年自己讨厌的一群人。
 
+```
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|......................................................................................................................................................|
+|............eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.....................|
+|........eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.........|
+|......eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee......|
+|.....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.....................................................eeeeeeeeeeeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee............................................................eeeeeeeeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee..............................................................eeeeeeeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee................................................................eeeeeeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.........................Fly,Bitch..............................eeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeere..............................................................eeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeerrrreeeeeeerre.............................................................eeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerreereeeerrrreeerreee.........................................................eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrreeeeee..eeeeerrrrrrrre.eeeee...........eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeerrrrrreeeeeeerreeeeeeee....eerrrrrrre....eeeee.......eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeerreeeeeeerrreerrreeeeeree..eerrereeeree.e.eeerree...eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeerreeeee..e.eeeeerrree.eeeeeee.errrre.erreeerrrerrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeerreee.............eeee...e...e...errre.erreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeerrreee............................e..eerrrerreeerrrreeerreeeeerreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeerrrreeeeereeeeee.eeeeeeeee................erFrrreeeerrrrrrrrrreeerrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeerrrrreeerre.errrrrrreeeee...........eeerFFrrrrrrreerrrerreeerrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeerrreerrrreerrerreeeeeeeeeeeeeeee.eee.eereerFFrrreeeeeerrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeerrrrreeerrerreeeeeeeeeeeereeerrrrrreeereeeeeeeeeeeereeerrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeerrrrrreeeeeeeeeeeeFreeerFFre.erFreeeeeeeeeeerrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeereeereeeeeeeeeeeeFFFreeeeeerFFFreeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeerrrrrrrrrrrreeeeeeeeeerFFFFFreerFFFFFreeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|...eerrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|...eerrrreeeeeeerrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeerrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeeeeereeeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeeeeereeeeeeeeeeerreeeeeeeeeeeeerrrreeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerreeeeeeeerrrrrrreeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeeerreerrreeeerrreeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeeeeerrreeeeeeeeeerrrreeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeeerreereeeeeeerrrreeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee.................eeeeeeeeeeee.................eeeeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeeeeeeeeeereeeeeeeeeeerrreeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee............ee...ee.........e...ee............eeeeeeeeeeeeeeeeereeeeeeeereeeeeeeeeeeeeeeeeeeeerreerrreeeeeerrrreeereereeeeeeeeeeeeeeee...|
+|....eeeeeeeee.........eee.....ee..eeee..ee.....eee.........eeeeeeeeeeeeeeeeeereeeeeeeereeeeeeeeeerrrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee.......eeee....eeerrrrrrrrrreee......ee.......eeeeeeeeeeeeeeeeeeereeeeeeeeeeeeeeerrreeeeeeeeeerrrreerreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee......e..ee.eeeeer....eeeeeeeeeeeeee...e......eeeeeeeeeeeeeeeerrrrrrrrrrrreeeeerreeeeereeeeeerrrreeereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee....ee....ee.errrr....eeeeeeerrrrrr.....e.....eeeeeeeeerrrrreeeeeeeeeeeeeeerrrrrreeeeeeeeeeeerereeerreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee...eeee..ee.rrrrrr...eee.....rrrrrr......e....eeeeeeerrrrreeeeeeeeeeeeeeeeeeeeerrreeeeeeeeeeerrerrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee...e.ee.ee.rrrrrrr..rrreeeeerrrrrrr.eee.e.e...eeeeeeeeeeeeerrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee...e....e.errrrrrr.erreeeeeerrrrrrrrre....e...eeeeerrreeerrrrrrrrreerrrreeeeeeeeeeeeeeeeeeeeeeeerFFreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee...e.ee.e.errrrrrrerr.......rrrrrrrrre.e..e...eeeeeeeeeeeeeeeerrreerrrrreeeeeeeeeeeeeeeeeeeeererrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee...e.eee.e.errrrrreeeeeee...rrrrrrr.e.ee..e...eeeeeeeeeeeeeeeerrrreeerreeeeeeeeeeeeeeeeeeeeeeeeerreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee...ee.ee.ee.rrrrrre........errrrrr.ee.ee.e....eeeeeeeeeeeeeeeeeeeeeeeeerrreeeeeeeeeeeeeeeeeeeeerreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee....ee.ee.ee.errrrrreeeeeerrrrrre.ee.ee.ee....eeeeeeeeeeeeeeeeeeeeeeeeeeeerrreeeeeeeeeeeeeeeerrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee......e.eee.eeeeerrrrrrererrreeeee.eee.e......eeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee.......ee.eee.eeeeeeeeeeeeeeeeeeee.e.ee.......eeeeeeeeeeeeerrrrrrrrrrrrrrrrrrreeeeeeeeeeeeeerrrrrrreeeeeerrrreeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee.........eeeeeee.e.eeeeeeee.eeeee.eee.........eeeeeeeeeeeeeeerrrerrrreeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrerrrrrreeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeee............eeeeee...eeee....eeeee............eeeeeeeeeeeeeerrrrrrrrreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrerrrrrrrerrreeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeee................eeeeeeeeeeeeee................eeeeeeeeeeeeeeeeeeeerrereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrreeeeeereeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrreeeeeeeeeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee....|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee....|
+|.....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee....|
+|......eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.....|
+|.......erreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.......|
+|.......eeeeee.eee..eeeeeeeeeeeeeeeeeeeeeeeee.eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee..................|
+|......................................................................................................................................................|
++------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+
 
 &emsp;&emsp;如果你认为本仓库的一些文件侵犯了您的权益，请联系我[QQ邮箱](mailto:2252176220@qq.com) 。我将会从仓库中彻底清除这些文件。<br>
 > 资料仅供参考，请自己判断其适用性。其他部分的版权归属于其各自的作者。<br>
