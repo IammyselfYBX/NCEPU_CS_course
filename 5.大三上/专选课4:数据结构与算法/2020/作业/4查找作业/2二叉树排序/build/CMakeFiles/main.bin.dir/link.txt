@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/main.bin.dir/src/main.c.o CMakeFiles/main.bin.dir/src/create.c.o CMakeFiles/main.bin.dir/src/Inorder.c.o CMakeFiles/main.bin.dir/src/InsertBST.c.o CMakeFiles/main.bin.dir/src/SearchBST.c.o -o main.bin 

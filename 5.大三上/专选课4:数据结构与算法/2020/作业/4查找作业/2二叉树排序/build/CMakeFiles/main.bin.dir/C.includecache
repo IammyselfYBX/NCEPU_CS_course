@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BST.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/Inorder.c
+BST.h
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/BST.h
+
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/InsertBST.c
+BST.h
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/BST.h
+
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/SearchBST.c
+BST.h
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/BST.h
+
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/create.c
+BST.h
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/BST.h
+
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/main.c
+BST.h
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/src/BST.h
+

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/build",
+  "command": "/usr/bin/cc  -I/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/include  -o CMakeFiles/main.bin.dir/src/main.c.o -c /home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/src/main.c",
+  "file": "/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/src/main.c"
+},
+{
+  "directory": "/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/build",
+  "command": "/usr/bin/cc  -I/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/include  -o CMakeFiles/main.bin.dir/src/table.c.o -c /home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/src/table.c",
+  "file": "/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/src/table.c"
+}
+]

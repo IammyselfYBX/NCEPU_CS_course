@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/table.h
+stdio.h
+-
+
+/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/src/main.c
+stdio.h
+-
+table.h
+/home/tony/practure/9note/datastructure/homework/4查找作业/1顺序表查找插入/src/table.h
+

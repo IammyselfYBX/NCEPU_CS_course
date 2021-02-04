@@ -10,7 +10,7 @@
 ---
 因为2020年疫情的原因，本学期没有期末考试，而是采取大作业的形式
 ### 期末大作业
-[制作一款类似QQ的聊天工具](https://www.bilibili.com/video/BV19E411N7CG)
+[制作一款类似QQ的聊天工具](https://www.bilibili.com/video/BV19E411N7CG) [下载](https://download.csdn.net/download/weixin_41976398/12461228)
 
 ### 实验
 [\[2020年\]计算机网络实验](https://www.bilibili.com/video/BV1aV411k7mE)

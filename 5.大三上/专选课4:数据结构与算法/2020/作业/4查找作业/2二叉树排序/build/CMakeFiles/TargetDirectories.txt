@@ -1,0 +1,3 @@
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/build/CMakeFiles/rebuild_cache.dir
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/build/CMakeFiles/edit_cache.dir
+/home/tony/practure/9note/datastructure/homework/4查找作业/2二叉树排序/build/CMakeFiles/main.bin.dir
