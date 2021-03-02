@@ -5,7 +5,7 @@
 [![](https://img.shields.io/github/stars/IammyselfYBX/NCEPU_CS_course.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/stargazers)
 [![](https://img.shields.io/github/forks/IammyselfYBX/NCEPU_CS_course.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/network/members)
 ![](https://img.shields.io/github/repo-size/IammyselfYBX/NCEPU_CS_course.svg)
-[![](https://img.shields.io/github/contributors/CoolPhilChen/SJTU-Courses.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/graphs/contributors)
+[![](https://img.shields.io/github/contributors/IammyselfYBX/NCEPU_CS_course.svg)](https://github.com/IammyselfYBX/NCEPU_CS_course/graphs/contributors)
 
 
 ## 介绍
@@ -233,7 +233,10 @@ From https://github.com/NiuTrans/MTBook
 > 凝视深渊过久，深渊将回以凝视。<br>
 > &emsp;&emsp;——尼采《善恶的彼岸》
 > 当年的屠龙少年与恶龙缠斗过久，如今身上长出鳞甲，发出恶臭，他变成了龙……<br>
-> 虽然当年被预警有过很无助的时候，当时没有人站出来帮过我一把，得到的是沉默，忙或者是连这都不会自己好好回去看看书的回复，但是后来既然迎头赶上，希望能给其他人一些帮助，也不希望自己会成为当年自己讨厌的一群人。
+> 我大学之前没接触过计算机，刚来的时候很被动，尽管很努力学习，还是不得要领，当被预警有过很无助的时候，当时没有人站出来帮过我一把，得到的是沉默，忙或者是连这都不会自己好好回去看看书的回复，但是后来既然迎头赶上，希望能给其他人一些帮助，也不希望自己会成为当年自己讨厌的一群人。
+
+最后，想起格瓦拉的一句话```“我们走后，他们会给你们修学校和医院，会提高你们的工资，这不是因为他们良心发现，也不是因为他们变成了好人，而是因为我们来过”```，希望最后每个人都会在上大学的期间成长为最好的自己。
+
 
 ```
 +------------------------------------------------------------------------------------------------------------------------------------------------------+
