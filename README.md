@@ -37,7 +37,7 @@
 - [华北电力大学普通本科学生学籍管理预警制度暂行办法（2017年修订）](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E6%99%AE%E9%80%9A%E6%9C%AC%E7%A7%91%E5%AD%A6%E7%94%9F%E5%AD%A6%E7%B1%8D%E7%AE%A1%E7%90%86%E9%A2%84%E8%AD%A6%E5%88%B6%E5%BA%A6%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95%EF%BC%882017%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89%20.doc)
 - [华北电力大学本科学生辅修专业、学位](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%8D%8E%E5%8C%97%E7%94%B5%E5%8A%9B%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E5%AD%A6%E7%94%9F%E8%BE%85%E4%BF%AE%E4%B8%93%E4%B8%9A%E3%80%81%E5%AD%A6%E4%BD%8D%20.doc)
 - [教学一览2013](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E6%95%99%E5%AD%A6%E4%B8%80%E8%A7%882013.doc)
-- [教学一览2017](0.准备知识/学业学分相关/2017 版本科专业人才培养方案的指导意见.pdf)
+- [教学一览2017](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E5%AD%A6%E4%B8%9A%E5%AD%A6%E5%88%86%E7%9B%B8%E5%85%B3/2017%20%E7%89%88%E6%9C%AC%E7%A7%91%E4%B8%93%E4%B8%9A%E4%BA%BA%E6%89%8D%E5%9F%B9%E5%85%BB%E6%96%B9%E6%A1%88%E7%9A%84%E6%8C%87%E5%AF%BC%E6%84%8F%E8%A7%81.pdf)
 - [计算机专业必修课](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%BF%85%E4%BF%AE%E8%AF%BE.docx)
 
 #### 先修课
