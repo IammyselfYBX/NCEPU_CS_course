@@ -1,0 +1,208 @@
+\documentclass[UTF8,a4paper]{ctexart}
+%###############################################################################
+%
+%  以下是论文全局环境设置
+%
+%###############################################################################
+%---------------------------------------------------------------------------
+% 调整页面
+\usepackage{geometry} % 设置页边距，页面大小
+\geometry{left=2.5cm,right=2.0cm,top=2.50cm,bottom=2.0cm}
+%调整行间距 20 磅
+\setlength{\baselineskip}{20pt}
+%\linespread{1.3}%调整行间距
+\usepackage{setspace} %行间距
+\usepackage{array} %
+\usepackage{booktabs} %调整表格线与上下内容的间隔
+\usepackage{multirow}
+\usepackage{hyperref} %加入书签跳转
+\usepackage{abstract} % 修改摘要
+
+%---------------------------------------------------------------------------
+%正文页眉页脚设定
+\pagestyle{plain}    % 没有页眉，页脚是居中的页码；
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{} \chead{华北电力大学本科毕业设计（论文）} \rhead{}
+\lfoot{} \cfoot{~\thepage~} \rfoot{}
+
+%---------------------------------------------------------------------------
+% 设置字体
+%\usepackage[fontset=windows]{ctex}
+\usepackage{fontspec} %引入字体Times New Roman字体
+\setmainfont{Nimbus Roman}
+%\setmainfont{Times New Roman}             %设置正文字体为Times New Roman
+\usepackage{xeCJK} %调用系统中已安装的字体
+\setCJKmainfont{SimSun}
+%% 支持汉字加粗
+\let\heiti\relax % 黑体
+\newCJKfontfamily\heiti{SimHei}[AutoFakeBold]
+\setCJKsansfont{SimHei}[AutoFakeBold]
+
+\let\songti\relax % 宋体
+\newCJKfontfamily\songti{SimSun}[AutoFakeBold]
+\setCJKmainfont{SimSun}[AutoFakeBold]  
+
+%% 设置字体大小
+
+
+%---------------------------------------------------------------------------
+%% 目录格式设置
+\usepackage{tocloft}      %必须这么写，否则会报错
+\renewcommand{\contentsname}{\centerline{\Large{\heiti{目\quad\quad 录}}}}
+%\renewcommand{\cftchapleader}{\cftdotfill{0.6}} %设置chapter条目的引导点间距
+\renewcommand{\cftsecleader}{\cftdotfill{0.6}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{0.6}}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{0.6}}
+%\renewcommand{\cftchapfont}{\hts}    %设置chapter条目的字体
+\renewcommand{\cftsecfont}{\heiti\large}    %设置section条目的字体
+\renewcommand{\cftsubsecfont}{\songti\large} %设置subsection条目的字体
+\renewcommand{\cftsubsubsecfont}{\songti\large} %设置subsection条目的字体
+
+%---------------------------------------------------------------------------
+% 数学公式
+\usepackage{amsmath}
+\usepackage{mathtools}
+\numberwithin{equation}{section}
+\renewcommand\theequation{%
+    \thesection - \arabic{equation}}
+
+%---------------------------------------------------------------------------
+% 插入代码块
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+ %language=bash,                % the language of the code
+ columns=fixed,       
+% numbers=left,                                        % 在左侧显示行号
+% numberstyle=\tiny\color{gray},                       % 设定行号格式
+ frame=none,                                          % 不显示背景边框
+ backgroundcolor=\color[RGB]{245,245,244},            % 设定背景颜色
+ keywordstyle=\color[RGB]{40,40,255},                 % 设定关键字颜色
+ numberstyle=\footnotesize\color{darkgray},           
+ commentstyle=\it\color[RGB]{0,96,96},                % 设置代码注释的格式
+% stringstyle=\rmfamily\slshape\color[RGB]{128,0,0},   % 设置字符串格式
+}
+
+%---------------------------------------------------------------------------
+% 图表操作
+\usepackage{graphicx} % 引入图片
+%\usepackage[justification=centering]{caption} % 图片的caption居中
+\usepackage[indent]{caption} % 设置图片的 caption 换行缩进
+%% Inkscape矢量图
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{calc} %调整大小
+%% 修改图表
+\usepackage{float} %修改表格的位置
+\usepackage{makecell} %表格类换行
+\usepackage{booktabs} %加粗表格线
+
+%% 表格和图片编号
+\makeatletter
+
+\numberwithin{figure}{section}
+\renewcommand{\thefigure}{\thesection - \arabic{figure}}
+
+\numberwithin{table}{section}
+\renewcommand{\thetable}{\thesection - \arabic{table}}
+%\renewcommand{\thetable}{\ifnum \c@section>\z@ \thesection-\fi \@arabic\c@table}
+\makeatother
+
+%% 图表去除冒号
+\usepackage{caption}
+\captionsetup[table]{labelsep=space}
+\captionsetup[figure]{labelsep=space}
+
+%% 表格和图片标题字体设置
+%\usepackage{etoolbox}
+%\AtBeginEnvironment{tabular}{\Huge}
+\captionsetup{font={normalsize}}
+
+
+%% 表格小数点对齐
+\usepackage{dcolumn}
+\newcolumntype{d}{D{.}{.}{2}}
+
+%---------------------------------------------------------------------------
+%插入pdf
+\usepackage{pdfpages}
+
+%---------------------------------------------------------------------------
+% 参考文献格式设置
+\usepackage{cite}
+%引用多个参考文献
+\usepackage[numbers,sort&compress]{natbib}
+\newcommand\citeup[1]{{\setcitestyle{square,super}\cite{#1}}}
+%\renewcommand\refname{\centering\heiti\zihao{-2}{参考文献}}
+
+%---------------------------------------------------------------------------
+%%%%定制标题样式
+%%%%% section
+\CTEXsetup[name={第,章 },format={\centering\heiti\zihao{-2}},aftername={\enspace},beforeskip={24bp},afterskip={18bp}]{section} %name选项中不要使用中文逗号 \zihao(-2)字号小二
+%%%%% subsection
+\CTEXsetup[format={\raggedright\songti\zihao{-3}},aftername={\enspace},beforeskip={24bp},afterskip={6bp}]{subsection}
+%%%%% subsubsection
+\CTEXsetup[format={\raggedright\songti\zihao{4}},aftername={\enspace},beforeskip={12bp},afterskip={6bp}]{subsubsection}
+
+
+%###############################################################################
+%
+%  以下是论文内容结构
+%
+%###############################################################################
+%--------------------------------------------------------------------------------
+\begin{document}\zihao{-4}
+%% 封面
+\includepdf[pages={1}]{part/cover.pdf}
+%\input{part/cover}
+%--------------------------------------------------------------------------------
+%%摘要
+%%%% 中文摘要
+\input{part/abstract/chinese}
+%%%% 英文摘要
+\input{part/abstract/english}
+%--------------------------------------------------------------------------------
+%% 目录
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+%--------------------------------------------------------------------------------
+%% 章节样式
+\newpage
+\pagenumbering{arabic} %页码是阿拉伯数字
+\input{part/introduction}\newpage  % 课题研究背景和意义
+\input{part/RISC-V}\newpage % 介绍RISC-V架构内容
+\input{part/Qemu_principle}\newpage %介绍Qemu模拟器的原理
+\input{part/process}\newpage % 相关工作
+\input{part/compare}\newpage  %与前人比较
+\input{part/summarize}\newpage %总结
+%--------------------------------------------------------------------------------
+%% 参考文献
+\begin{sloppypar} %文字超出边界的处理方法 
+\normalsize
+\songti
+\bibliographystyle{gbt7714-2005}
+\bibliography{Ref}
+\addcontentsline{toc}{section}{\heiti{\Large{参考文献}}}
+\end{sloppypar}
+%\bibliographystyle{plain}指定参考文献的呈现方式，常见的预设样式的可选项有8种，分别是：
+%% 1. plain，按字母的顺序排列，比较次序为作者、年度和标题；
+%% 2. unsrt，样式同plain，只是按照引用的先后排序；
+%% 3. alpha，用作者名首字母+年份后两位作标号，以字母顺序排序；
+%% 4. abbrv，类似plain，将月份全拼改为缩写，更显紧凑；
+%% 5. ieeetr，国际电气电子工程师协会期刊样式；
+%% 6. acm，美国计算机学会期刊样式；
+%% 7. siam，美国工业和应用数学学会期刊样式；
+%% 8. apalike，美国心理学学会期刊样式；
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%--------------------------------------------------------------------------------
+%% 附录
+\input{part/appendix}\newpage
+%--------------------------------------------------------------------------------
+% %% 致谢
+\input{part/thanks}\newpage
+\end{document}

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Virtual2Physical_Address.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker1324"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1322" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1290"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1288" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path943" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-646.19075"
+     inkscape:cy="221.50979"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="false"
+     inkscape:window-width="940"
+     inkscape:window-height="1019"
+     inkscape:window-x="966"
+     inkscape:window-y="47"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ececec;stroke-width:0.319617"
+       id="rect833"
+       width="228.58281"
+       height="80.739113"
+       x="-279.4541"
+       y="-29.880556"
+       ry="14.933967" />
+    <rect
+       style="fill:#b3b3b3;stroke-width:0.319617"
+       id="rect833-3"
+       width="228.58281"
+       height="80.739113"
+       x="-279.4541"
+       y="72.359726"
+       ry="12.25739" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.319617"
+       id="rect870"
+       width="87.654785"
+       height="11.265527"
+       x="-270.19376"
+       y="-0.22255614"
+       ry="4.4055247" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.319617"
+       id="rect870-6"
+       width="87.654785"
+       height="11.265527"
+       x="-270.19376"
+       y="25.049778"
+       ry="4.4055247"
+       inkscape:transform-center-x="16.740599"
+       inkscape:transform-center-y="-25.101398" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.319617"
+       id="rect870-6-7"
+       width="87.654785"
+       height="11.265527"
+       x="-270.19376"
+       y="83.42144"
+       ry="4.4055247"
+       inkscape:transform-center-x="16.740599"
+       inkscape:transform-center-y="-25.101398" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.319617"
+       id="rect870-6-5"
+       width="87.654785"
+       height="11.265527"
+       x="-270.19376"
+       y="110.36221"
+       ry="4.4055247"
+       inkscape:transform-center-x="16.740599"
+       inkscape:transform-center-y="-25.101398" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1290)"
+       d="M -231.94916,12.16122 V 25.613037"
+       id="path934" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M -232.18179,36.222302 V 84.406017"
+       id="path936" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1324)"
+       d="M -232.56236,94.557975 V 109.49741"
+       id="path938" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-192.30148"
+       y="-13.997992"
+       id="text1358"><tspan
+         sodipodi:role="line"
+         x="-192.30148"
+         y="-13.997992"
+         style="font-size:14.1111px;stroke-width:0.264583"
+         id="tspan1360">Guest OS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-241.32216"
+       y="145.80551"
+       id="text1366"><tspan
+         sodipodi:role="line"
+         id="tspan1364"
+         x="-241.32216"
+         y="145.80551"
+         style="font-size:14.1111px;stroke-width:0.264583">Virtual Machine Monitor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-177.13348"
+       y="8.1470938"
+       id="text1370"><tspan
+         sodipodi:role="line"
+         id="tspan1368"
+         x="-177.13348"
+         y="8.1470938"
+         style="stroke-width:0.264583">Guest Virtual Address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-177.13348"
+       y="34.122856"
+       id="text1374"><tspan
+         sodipodi:role="line"
+         id="tspan1372"
+         x="-177.13348"
+         y="34.122856"
+         style="stroke-width:0.264583">Guest Physical Address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-177.5779"
+       y="93.35788"
+       id="text1378"><tspan
+         sodipodi:role="line"
+         id="tspan1376"
+         x="-177.5779"
+         y="93.35788"
+         style="stroke-width:0.264583">Host Virtual Address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-177.5779"
+       y="120.96187"
+       id="text1382"><tspan
+         sodipodi:role="line"
+         id="tspan1380"
+         x="-177.5779"
+         y="120.96187"
+         style="stroke-width:0.264583">Host Physical Address</tspan></text>
+  </g>
+</svg>

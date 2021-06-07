@@ -1,0 +1,190 @@
+% 附录
+
+%\CTEXsetup[name={附录,},format={\raggedright\songti\zihao{4}},aftername={\enspace},beforeskip={12bp},afterskip={6bp}]{subsubsection}
+
+\renewcommand\thesection{附录\Alph{subsubsection}}
+
+\newpage
+\renewcommand{\abstractname}{\heiti{\zihao{-2} {附\quad \quad \quad \quad 录}}}
+\begin{abstract}
+\phantomsection
+\addcontentsline{toc}{section}{\heiti{\Large{附 \quad \quad 录}}}    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 附录A
+~\\
+\begin{center}
+    \heiti{\zihao{-2} {附录A}}
+\end{center}
+\phantomsection
+\addcontentsline{toc}{subsection}{\heiti{\Large{附录A}}}    
+\setlength{\baselineskip}{20pt} %行距20磅
+\begin{sloppypar} %文字超出边界的处理方法 
+{\zihao{-4} {
+    关于Gentoo Linux的部分配置请见：https://www.bilibili.com/video/BV1ny4y1i7G6 的视频演示。
+
+    关于本毕设的实验请见：https://www.bilibili.com/video/BV1QU4y1H7AE。
+    
+}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 附录B
+~\\
+\begin{center}
+    \heiti{\zihao{-2} {附录B}}
+\end{center}
+\phantomsection
+\addcontentsline{toc}{subsection}{\heiti{\Large{附录B}}}   
+\subsection*{修改USE Flags并安装}
+\begin{lstlisting}
+# vim /etc/portage/make.conf
+QEMU_SOFTMMU_TARGETS="riscv32 risc64"
+QEMU_USER_TARGETS="x86_64"
+
+# vim /etc/portage/package.use
+app-emulation/qemu qemu_softmmu_targets_arm qemu_softmmu_targets_x86_64
+                 qemu_softmmu_targets_sparc
+app-emulation/qemu qemu_user_targets_x86_64
+
+% 进行安装
+# emerge --ask app-emulation/qemu -y
+\end{lstlisting}
+
+
+\subsection*{安装GNU工具链}
+\begin{lstlisting}
+mkdir YBX-bishe
+cd YBX-bishe/
+# 拉取 gnu-toolchain
+git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
+
+# 编译生成 RISC-V newlib & Linux toolchains
+cd riscv-gnu-toolchain
+./configure --prefix=/opt/riscv --enable-multilib
+make newlib -j5
+make linux -j5
+export PATH=$PATH:/opt/riscv/bin
+export RISCV=/opt/risc
+$
+\end{lstlisting}
+
+\subsection*{创建根文件系统}
+\begin{lstlisting}
+cd ..
+git clone https://github.com/michaeljclark/busybear-linux.git
+cd busybear-linux
+make -j5
+\end{lstlisting}
+
+但是这没完，因为busybear会自动帮你下载好 busybox 但是需要自己进行解压和编译
+
+\begin{lstlisting}
+CROSS_COMPILE=riscv{{bits}}-unknown-linux-gnu- make menuconfig
+CROSS_COMPILE=riscv{{bits}}-unknown-linux-gnu- make
+\end{lstlisting}
+
+下面咱们就要制做最小文件系统
+\begin{lstlisting}
+qemu-img create rootfs.img  1g
+mkfs.ext4 rootfs.img
+mkdir rootfs
+sudo mount -o loop rootfs.img  rootfs
+cd rootfs
+sudo cp -r ../busyboxsource/_install/* .
+sudo mkdir proc sys dev etc etc/init.d
+cd etc/init.d/
+sudo touch rcS
+sudo vi rcS
+#!/bin/sh
+mount -t proc none /proc
+mount -t sysfs none /sys
+/sbin/mdev -s
+
+sudo mod +x rcS
+sudo umount rootfs
+\end{lstlisting}
+
+\subsection*{构建Linux内核}
+\begin{lstlisting}
+git clone https://github.com/torvalds/linux
+cd linux
+git checkout v5.4
+make ARCH=riscv CROSS_COMPILE=riscv64-unknown-linux-gnu- defconfig
+make ARCH=riscv CROSS_COMPILE=riscv64-unknown-linux-gnu-
+\end{lstlisting}
+
+\subsection*{制作BootLoader——BBL(Berkeley Boot Loader)}
+\begin{lstlisting}
+cd..
+git clone https://github.com/riscv/riscv-pk.git
+cd riscv-pk
+mkdir build
+cd build
+../configure \
+> --enable-logo \
+> --host=riscv64-unknown-elf \
+> --with-payload=../../riscv-linux/vmlinux
+
+make -j8
+\end{lstlisting}
+
+\subsection*{编写各种所需脚本}
+\begin{lstlisting}
+cd ..
+mkdir Running
+cd Running
+\end{lstlisting}
+创建KVM启动脚本
+\begin{lstlisting}
+vim open_kvm
+#!/bin/sh
+sudo /etc/init.d/libvirtd start
+sudo virsh net-start default  #开启网络服务
+\end{lstlisting}
+
+创建KVM关闭脚本
+\begin{lstlisting}
+sudo virsh net-destory default
+sudo /etc/init.d/libvirtd stop
+\end{lstlisting}
+
+
+创建网络启动脚本
+\begin{lstlisting}
+#!/bin/sh
+brctl addif virbr0 $1
+ifconfig $1 up
+\end{lstlisting}
+
+创建网络关闭脚本
+\begin{lstlisting}
+#!/bin/sh
+ifconfig $1 down
+brctl delif virbr0 $1
+\end{lstlisting}
+
+创建程序运行脚本
+\begin{lstlisting}
+#!/bin/sh
+# QEMU 5.2以后.模拟器内部集成了OpenSBI
+sudo qemu-system-riscv64 \
+  -nographic -machine virt \
+  -m 1024M \
+  -kernel bbl \
+  -kernel ~/Documents/Risc-v/busybear-linux/build/linux-5.0/arch
+                  /riscv/boot/Image \
+  -drive file=busybear.bin,format=raw,id=hd0 \
+  -device virtio-blk-device,drive=hd0 \
+  -device virtio-net-device,netdev=net0 \
+  -netdev type=tap,script=./ifup.sh,downscript=./ifdown.sh,id=net0 \
+  -append "root=/dev/vda ro console=ttyS0"
+\end{lstlisting}
+
+\subsection*{运行}
+\begin{lstlisting}
+./Running.sh
+\end{lstlisting}
+
+
+\end{sloppypar}
+\end{abstract}

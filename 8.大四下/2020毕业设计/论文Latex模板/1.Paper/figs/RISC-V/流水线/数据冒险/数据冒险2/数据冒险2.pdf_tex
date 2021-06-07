@@ -1,0 +1,83 @@
+%% Creator: Inkscape 1.0.2 (e86c870879, 2021-01-15, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '数据冒险2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{3469.35722758bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.38833539)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{数据冒险2.pdf}}%
+    \put(0.56603923,0.31349937){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EX\end{tabular}}}}%
+    \put(0.64707538,0.31269643){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MEM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{数据冒险2.pdf}}%
+    \put(0.46921383,0.3149382){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ID\end{tabular}}}}%
+    \put(0.78564114,0.31223381){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}WB\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{数据冒险2.pdf}}%
+    \put(0.33808972,0.31441985){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}IF\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{数据冒险2.pdf}}%
+    \put(0.69833418,0.0650176){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EX\end{tabular}}}}%
+    \put(0.77937032,0.06421466){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MEM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{数据冒险2.pdf}}%
+    \put(0.60150878,0.06645642){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ID\end{tabular}}}}%
+    \put(0.91793628,0.06375203){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}WB\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{数据冒险2.pdf}}%
+    \put(0.47038468,0.06593808){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}IF\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{数据冒险2.pdf}}%
+    \put(0.16478279,0.3723247){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Time\end{tabular}}}}%
+    \put(0.02868188,0.30182389){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ld x1, 0(x2)\end{tabular}}}}%
+    \put(0.03049606,0.06134478){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sub x4, x1 ,x5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{数据冒险2.pdf}}%
+    \put(0.39574593,0.17701193){\color[rgb]{0,0.8745098,0.84705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}bubble\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{数据冒险2.pdf}}%
+    \put(0.61906913,0.18490929){\color[rgb]{0,0.8745098,0.84705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}bubble\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{数据冒险2.pdf}}%
+    \put(0.84018872,0.19726234){\color[rgb]{0,0.8745098,0.84705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}bubble\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,28 @@
+RISC-V 是一款近年来最为流行的开源指令集架构，而且被广泛应用于各个场景。
+RISC - V is one of the most popular open source instruction set architecture in recent years, and is widely used in various application scenarios.
+
+本文是采用 Qemu 虚拟化模拟仿真出 RISC-V 指令环境，用于解决跨平台的模型部署和运行问题。
+This paper uses Virtualization Technology of QEMU to simulate RISC-V instruction environment, which is used to solve the problem of cross-platform model deployment and operation.
+
+并在模拟出来的 RISC-V 处理器上面进行移植 Linux 内核、文件系统以及网络协议栈，
+In addition, I transplanted Linux kernel, file system and network protocol stack on the simulated RISC-V processor, 
+
+最后尝试在上面运行RISC-V 程序，
+and finally tried to run RISC- V program on it.
+
+主要目的是因为本科所学知识理论与实践衔接并不紧密，感觉“纸上得来终觉浅, 绝知此事要躬行”，
+The main purpose was that there was not relative combination of theory and practice of the knowledge that I had learned in the undergraduate course. As the old saying goes "Paper will sleep shallow, never know the matter want to practice."
+
+很多内容似懂非懂，一方面还能凭借书本的记忆说上几句，做对几道题，回答上老师的几个问题；
+On the one hand, can also rely on the memory of the book to say a few words, do a few questions, answer the teacher's several questions;
+
+另一方面心里又十分清楚地认识到自己学得不是很到位，很多知识内容如果稍微较真一点深入地探讨一下，
+On the other hand, I clearly realize that I have not learned well. If I study up on it a little more deeply, 
+
+就会发现自己有很多内容解释不清楚，更谈不上熟练驾驭了，
+I will find that I can't explain a lot of concept clearly, let alone master it skillfully.
+
+所以本文将对本科所学有关操作系统，计算机组成原理，计算机体系结构还有计算机网络等计算机科学核心课程内容结合 RISC-V 指令集和 Linux 操作系统的移植包括一步步完善基本功能来达到对知识的综合理解
+Therefore, this paper will refer to the operating system, principle of computer organization, Computer architecture and computer networking that are the core courses of computer science, incorporating RISC-V instruction set and Linux operating system, including step by step improvement of basic functions to achieve a comprehensive understanding of the knowledge.
+
+

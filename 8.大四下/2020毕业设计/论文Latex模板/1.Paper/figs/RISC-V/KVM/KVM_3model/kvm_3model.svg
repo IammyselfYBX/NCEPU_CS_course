@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="kvm_3model.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1155" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1155-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1155-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1155-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1155-20" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-37"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1155-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1155-28" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="604.85118"
+     inkscape:cy="585.42788"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="false"
+     inkscape:window-width="1896"
+     inkscape:window-height="1021"
+     inkscape:window-x="12"
+     inkscape:window-y="47"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f2f2f2;fill-rule:evenodd;stroke-width:0.271784"
+       id="rect10"
+       width="80.850815"
+       height="32.862259"
+       x="21.815044"
+       y="69.090996" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="37.921944"
+       y="80.938713"
+       id="text14"><tspan
+         sodipodi:role="line"
+         x="37.921944"
+         y="80.938713"
+         style="stroke-width:0.264583"
+         id="tspan16">  Guest</tspan><tspan
+         sodipodi:role="line"
+         x="37.921944"
+         y="95.222031"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SimSun;-inkscape-font-specification:SimSun;stroke-width:0.264583"
+         id="tspan20">客服模式</tspan></text>
+    <rect
+       style="fill:#f2f2f2;fill-rule:evenodd;stroke-width:0.435389"
+       id="rect10-3"
+       width="83.066315"
+       height="82.085457"
+       x="22.270103"
+       y="110.90559" />
+    <rect
+       style="fill:#f2f2f2;fill-rule:evenodd;stroke-width:0.292178"
+       id="rect10-6"
+       width="82.495514"
+       height="37.222031"
+       x="22.305761"
+       y="198.59035"
+       inkscape:transform-center-x="23.321182"
+       inkscape:transform-center-y="-55.199928" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="22.95606"
+       y="141.42029"
+       id="text53"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         x="22.95606"
+         y="141.42029"
+         style="stroke-width:0.264583">Host Userspace</tspan><tspan
+         sodipodi:role="line"
+         x="22.95606"
+         y="155.70361"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SimSun;-inkscape-font-specification:SimSun;stroke-width:0.264583"
+         id="tspan55">   用户模式</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.282389"
+       y="215.72806"
+       id="text59"><tspan
+         sodipodi:role="line"
+         id="tspan57"
+         x="30.282389"
+         y="215.72806"
+         style="stroke-width:0.264583">Host Kernel</tspan><tspan
+         sodipodi:role="line"
+         x="30.282389"
+         y="230.01138"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SimSun;-inkscape-font-specification:SimSun;stroke-width:0.264583"
+         id="tspan63">内核模式</tspan></text>
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.285086"
+       id="rect67"
+       width="145.95035"
+       height="15.538891"
+       x="125.28537"
+       y="66.697556" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.285086"
+       id="rect67-7"
+       width="145.95035"
+       height="15.538891"
+       x="125.28537"
+       y="85.668678" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.285086"
+       id="rect67-7-5"
+       width="145.95035"
+       height="15.538891"
+       x="125.28537"
+       y="111.23769" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.285177"
+       id="rect67-7-3"
+       width="146.04355"
+       height="15.538891"
+       x="125.28537"
+       y="133.30608" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.285086"
+       id="rect67-7-3-5"
+       width="145.95035"
+       height="15.538891"
+       x="125.28537"
+       y="197.4837" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.285086"
+       id="rect67-7-3-6"
+       width="145.95035"
+       height="15.538891"
+       x="125.28537"
+       y="218.67503"
+       inkscape:transform-center-x="5.2979324"
+       inkscape:transform-center-y="-16.167238" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.146907"
+       id="rect67-7-3-2"
+       width="47.318718"
+       height="12.727014"
+       x="125.28537"
+       y="156.65933" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.136342"
+       id="rect67-7-3-2-1"
+       width="41.037285"
+       height="12.640177"
+       x="230.03731"
+       y="156.22336" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.136342"
+       id="rect67-7-3-2-2"
+       width="41.037285"
+       height="12.640177"
+       x="181.07065"
+       y="156.65933" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.146907"
+       id="rect67-7-3-2-1-7"
+       width="47.318718"
+       height="12.727014"
+       x="125.28537"
+       y="177.22662" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.136342"
+       id="rect67-7-3-2-1-0"
+       width="41.037285"
+       height="12.640177"
+       x="181.34526"
+       y="177.61545" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.136342"
+       id="rect67-7-3-2-1-9"
+       width="41.037285"
+       height="12.640177"
+       x="230.30878"
+       y="176.85979" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="174.34749"
+       y="74.721199"
+       id="text237"><tspan
+         sodipodi:role="line"
+         id="tspan235"
+         x="174.34749"
+         y="74.721199"
+         style="stroke-width:0.264583">Userspace</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="180.3698"
+       y="95.351677"
+       id="text241"><tspan
+         sodipodi:role="line"
+         id="tspan239"
+         x="180.3698"
+         y="95.351677"
+         style="stroke-width:0.264583">Kernel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="187.28831"
+       y="121.30616"
+       id="text245"><tspan
+         sodipodi:role="line"
+         id="tspan243"
+         x="187.28831"
+         y="121.30616"
+         style="stroke-width:0.264583">Qemu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="191.26468"
+       y="141.18851"
+       id="text249"><tspan
+         sodipodi:role="line"
+         id="tspan247"
+         x="191.26468"
+         y="141.18851"
+         style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="189.82039"
+       y="144.97876"
+       id="text253"><tspan
+         sodipodi:role="line"
+         id="tspan251"
+         x="189.82039"
+         y="144.97876"
+         style="stroke-width:0.264583">IOCTL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="128.12381"
+       y="165.40196"
+       id="text257"><tspan
+         sodipodi:role="line"
+         id="tspan255"
+         x="128.12381"
+         y="165.40196"
+         style="font-size:7.05556px;stroke-width:0.264583">System ioctl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="187.23123"
+       y="165.27194"
+       id="text261"><tspan
+         sodipodi:role="line"
+         id="tspan259"
+         x="187.23123"
+         y="165.27194"
+         style="font-size:7.05556px;stroke-width:0.264583">VM ioctl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="233.57144"
+       y="164.44202"
+       id="text265"><tspan
+         sodipodi:role="line"
+         id="tspan263"
+         x="233.57144"
+         y="164.44202"
+         style="font-size:7.05556px;stroke-width:0.264583">vCPU ioctl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="130.8143"
+       y="182.79482"
+       id="text269"><tspan
+         sodipodi:role="line"
+         id="tspan267"
+         x="130.8143"
+         y="182.79482"
+         style="font-size:7.05556px;stroke-width:0.264583">KVM-fd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="183.27206"
+       y="185.24548"
+       id="text273"><tspan
+         sodipodi:role="line"
+         id="tspan271"
+         x="183.27206"
+         y="185.24548"
+         style="font-size:7.05556px;stroke-width:0.264583">kvm VM-fd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="228.87781"
+       y="185.31244"
+       id="text277"><tspan
+         sodipodi:role="line"
+         id="tspan275"
+         x="228.87781"
+         y="185.31244"
+         style="font-size:7.05556px;stroke-width:0.264583">KVM vCPU-fd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="135.23622"
+       y="209.40979"
+       id="text281"><tspan
+         sodipodi:role="line"
+         id="tspan279"
+         x="135.23622"
+         y="209.40979"
+         style="stroke-width:0.264583">KVM Driver (KVM<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SimSun;-inkscape-font-specification:SimSun"
+   id="tspan283">内核模块</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="166.56145"
+       y="229.46687"
+       id="text287"><tspan
+         sodipodi:role="line"
+         id="tspan285"
+         x="166.56145"
+         y="229.46687"
+         style="stroke-width:0.264583">Host Kernel</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 149.4656,148.97833 -0.083,7.45289"
+       id="path325" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-3)"
+       d="m 201.89568,126.62417 -0.083,7.45289"
+       id="path325-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-6)"
+       d="m 199.77901,147.79084 -0.083,7.45289"
+       id="path325-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-1)"
+       d="m 247.93318,149.37834 -0.083,7.45289"
+       id="path325-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-9)"
+       d="m 149.24359,168.16376 -0.083,7.45289"
+       id="path325-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-37)"
+       d="m 200.83734,169.75126 -0.083,7.45289"
+       id="path325-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-2)"
+       d="m 247.93318,168.95751 -0.083,7.45289"
+       id="path325-97" />
+  </g>
+</svg>

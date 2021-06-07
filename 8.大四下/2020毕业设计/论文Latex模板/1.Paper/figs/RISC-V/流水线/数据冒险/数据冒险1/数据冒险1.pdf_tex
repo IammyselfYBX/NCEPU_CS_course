@@ -1,0 +1,78 @@
+%% Creator: Inkscape 1.0.2 (e86c870879, 2021-01-15, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '数据冒险1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{3465.23468597bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.26153309)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{数据冒险1.pdf}}%
+    \put(0.56552296,0.18660804){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EX\end{tabular}}}}%
+    \put(0.64665551,0.18580414){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MEM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{数据冒险1.pdf}}%
+    \put(0.46858237,0.18804858){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ID\end{tabular}}}}%
+    \put(0.78538612,0.18534097){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}WB\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{数据冒险1.pdf}}%
+    \put(0.33730225,0.18752962){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}IF\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{数据冒险1.pdf}}%
+    \put(0.6979753,0.06509435){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EX\end{tabular}}}}%
+    \put(0.77910785,0.06429046){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MEM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{数据冒险1.pdf}}%
+    \put(0.6010347,0.06653489){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ID\end{tabular}}}}%
+    \put(0.91783866,0.06382729){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}WB\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{数据冒险1.pdf}}%
+    \put(0.4697546,0.06601593){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}IF\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{数据冒险1.pdf}}%
+    \put(0.16378915,0.24550335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Time\end{tabular}}}}%
+    \put(0.02752632,0.17491867){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}add x1, x2, x3\end{tabular}}}}%
+    \put(0.02934266,0.06141715){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sub x4, x1 ,x5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{数据冒险1.pdf}}%
+  \end{picture}%
+\endgroup%

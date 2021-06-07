@@ -1,0 +1,50 @@
+\contentsline {section}{\heiti {\Large {摘 \hskip 1em\relax \hskip 1em\relax 要}}}{I}{section*.1}
+\contentsline {section}{\heiti {\Large {ABSTRACT}}}{II}{section*.2}
+\contentsline {section}{\numberline {第1章}绪论}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}课题研究背景和意义}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}国内外研究现状}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}本文研究内容}{2}{subsection.1.3}
+\contentsline {section}{\numberline {第2章}计算机组成与设计——基于RISC-V}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}指令表示方法与指令格式}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}R指令}{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}I指令}{3}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}S指令与B指令}{4}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}U指令和J指令}{4}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}流水线}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}处理器性能度量方法}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}结构冒险}{4}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}数据冒险}{5}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}控制冒险}{6}{subsubsection.2.2.4}
+\contentsline {section}{\numberline {第3章}Qemu \& KVM 基本原理}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}虚拟化}{7}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}软件虚拟化}{7}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}硬件虚拟化}{7}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}硬件虚拟化介绍}{7}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}CPU虚拟化}{7}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}内存虚拟化}{9}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}I/O虚拟化}{10}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}KVM \& Qemu模拟器介绍}{10}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}KVM内核模块}{11}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}QEMU用户态设备模拟}{12}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}KVM上层管理工具}{13}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}libvirt}{13}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}virsh}{13}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}virt-manager}{13}{subsubsection.3.4.3}
+\contentsline {section}{\numberline {第4章}实验流程}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}前期准备}{15}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}交叉工具链的准备}{15}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Qemu \& KVM搭建}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}移植过程介绍}{17}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}制作 BootLoader——BBL(Berkeley Boot Loader)}{17}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}创建根文件系统}{17}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}配置SSH服务}{17}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}最终效果}{18}{subsection.4.7}
+\contentsline {section}{\numberline {第5章}与前人比较}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}收获}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}不足}{20}{subsection.5.2}
+\contentsline {section}{\numberline {第6章}总结}{21}{section.6}
+\contentsline {section}{\heiti {\Large {参考文献}}}{23}{section*.20}
+\contentsline {section}{\heiti {\Large {附 \hskip 1em\relax \hskip 1em\relax 录}}}{24}{section*.21}
+\contentsline {subsection}{\songti {\large {附录A}}}{24}{section*.22}
+\contentsline {subsection}{\songti {\large {附录B}}}{24}{section*.23}
+\contentsline {section}{\heiti {\Large {致 \hskip 1em\relax \hskip 1em\relax 谢}}}{28}{section*.31}

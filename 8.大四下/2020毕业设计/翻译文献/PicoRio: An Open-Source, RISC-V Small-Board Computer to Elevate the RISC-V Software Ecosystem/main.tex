@@ -1,0 +1,67 @@
+\documentclass[UTF8,a4paper]{ctexart}
+\usepackage{ctex}
+\usepackage{multicol} %用于实现在同一页中实现不同的分栏
+
+% 调整页面
+\usepackage{geometry} % 设置页边距，页面大小
+\geometry{left=2.5cm,right=2.0cm,top=2.50cm,bottom=2.0cm}
+%调整行间距 20 磅
+\setlength{\baselineskip}{20pt}
+%\linespread{1.3}%调整行间距
+\usepackage{setspace} %行间距
+\usepackage{array} %
+
+%正文页眉页脚设定
+\pagestyle{plain}    % 没有页眉，页脚是居中的页码；
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{} \chead{华北电力大学本科毕业设计（论文）} \rhead{}
+\lfoot{} \cfoot{~\thepage~} \rfoot{}
+
+%---------------------------------------------------------------------------
+% 设置字体
+%\usepackage[fontset=windows]{ctex}
+\usepackage{fontspec} %引入字体Times New Roman字体
+\setmainfont{Nimbus Roman}
+%\setmainfont{Times New Roman}             %设置正文字体为Times New Roman
+\usepackage{xeCJK} %调用系统中已安装的字体
+\setCJKmainfont{SimSun}
+%% 支持汉字加粗
+\let\heiti\relax % 黑体
+\newCJKfontfamily\heiti{SimHei}[AutoFakeBold]
+\setCJKsansfont{SimHei}[AutoFakeBold]
+
+\let\songti\relax % 宋体
+\newCJKfontfamily\songti{SimSun}[AutoFakeBold]
+\setCJKmainfont{SimSun}[AutoFakeBold]
+
+
+\usepackage{blindtext} %超界
+\parindent=0pt
+
+\begin{document}\zihao{-4}
+\begin{sloppypar} %文字超出边界的处理方法
+\begin{multicols}{2}       % 分两栏 若花括号中为3则是分三列
+
+    \heiti\zihao{3}{
+       \noindent
+       院    系：\\
+       学生姓名：\\  
+       学    号：\\
+
+       \noindent
+       专业班级：\\
+       指导教师：\\
+       译文成绩:\\
+   }
+\end{multicols}
+\columnseprule=0pt         % 实现插入分隔线
+≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+
+
+
+
+\end{sloppypar} 
+\end{document}

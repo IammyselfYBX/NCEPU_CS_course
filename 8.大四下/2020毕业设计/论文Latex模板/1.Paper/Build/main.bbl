@@ -1,0 +1,138 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{Risc-V_development}
+\bibauthor{ELEXCON深圳国际电子展}\@.
+  \bibtitle{关于RISC-V发展现状与应用分析和介绍}\bibmark{[EB/OL]}\@.
+  \newline\url{http://www.elecfans.com/d/1011473.html}\@,
+  \bibyear{2019-10-24}\@.
+
+\bibitem{基于RISC-V的计算机系统综合实验设计}
+\bibauthor{孙卫真，刘雪松，朱威浦，向勇}\@.
+  \bibtitle{基于RISC-V的计算机系统综合实验设计}\bibmark{[J]}\@.
+  \bibjournal{计算机工程与设计}\@, \bibyear{2021}\@,
+  \bibvolume{42}\bibnumber{(04)}\thinspace{}\textnormal{:
+  }\bibpages{1159\thinspace{}\textnormal{--}\thinspace{}1165}\@.
+
+\bibitem{Computer_Organization_and_Design_riscv}
+\bibauthor{PATTERSON D~A}\@. \bibbooktitle{Computer Organization and Design
+  RISC-V Edition:The Hardware Software Interface(1st Edition )}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Morgan
+  Kaufmann}\@, \bibyear{2017}\@.
+  \bibpages{267\thinspace{}\textnormal{--}\thinspace{}321}\@.
+
+\bibitem{Computer_Organization_and_Design_ZJU}
+\bibauthor{刘鹏}\@.
+  \bibtitle{计算机组成与设计：RISC-V}\bibmark{[EB/OL]}\@.
+  \newline\url{https://www.icourse163.org/course/HIT-1452997167}\@,
+  \bibyear{2020-09-16}\@.
+
+\bibitem{Wikipedia_Virtualization}
+\bibauthor{WIKIPEDIA}\@. \bibtitle{Virtualization}\bibmark{[EB/OL]}\@.
+  \newline\url{https://en.jinzhao.wiki/wiki/Virtualization}\@,
+  \bibyear{2004-01-15}\@.
+
+\bibitem{Intel_VMX}
+\bibauthor{INTEL}\@. \bibtitle{Intel® 64 and IA-32 Architectures Software
+  Developer’s Manual Combined Volumes: 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and
+  4}\bibmark{[EB/OL]}\@.
+  \newline\url{https://software.intel.com/content/www/us/en/develop/download/intel-64-and-ia-32-architectures-sdm-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html}\@,
+  \bibyear{2021-04-02}\@.
+
+\bibitem{BusyBear}
+\bibauthor{MICHAELJCLARK}\@. \bibtitle{busybear-linux}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/michaeljclark/busybear-linux}\@,
+  \bibyear{2021}\@.
+
+\bibitem{从按下电源开始的一场接力赛}
+\bibauthor{杨秉学}\@.
+  \bibtitle{从按下电源开始的一场接力赛}\bibmark{[EB/OL]}\@.
+  \newline\url{https://mp.weixin.qq.com/s/GJczyEAya7v5Yg_rLW6vHg}\@,
+  \bibyear{2020-05-20}\@.
+
+\bibitem{Gentoo_AMD64_Handbook}
+\bibauthor{GENTOO.ORG}\@. \bibtitle{{Gentoo AMD64
+  Handbook}}\bibmark{[EB/OL]}\@.
+  \newline\url{https://wiki.gentoo.org/wiki/Handbook:AMD64}\@,
+  \bibyear{2021-3-13}\@.
+
+\bibitem{riscv-binutils-gdb}
+\bibauthor{GNU}\@. \bibtitle{riscv-binutils-gdb}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/riscv/riscv-binutils-gdb}\@,
+  \bibyear{2021-02-06}\@.
+
+\bibitem{riscv-dejagnu}
+\bibauthor{GNU}\@. \bibtitle{riscv-dejagnu}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/riscv/riscv-dejagnu}\@,
+  \bibyear{2018-01-12}\@.
+
+\bibitem{riscv-gcc}
+\bibauthor{GNU}\@. \bibtitle{riscv-gcc}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/riscv/riscv-gcc}\@, \bibyear{2021-04-06}\@.
+
+\bibitem{riscv-glibc}
+\bibauthor{GNU}\@. \bibtitle{riscv-glibc}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/riscv/riscv-glibc}\@, \bibyear{2021-05-20}\@.
+
+\bibitem{riscv-newlib}
+\bibauthor{GNU}\@. \bibtitle{riscv-newlib}\bibmark{[EB/OL]}\@.
+  \newline\url{{https://github.com/riscv/riscv-newlib}}\@,
+  \bibyear{2020-04-05}\@.
+
+\bibitem{riscv-pk}
+\bibauthor{GNU}\@. \bibtitle{riscv-pk}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/riscv/riscv-pk}\@, \bibyear{2020-12-16}\@.
+
+\bibitem{riscv-gnu-toolchain}
+\bibauthor{GNU}\@. \bibtitle{riscv-gnu-toolchain}\bibmark{[EB/OL]}\@.
+  \newline\url{https://github.com/riscv/riscv-gnu-toolchain}\@,
+  \bibyear{2021-03-26}\@.
+
+\bibitem{GentooQemu}
+\bibauthor{GENTOO.ORG}\@. \bibtitle{{Gentoo Qemu}}\bibmark{[EB/OL]}\@.
+  \newline\url{https://wiki.gentoo.org/wiki/QEMU}\@, \bibyear{2021-01-26}\@.
+
+\bibitem{KVM安装与配置}
+\bibauthor{杨秉学}\@. \bibtitle{KVM安装与配置}\bibmark{[EB/OL]}\@.
+  \newline\url{https://mp.weixin.qq.com/s/5cMsDUIn0yZJhSV-gh3aBw}\@,
+  \bibyear{2019-07-12}\@.
+
+\bibitem{第一次安装配置Gentoo}
+\bibauthor{杨秉学}\@.
+  \bibtitle{第一次安装配置Gentoo}\bibmark{[EB/OL]}\@.
+  \newline\url{https://www.bilibili.com/video/BV1ny4y1i7G6}\@,
+  \bibyear{2020-12-28}\@.
+
+\bibitem{busybox}
+\bibauthor{BUSYBOX}\@. \bibtitle{busybox}\bibmark{[EB/OL]}\@.
+  \newline\url{https://busybox.net/}\@, \bibyear{2021-03-03}\@.
+
+\bibitem{Dropbear}
+\bibauthor{DROPBEAR}\@. \bibtitle{Dropbear SSH}\bibmark{[EB/OL]}\@.
+  \newline\url{https://matt.ucc.asn.au/dropbear/dropbear.html}\@,
+  \bibyear{2020-10-29}\@.
+
+\end{thebibliography}

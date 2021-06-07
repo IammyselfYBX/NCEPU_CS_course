@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: gbt7714-2005.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: Ref.bib
+Warning--string name "apr" is undefined
+--line 118 of file Ref.bib
+Warning--Require citedate: Risc-V_development
+Warning--Require address: Computer_Organization_and_Design_riscv
+Warning--Require citedate: Computer_Organization_and_Design_ZJU
+Warning--Require citedate: Wikipedia_Virtualization
+Warning--Require citedate: Intel_VMX
+Warning--Require citedate: BusyBear
+Warning--Require citedate: 从按下电源开始的一场接力赛
+Warning--Require citedate: Gentoo_AMD64_Handbook
+Warning--Require citedate: riscv-binutils-gdb
+Warning--Require citedate: riscv-dejagnu
+Warning--Require citedate: riscv-gcc
+Warning--Require citedate: riscv-glibc
+Warning--Require citedate: riscv-newlib
+Warning--Require citedate: riscv-pk
+Warning--Require citedate: riscv-gnu-toolchain
+Warning--Require citedate: GentooQemu
+Warning--Require citedate: KVM安装与配置
+Warning--Require citedate: 第一次安装配置Gentoo
+Warning--Require citedate: busybox
+Warning--Require citedate: Dropbear
+You've used 21 entries,
+            3109 wiz_defined-function locations,
+            806 strings with 8239 characters,
+and the built_in function-call counts, 10455 in all, are:
+= -- 875
+> -- 42
+< -- 105
++ -- 706
+- -- 90
+* -- 580
+:= -- 1187
+add.period$ -- 0
+call.type$ -- 21
+change.case$ -- 42
+chr.to.int$ -- 0
+cite$ -- 41
+duplicate$ -- 1129
+empty$ -- 508
+format.name$ -- 84
+if$ -- 2672
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 0
+newline$ -- 90
+num.names$ -- 21
+pop$ -- 151
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 195
+stack$ -- 0
+substring$ -- 904
+swap$ -- 536
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 20
+while$ -- 165
+width$ -- 23
+write$ -- 246
+(There were 21 warnings)

@@ -1,0 +1,6 @@
+PWD /home/tony/Documents/2021毕业论文/YBX/Paper/part/abstract
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
+INPUT chinese.tex
+OUTPUT Build/chinese.log

@@ -1,0 +1,106 @@
+%% Creator: Inkscape 1.0.2 (e86c870879, 2021-01-15, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'R_I.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1419.28377725bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.3668654)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{R_I.pdf}}%
+    \put(0.1084021,0.29883496){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}funct7\end{tabular}}}}%
+    \put(0.26824871,0.29958396){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}rs2\end{tabular}}}}%
+    \put(0.42917999,0.29958396){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}rs1\end{tabular}}}}%
+    \put(0.74500438,0.29877255){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}rd\end{tabular}}}}%
+    \put(0.90430205,0.29877255){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}opcode\end{tabular}}}}%
+    \put(0.58690151,0.29883496){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}funct3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{R_I.pdf}}%
+    \put(0.00719011,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}31\end{tabular}}}}%
+    \put(0.2025103,0.33734609){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}24\end{tabular}}}}%
+    \put(0.34067767,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}19\end{tabular}}}}%
+    \put(0.17537998,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}25\end{tabular}}}}%
+    \put(0.31223163,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0.48357995,0.33734609){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}14\end{tabular}}}}%
+    \put(0.4624436,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.64931533,0.33734609){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12\end{tabular}}}}%
+    \put(0.67099825,0.33734609){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}11\end{tabular}}}}%
+    \put(0.80197842,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.78318854,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0.98712152,0.33759575){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.08648307,0.26344468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0.25028784,0.26344468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.41398173,0.26344468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.57793151,0.26344468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.74136553,0.26344468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.90494191,0.26344468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{R_I.pdf}}%
+    \put(0.19926777,0.04885039){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Imm[11:0]\end{tabular}}}}%
+    \put(0.43224851,0.05106627){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}rs1\end{tabular}}}}%
+    \put(0.74807291,0.05025482){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}rd\end{tabular}}}}%
+    \put(0.90737064,0.05025482){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}opcode\end{tabular}}}}%
+    \put(0.58997003,0.05031726){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}funct3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{R_I.pdf}}%
+    \put(0.01025863,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}31\end{tabular}}}}%
+    \put(0.34374623,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}19\end{tabular}}}}%
+    \put(0.31530019,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0.4866485,0.08882847){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}14\end{tabular}}}}%
+    \put(0.46551215,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.65238386,0.08882847){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12\end{tabular}}}}%
+    \put(0.67406672,0.08882847){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}11\end{tabular}}}}%
+    \put(0.80504695,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.786257,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0.99019005,0.08907814){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.17734874,0.01346044){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12\end{tabular}}}}%
+    \put(0.41705026,0.01492726){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.58100004,0.01492726){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.74443399,0.01492726){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.90801044,0.01492726){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{R_I.pdf}}%
+  \end{picture}%
+\endgroup%

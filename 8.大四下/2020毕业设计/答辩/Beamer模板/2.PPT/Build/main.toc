@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{课题背景}{3}{0}{1}
+\beamer@sectionintoc {2}{研究现状}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{国外研究现状}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{国内研究现状}{8}{0}{2}
+\beamer@sectionintoc {3}{研究内容}{10}{0}{3}
+\beamer@sectionintoc {4}{实验内容}{12}{0}{4}
+\beamer@sectionintoc {5}{总结}{14}{0}{5}

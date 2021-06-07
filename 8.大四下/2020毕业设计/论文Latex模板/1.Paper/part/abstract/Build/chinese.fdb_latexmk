@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "Build/chinese.xdv" "Build/chinese.pdf" "Build/chinese" 0
+  "Build/chinese.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Build/chinese.pdf"
+["xelatex"] 1621750249 "chinese.tex" "Build/chinese.xdv" "chinese" 1621750249
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1592352749 3731937 ceeaec2a7cf92e04190fdc24367bbf88 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1592352701 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "Build/chinese.aux" 1621750073 8 a94a2480d3289e625eea47cd1b285758 ""
+  "chinese.tex" 1621750244 2987 107ecb4b3b3670cc252fe2724bbf15fc ""
+  (generated)
+  "Build/chinese.xdv"
+  "Build/chinese.log"
