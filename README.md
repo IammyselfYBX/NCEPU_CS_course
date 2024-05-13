@@ -57,7 +57,6 @@
 
 #### 计算机专业课
 ###### 专业基础课
-- [杨秉学的计算机科普课](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/5.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/%E6%9D%A8%E7%A7%89%E5%AD%A6%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E6%99%AE%E8%AF%BE.md)
 - [计算机相关视频](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91.md)
 - [计算机常识](https://github.com/IammyselfYBX/NCEPU_CS_course/blob/master/0.%E5%87%86%E5%A4%87%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86.md)
 - [计算机导论](https://github.com/IammyselfYBX/NCEPU_CS_course/tree/master/1.%E5%A4%A7%E4%B8%80%E4%B8%8A/5.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA)
@@ -223,7 +222,7 @@ From https://github.com/NiuTrans/MTBook
 
 &emsp;&emsp;如果您对于某些课程有评价可写在对应课程文件夹的 `README.md` 中。如果想上传课件（请确保无版权问题），推荐使用 PDF 格式，避免不必要的麻烦。<br>
 ##### 如果你也想成为参与者
-可以选择联系我[QQ邮箱](mailto:2252176220@qq.com) (寝室：8B-507)，然后告诉我您的github账号，大家的关注、维护和贡献，才是让这个<b>华北电力大学</b>独有的攻略本继续存在的动力~
+可以选择联系我[QQ邮箱](mailto:2252171234@qq.com) (寝室：8B-507)，然后告诉我您的github账号，大家的关注、维护和贡献，才是让这个<b>华北电力大学</b>独有的攻略本继续存在的动力~
 ![图片](图片/邀请.png)
 
 ##### 文件夹的排布规则
@@ -254,7 +253,7 @@ From https://github.com/NiuTrans/MTBook
 |....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee............................................................eeeeeeeeeeeeeeeeeeeeeeeeeee....|
 |....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee..............................................................eeeeeeeeeeeeeeeeeeeeeeeeee....|
 |....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee................................................................eeeeeeeeeeeeeeeeeeeeeeeee....|
-|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.........................Fly,Bitch..............................eeeeeeeeeeeeeeeeeeeeeeeeee...|
+|....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.........................Fly,*****..............................eeeeeeeeeeeeeeeeeeeeeeeeee...|
 |....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeere..............................................................eeeeeeeeeeeeeeeeeeeeeeeeeee...|
 |....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereeerrrreeeeeeerre.............................................................eeeeeeeeeeeeeeeeeeeeeeeeeeee...|
 |....eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerreereeeerrrreeerreee.........................................................eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee...|
@@ -312,7 +311,7 @@ From https://github.com/NiuTrans/MTBook
 &emsp;&emsp;如果你认为本仓库的一些文件侵犯了您的权益，请联系我[QQ邮箱](mailto:2252176220@qq.com) 。我将会从仓库中彻底清除这些文件。<br>
 > 资料仅供参考，请自己判断其适用性。其他部分的版权归属于其各自的作者。<br>
  感谢对本项目贡献的同学 <br>
-&emsp;&emsp;计算1702 [杨秉学](https://github.com/IammyselfYBX) <br>![follow(如果图片没加载可以扫描下方二维码)](图片/follow.png)<br>
+&emsp;&emsp;计算1702 [贾皋肖](https://github.com/IammyselfYBX) <br>!
 
 ```
 █████████████████████████████████
